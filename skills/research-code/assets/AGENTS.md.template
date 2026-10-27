@@ -1,0 +1,30 @@
+# __PROJECT_NAME__ Working Agreements
+
+## Purpose and scope
+
+__RESEARCH_OBJECTIVE__
+
+Preserve the project's scientific protocol, data roles, metrics, and runtime constraints. Current user instructions take precedence. Changes to scientific behavior must be distinguished from structural refactoring.
+
+## Adopted responsibilities
+
+__RESPONSIBILITIES__
+
+SAI conventions apply by default. Structure guide: __STRUCTURE_GUIDE__.
+Centralize typed configuration in hparam; give capability modules same-named composition entries and separate implementations. Parse at the application boundary. Keep project imports at file top, explicit supported branches with exception-only else, tensor-shape annotations, readable mathematical steps, and resource boundaries. Campaigns reuse maintained algorithms from scripts. Do not create speculative modules or compatibility wrappers.
+
+## Scientific and runtime constraints
+
+__SCIENTIFIC_AND_RUNTIME_CONSTRAINTS__
+
+## Task-specific guidance
+
+__PORTABLE_DOCUMENT_LINKS__
+
+Only link documents actually rendered in this repository. Do not refer to a developer's skill-installation path.
+
+## Validation
+
+__VALIDATION_COMMANDS__
+
+Test changed behavior and affected callers. A substantial migration also compares complete representative old/new workflows. Review real call chains separately from lint/tests. Report unavailable runtime paths explicitly. Preserve unrelated work, data, results, and plugin state.

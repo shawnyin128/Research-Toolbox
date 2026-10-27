@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Tune"
+  short_description: "Diagnose training and tune within a compute budget"
+  default_prompt: "Use $research-tune to diagnose this training run and propose the next cheapest useful probe."
+policy:
+  allow_implicit_invocation: true

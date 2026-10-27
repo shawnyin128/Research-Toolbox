@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Code"
+  short_description: "Build readable research code with default SAI rules"
+  default_prompt: "Use $research-code to inspect this repository and apply SAI conventions with the appropriate structure guide."
+policy:
+  allow_implicit_invocation: true

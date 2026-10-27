@@ -1,0 +1,6 @@
+interface:
+  display_name: "Research Design"
+  short_description: "Design minimal experiments that separate mechanisms"
+  default_prompt: "Use $research-design to turn this research idea into a minimal discriminating experiment."
+policy:
+  allow_implicit_invocation: true
