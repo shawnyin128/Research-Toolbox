@@ -1,6 +1,10 @@
-# Research Toolbox
+<div align="center">
+
+<h1>Research Toolbox</h1>
 
 [![English](https://img.shields.io/badge/README-English-2563eb)](README.md)
+
+</div>
 
 把科研中的**实验设计、代码工程、训练调参**放在同一个仓库维护。三个 skill 使用统一的 `research-*` 命名，各自可单独安装、独立调用，按实际任务组合，不要求每次完整走一遍流程。
 

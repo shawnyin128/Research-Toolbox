@@ -1,6 +1,10 @@
-# Research Toolbox
+<div align="center">
+
+<h1>Research Toolbox</h1>
 
 [![简体中文](https://img.shields.io/badge/README-%E7%AE%80%E4%BD%93%E4%B8%AD%E6%96%87-2563eb)](README.zh-CN.md)
+
+</div>
 
 A single home for **experimental design, research code, and training optimization**. The three skills share the `research-*` naming convention, install independently, and combine when a task needs them. There is no mandatory end-to-end pipeline.
 
