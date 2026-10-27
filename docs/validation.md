@@ -6,7 +6,7 @@
 |---|---|
 | skill-creator 自带 quick_validate | 三个 skill 全部通过；Windows 下使用 Python UTF-8 模式读取 |
 | toolbox 元数据与引用 | 名称/目录/UI 提示、安装清单、旧名映射、包内本地链接、场景 ID 全部通过 |
-| 工具行为测试 | Windows 主机 Python 3.13.13：13 项中 12 项通过，1 项跳过 |
+| 工具行为测试 | 双语 README 更新后，Windows 主机 Python 3.13.13：14 项中 13 项通过，1 项跳过；包含 badge 跳转目标检查 |
 | 独立安装 | 三个包复制到独立临时安装目录后，各自引用验证通过 |
 | 安装与更新 | 默认预览无写入；选择安装、覆盖拒绝、旧版留存、注入替换失败后的恢复通过 |
 | CI | 配置 Windows/Linux + Python 3.12；每次提交的实时结果见仓库 Actions |

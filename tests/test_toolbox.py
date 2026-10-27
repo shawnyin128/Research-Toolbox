@@ -131,6 +131,16 @@ class ToolboxTests(unittest.TestCase):
     def test_catalog_and_all_repository_links(self):
         self.assertEqual(validator.validate(ROOT), [])
 
+    def test_validator_checks_badge_click_destination(self):
+        document = self.base / "README.md"
+        document.write_text(
+            "[![Chinese](https://img.shields.io/badge/README-Chinese-blue)](missing.md)\n",
+            encoding="utf-8",
+        )
+        errors = validator.local_links(document, self.base)
+        self.assertEqual(len(errors), 1)
+        self.assertIn("missing reference: missing.md", errors[0])
+
 
 if __name__ == "__main__":
     unittest.main()

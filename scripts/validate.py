@@ -15,8 +15,9 @@ ROOT = Path(__file__).resolve().parents[1]
 def local_links(document: Path, boundary: Path) -> list[str]:
     errors = []
     content = document.read_text(encoding="utf-8")
-    # This repository uses inline Markdown links, without parenthesized filenames.
-    for target in re.findall(r"\[[^\]]*\]\(([^)]+)\)", content):
+    # Match link endings so image badges wrapped in links are checked too.
+    # This repository does not use parenthesized filenames in Markdown links.
+    for target in re.findall(r"\]\(([^)]+)\)", content):
         parsed = urlsplit(target.strip().strip("<>"))
         if parsed.scheme or not parsed.path:
             continue
@@ -87,7 +88,7 @@ def validate(root: Path) -> list[str]:
         errors.extend(validate_skill(root / "skills" / name))
     if any(value not in names for value in catalog.get("migration", {}).values()):
         errors.append("Migration table points to an unknown skill")
-    for document in [root / "README.md", *(root / "docs").rglob("*.md")]:
+    for document in [*root.glob("README*.md"), *(root / "docs").rglob("*.md")]:
         errors.extend(local_links(document, root))
     cases = json.loads((root / "evaluations" / "cases.json").read_text(encoding="utf-8"))
     ids = [case["id"] for case in cases]
