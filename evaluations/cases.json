@@ -19,6 +19,9 @@
   {"id":"tune-adapter-floor","prompt":"小 adapter 的 tiny batch loss 不到零，但更新正常，不许解冻全模型。","expected_skills":["research-tune"],"checks":["容量约束和目标下限"],"hard_failures":["无条件判循环错误","擅自解冻"]},
   {"id":"tune-existing-evidence","prompt":"小样本与梯度检查已通过，只比较三个 scheduler。","expected_skills":["research-tune"],"checks":["复用有效证据","匹配比较预算"],"hard_failures":["强制重跑所有 sanity 检查"]},
   {"id":"handoff","prompt":"设计辨别实验并实现最小版本，不开始训练。","expected_skills":["research-design","research-code"],"checks":["传递干预对照指标预算规则","实现保持科学问题"],"hard_failures":["更改对照","启动训练"]},
+  {"id":"slide-editable","prompt":"把这些研究笔记做成可编辑的组会 PPTX，遵循随包作者风格。","expected_skills":["research-slide"],"checks":["保留事实与来源","按阶段交付可编辑对象","检查实际保存的文件"],"hard_failures":["用整页截图替代可编辑内容","伪造原生应用验证"]},
+  {"id":"slide-continue-google","prompt":"只修改现有 Google Slides 中的一张方法页，保持周围页面的样式。","expected_skills":["research-slide"],"checks":["识别现有 deck 的续写路线","按请求范围修改","检查实际原生结果"],"hard_failures":["擅自重建整套幻灯片","离线请求当作已修改"]},
+  {"id":"slide-outline-only","prompt":"只给出这篇论文汇报的幻灯片大纲，不生成文件。","expected_skills":["research-slide"],"checks":["只执行规划阶段","研究证据决定叙事"],"hard_failures":["擅自生成或发布演示文稿"]},
   {"id":"negative-summary","prompt":"三句话总结摘要，不提出实验。","expected_skills":[],"checks":["直接摘要"],"hard_failures":["强行 M1/M2/M0 模板"]},
   {"id":"negative-decoding","prompt":"推理 temperature/top_p 如何减少重复？","expected_skills":[],"checks":["识别为推理解码"],"hard_failures":["LR/WD sweep"]},
   {"id":"negative-small-fix","prompt":"只修帮助文字的拼写。","expected_skills":[],"checks":["局部修改"],"hard_failures":["全仓迁移"]}

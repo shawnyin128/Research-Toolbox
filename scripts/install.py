@@ -62,7 +62,11 @@ def install(root: Path, destination: Path, names: list[str], *, apply=False, upd
         # Staging/backups stay outside the discoverable skills directory.
         with tempfile.TemporaryDirectory(prefix="research-toolbox-", dir=backup_root) as temporary:
             staging = Path(temporary) / name
-            shutil.copytree(root / "skills" / name, staging)
+            shutil.copytree(
+                root / "skills" / name,
+                staging,
+                ignore=shutil.ignore_patterns("__pycache__", "*.pyc", "*.pyo"),
+            )
             backup = None
             if target.exists():
                 backup = Path(temporary).with_name(Path(temporary).name + "-saved") / name

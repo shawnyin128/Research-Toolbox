@@ -21,3 +21,4 @@ jobs:
       - run: python -m pip install -r requirements-dev.txt
       - run: python scripts/validate.py
       - run: python -m unittest discover -s tests -v
+      - run: python -m unittest discover -s skills/research-slide/scripts -p "test_*.py" -v
