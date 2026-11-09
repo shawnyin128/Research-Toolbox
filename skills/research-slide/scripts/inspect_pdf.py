@@ -25,7 +25,7 @@ def inspect(source, pages, output, scale=2):
         evidence.append({'page':n,'slideSizePt':[p.rect.width,p.rect.height],'render':image,
                          'fonts':[{'font':f,'sizePt':s,'color':c,'characters':k} for (f,s,c),k in fonts.most_common()],
                          'spans':spans,'text':p.get_text()})
-    (output/'reference-layout.json').write_text(json.dumps({'source':str(source),'pageCount':len(doc),'pages':evidence},ensure_ascii=False,indent=2))
+    (output/'reference-layout.json').write_text(json.dumps({'source':str(source),'pageCount':len(doc),'pages':evidence},ensure_ascii=False,indent=2),encoding='utf-8')
     return evidence
 
 if __name__=='__main__':

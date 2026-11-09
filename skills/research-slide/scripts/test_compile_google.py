@@ -137,8 +137,8 @@ class CompilerTests(unittest.TestCase):
             p=Path(root);(p/"scene.json").write_text(json.dumps(scene(textbox())),encoding="utf-8")
             cp=subprocess.run([sys.executable,str(Path(__file__).with_name("compile_google.py")),str(p/"scene.json"),str(p/"out.json"),"--manifest",str(p/"manifest.json")],capture_output=True,text=True)
             self.assertEqual(cp.returncode,0,cp.stderr)
-            self.assertEqual(set(json.loads((p/"out.json").read_text())),{"requests"})
-            self.assertEqual(json.loads((p/"manifest.json").read_text())["status"],"compiled-offline-not-rendered")
+            self.assertEqual(set(json.loads((p/"out.json").read_text(encoding='utf-8'))),{"requests"})
+            self.assertEqual(json.loads((p/"manifest.json").read_text(encoding='utf-8'))["status"],"compiled-offline-not-rendered")
 
     def test_cli_invalid_input_writes_no_batch(self):
         with tempfile.TemporaryDirectory() as root:

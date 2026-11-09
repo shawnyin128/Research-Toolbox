@@ -336,13 +336,13 @@ def main():
     ap.add_argument('--copy')
     a = ap.parse_args()
     try:
-        facts = json.loads(Path(a.facts).read_text())
+        facts = json.loads(Path(a.facts).read_text(encoding='utf-8'))
         validate_facts(facts)
-        layout = json.loads(Path(a.layout).read_text()) if a.layout else None
+        layout = json.loads(Path(a.layout).read_text(encoding='utf-8')) if a.layout else None
         if layout is not None:
             validate_layout(facts, layout)
         if a.copy:
-            validate_copy(facts, json.loads(Path(a.copy).read_text()), layout)
+            validate_copy(facts, json.loads(Path(a.copy).read_text(encoding='utf-8')), layout)
     except (ContractError, ValueError, OSError, TypeError, KeyError) as e:
         ap.exit(1, f'REJECTED: {e}\n')
     print('PASS: structure and actual literal witnesses only; independent rendered-page science review required')

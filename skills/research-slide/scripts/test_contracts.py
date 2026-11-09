@@ -285,21 +285,21 @@ class Packets(unittest.TestCase):
             result = self.build('copy', f'copy-{example}', ['--layout', str(self.layout), '--example', str(example)])
             self.assertEqual(result.returncode, 0, result.stderr)
             packet = self.base / f'copy-{example}'
-            style = json.loads((packet / 'copy-style.json').read_text())
+            style = json.loads((packet / 'copy-style.json').read_text(encoding='utf-8'))
             self.assertEqual(style['example'], f'example-{example:02d}.png')
             self.assertTrue(style['titleEvidence']['actualText'])
             self.assertIn('bodyEvidence', style)
             self.assertFalse((packet / 'style-reference.png').exists())
             self.assertFalse((packet / 'brand-invariants.json').exists())
-            self.assertNotIn('rawNotes', json.loads((packet / 'facts.json').read_text()))
+            self.assertNotIn('rawNotes', json.loads((packet / 'facts.json').read_text(encoding='utf-8')))
 
     def assert_local_links_resolve(self, packet):
         for guide in packet.glob('*.md'):
-            for target in re.findall(r'\[[^\]]+\]\(([^)]+)\)', guide.read_text()):
+            for target in re.findall(r'\[[^\]]+\]\(([^)]+)\)', guide.read_text(encoding='utf-8')):
                 self.assertTrue((packet / target).is_file(), f'{guide.name}: missing local link {target}')
 
     def test_all_recorded_examples_build_layout_and_copy(self):
-        for entry in json.loads((ROOT / 'references/author-examples/family-inventory.json').read_text())['families']:
+        for entry in json.loads((ROOT / 'references/author-examples/family-inventory.json').read_text(encoding='utf-8'))['families']:
             example = int(entry['exampleId'].split('-')[1])
             for stage in ('layout', 'copy'):
                 with self.subTest(example=example, stage=stage):
@@ -315,7 +315,7 @@ class Packets(unittest.TestCase):
                         self.assertTrue((packet / 'family-selector.md').is_file())
                         self.assertFalse((packet / 'copy-style.json').exists())
                     else:
-                        style = json.loads((packet / 'copy-style.json').read_text())
+                        style = json.loads((packet / 'copy-style.json').read_text(encoding='utf-8'))
                         self.assertTrue(style['example'].startswith(f'example-{example:02d}'))
                         self.assertFalse((packet / 'style-reference.png').exists())
                         self.assertFalse((packet / 'family-selector.md').exists())
@@ -324,7 +324,7 @@ class Packets(unittest.TestCase):
         result = self.build('select', 'selection', ['--candidates', '3', '15'])
         self.assertEqual(result.returncode, 0, result.stderr)
         packet = self.base / 'selection'
-        inventory = json.loads((packet / 'candidate-layouts.json').read_text())
+        inventory = json.loads((packet / 'candidate-layouts.json').read_text(encoding='utf-8'))
         self.assertEqual([r['example'] for r in inventory['candidates']], [3, 15])
         self.assert_local_links_resolve(packet)
         for row in inventory['candidates']:
@@ -339,7 +339,7 @@ class Packets(unittest.TestCase):
             result = self.build('copy', f'new-copy-{number}', ['--layout', str(self.layout), '--example', str(number)])
             self.assertEqual(result.returncode, 0, result.stderr)
             packet = self.base / f'new-copy-{number}'
-            style = json.loads((packet / 'copy-style.json').read_text())
+            style = json.loads((packet / 'copy-style.json').read_text(encoding='utf-8'))
             self.assertEqual(style['family'], family)
             self.assertTrue(style['bodyEvidence']['paragraphGrammar'])
             self.assertTrue(style['workingCadence'])
@@ -355,7 +355,7 @@ class Packets(unittest.TestCase):
         choice.write_text(json.dumps(decision))
         result = self.build('layout', 'selected-layout', ['--example', '15', '--selection', str(choice)])
         self.assertEqual(result.returncode, 0, result.stderr)
-        carried = json.loads((self.base / 'selected-layout/selection.json').read_text())
+        carried = json.loads((self.base / 'selected-layout/selection.json').read_text(encoding='utf-8'))
         self.assertEqual(carried['selectedExample'], 15)
         wrong = self.build('layout', 'wrong-selected-layout', ['--example', '3', '--selection', str(choice)])
         self.assertNotEqual(wrong.returncode, 0)
@@ -368,8 +368,8 @@ class Packets(unittest.TestCase):
         cases = [('runtime-focus-table', 12, 'runtime-focus-table', 'ablation'),
                  ('plot-led-runtime-observation', 13, 'plot-led-observation', 'ablation'),
                  ('compact-scientific-object-with-notes', 14, 'compact-object', 'mechanism')]
-        focused = json.loads((ROOT / 'references/author-examples/focused-layout-starters.json').read_text())
-        measured = json.loads((ROOT / 'references/author-examples/measurements-cfi.json').read_text())
+        focused = json.loads((ROOT / 'references/author-examples/focused-layout-starters.json').read_text(encoding='utf-8'))
+        measured = json.loads((ROOT / 'references/author-examples/measurements-cfi.json').read_text(encoding='utf-8'))
         for family, number, module, specialist in cases:
             selected = next(f for f in focused['families'] if f['family'] == family)
             record = next(r for r in measured['records'] if r['example'] == selected['trainingExample'])
@@ -386,13 +386,13 @@ class Packets(unittest.TestCase):
                     if stage == 'layout':
                         self.assertEqual((packet / 'style-reference.png').read_bytes(),
                             (ROOT / 'references/author-examples' / selected['trainingExample']).read_bytes())
-                        self.assertEqual(json.loads((packet / 'layout-style.json').read_text()),
+                        self.assertEqual(json.loads((packet / 'layout-style.json').read_text(encoding='utf-8')),
                             {k: v for k, v in selected.items() if k != 'titleGrammar'})
-                        self.assertEqual((packet / 'focused-specialist.md').read_text().splitlines()[0],
-                            (ROOT / f'references/layout/{module}.md').read_text().splitlines()[0])
+                        self.assertEqual((packet / 'focused-specialist.md').read_text(encoding='utf-8').splitlines()[0],
+                            (ROOT / f'references/layout/{module}.md').read_text(encoding='utf-8').splitlines()[0])
                         self.assertNotIn('copy-style.json', [p.name for p in packet.iterdir()])
                     else:
-                        style = json.loads((packet / 'copy-style.json').read_text())
+                        style = json.loads((packet / 'copy-style.json').read_text(encoding='utf-8'))
                         self.assertEqual(style['titleEvidence']['actualText'],
                             [s['text'] for s in record['textSpans'] if 'Frank' in s['font']])
                         self.assertEqual(style['bodyEvidence']['voiceFragments'],
@@ -406,7 +406,7 @@ class Packets(unittest.TestCase):
     def test_absent_title_remains_absent(self):
         result = self.build('copy', 'untitled-copy', ['--layout', str(self.layout), '--example', '8'])
         self.assertEqual(result.returncode, 0, result.stderr)
-        style = json.loads((self.base / 'untitled-copy/copy-style.json').read_text())
+        style = json.loads((self.base / 'untitled-copy/copy-style.json').read_text(encoding='utf-8'))
         self.assertEqual(style['titleEvidence']['actualText'], [])
         self.assertFalse(style['titleEvidence']['present'])
 
@@ -414,8 +414,8 @@ class Packets(unittest.TestCase):
         table = self.build('layout', 'table-module', ['--example', '2'])
         self.assertEqual(table.returncode, 0, table.stderr)
         packet = self.base / 'table-module'
-        self.assertEqual((packet / 'focused-specialist.md').read_text().splitlines()[0],
-                         (ROOT / 'references/layout/scientific-table.md').read_text().splitlines()[0])
+        self.assertEqual((packet / 'focused-specialist.md').read_text(encoding='utf-8').splitlines()[0],
+                         (ROOT / 'references/layout/scientific-table.md').read_text(encoding='utf-8').splitlines()[0])
         self.assertFalse((packet / 'procedure-guide.md').exists())
         procedure = self.build('copy', 'procedure-module', ['--layout', str(self.layout), '--example', '22'])
         self.assertEqual(procedure.returncode, 0, procedure.stderr)
@@ -429,7 +429,7 @@ class Packets(unittest.TestCase):
         result = self.build('layout', 'layout', ['--example', '3'])
         self.assertEqual(result.returncode, 0, result.stderr)
         packet = self.base / 'layout'
-        brand = json.loads((packet / 'brand-invariants.json').read_text())
+        brand = json.loads((packet / 'brand-invariants.json').read_text(encoding='utf-8'))
         self.assertEqual(brand['selectedBrand'], 'nyu')
         asset = packet / brand['family']['asset']
         original = ROOT / 'assets/author-profile/nyu.png'
@@ -457,7 +457,7 @@ class Packets(unittest.TestCase):
             '--facts', str(facts_file), '--specialist', 'mechanism', '--example', '1',
             '--out', str(self.base / 'asset-layout'), '--evidence', str(source)], capture_output=True, text=True)
         self.assertEqual(result.returncode, 0, result.stderr)
-        frozen = json.loads((self.base / 'asset-layout/facts.json').read_text())
+        frozen = json.loads((self.base / 'asset-layout/facts.json').read_text(encoding='utf-8'))
         self.assertEqual(frozen['assets'][0]['path'], 'evidence/toy-figure.txt')
         self.assertEqual((self.base / 'asset-layout/evidence/toy-figure.txt').read_bytes(), source.read_bytes())
         source.write_text('Changed after facts were frozen.')
@@ -488,9 +488,9 @@ class Packets(unittest.TestCase):
         packet = self.base/'style-check'
         self.assertEqual({p.name for p in packet.iterdir()}, {'saved-page.png','style-reference.png',
             'style-measurements.json','intent.json','stage-guide.md','packet-manifest.json'})
-        self.assertEqual(json.loads((packet/'intent.json').read_text()),
+        self.assertEqual(json.loads((packet/'intent.json').read_text(encoding='utf-8')),
                          {'argumentRole':'bounded comparison','audience':'internal collaborators'})
-        manifest=json.loads((packet/'packet-manifest.json').read_text())
+        manifest=json.loads((packet/'packet-manifest.json').read_text(encoding='utf-8'))
         self.assertEqual(manifest['fileSha256']['saved-page.png'],hashlib.sha256(image.read_bytes()).hexdigest())
         result=subprocess.run(command+['--out',str(self.base/'bad-style-check'),'--facts',str(self.f)],text=True,capture_output=True)
         self.assertNotEqual(result.returncode,0)
@@ -503,18 +503,18 @@ class Packets(unittest.TestCase):
         result=subprocess.run([sys.executable,str(ROOT/'scripts/make_stage_packet.py'),'layout',
             '--facts',str(f),'--specialist','mechanism','--example','19','--out',str(self.base/'clean-facts')],text=True,capture_output=True)
         self.assertEqual(result.returncode,0,result.stderr)
-        frozen=(self.base/'clean-facts/facts.json').read_text()
+        frozen=(self.base/'clean-facts/facts.json').read_text(encoding='utf-8')
         self.assertNotIn('EXCLUDE',frozen)
         self.assertEqual(json.loads(frozen)['equations'],facts['equations'])
 
     def test_copy_plan_drops_attached_source_drafts(self):
-        layout = json.loads(self.layout.read_text())
+        layout = json.loads(self.layout.read_text(encoding='utf-8'))
         layout['draftedBodySentences'] = ['EXCLUDE SOURCE DRAFT']
         layout['slots'] = [{'id':'heading','rawParagraphs':['EXCLUDE NESTED RAW']}]
         plan = self.base/'attached-layout.json'; plan.write_text(json.dumps(layout))
         result=self.build('copy','no-drafts',['--layout',str(plan),'--example','1'])
         self.assertEqual(result.returncode,0,result.stderr)
-        self.assertNotIn('EXCLUDE',(self.base/'no-drafts/layout.json').read_text())
+        self.assertNotIn('EXCLUDE',(self.base/'no-drafts/layout.json').read_text(encoding='utf-8'))
 
 
 if __name__ == '__main__':
