@@ -1,0 +1,284 @@
+{
+  "schemaVersion": 1,
+  "use": "Copy-stage language evidence for the selected family only. M/N are promoted DEVELOPMENT/TRAINING examples, not fresh validation. Current frozen facts supply names, values, scope and confidence. Geometry lives in focused-layout-starters.json; never pass these source transcriptions into layout packets.",
+  "evidence": "measurements-mn.json",
+  "sourceVerbatim": [
+    {
+      "id": "source-15",
+      "example": "example-15-evidence-led-short-readout.png",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "page1Based": 373,
+      "title": "Evaluating First-order Importance Score",
+      "bodyParagraphs": [
+        {
+          "id": "condition",
+          "text": "Dataset: LongBench Writer(120 prompt), AIME(30 prompt)"
+        },
+        {
+          "id": "observation",
+          "text": "Achieves best Acceptance Length across all method, but Low Throughput because computation overhead"
+        }
+      ],
+      "selectiveSpans": [],
+      "readingNote": "Line-wrap fragments joined with one space. Source wording contains grammar roughness and an overbroad result; it is evidence of cadence only. Do not reproduce either. The current result must retain average AL, the ranked comparison set and TriForce exclusion. Reported overhead attribution is not a measured causal result."
+    },
+    {
+      "id": "source-16",
+      "example": "example-16-prose-led-overview-inset.png",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "page1Based": 56,
+      "title": "KV Cache Eviction: Overview",
+      "bodyParagraphs": [
+        {
+          "id": "goal",
+          "text": "Goal: an acceptance-aware draft model KV cache pruning method."
+        },
+        {
+          "id": "objective-storage",
+          "text": "Optimize storage & latency;"
+        },
+        {
+          "id": "objective-acceptance",
+          "text": "Keep acceptance rate unchanged;"
+        },
+        {
+          "id": "motivation-role",
+          "text": "Motivation:"
+        },
+        {
+          "id": "motivation",
+          "text": "Objective difference: Standard LLM differs Speculative Decoding Draft model that draft model only care about whether its generated token can be accepted or not."
+        },
+        {
+          "id": "example",
+          "text": "For example, draft sequence 1 is better than draft sequence 2."
+        }
+      ],
+      "objectLabels": [
+        "Draft Sequence 1",
+        "Draft Sequence 2",
+        "T1",
+        "T2",
+        "T3",
+        "T4",
+        "T5"
+      ],
+      "selectiveSpans": [
+        {
+          "paragraphId": "goal",
+          "quote": "Goal:",
+          "span": [
+            0,
+            5
+          ],
+          "bold": true
+        },
+        {
+          "paragraphId": "goal",
+          "quote": "acceptance-aware draft model KV cache pruning",
+          "span": [
+            9,
+            54
+          ],
+          "bold": true
+        },
+        {
+          "paragraphId": "motivation-role",
+          "quote": "Motivation:",
+          "span": [
+            0,
+            11
+          ],
+          "bold": true
+        },
+        {
+          "paragraphId": "motivation",
+          "quote": "Objective difference:",
+          "span": [
+            0,
+            21
+          ],
+          "bold": true
+        }
+      ],
+      "readingNote": "Native line fragments joined with one space. Goal wording is aspirational; token positions are schematic. Match hierarchy and local emphasis, not grammar damage or an inference of measured performance. Original color meaning is implicit; new copy must provide the minimum mapping required by its facts."
+    }
+  ],
+  "families": [
+    {
+      "family": "evidence-led-short-readout",
+      "example": "example-15-evidence-led-short-readout.png",
+      "sourceRecordId": "source-15",
+      "titleEvidence": {
+        "present": true,
+        "actualText": [
+          "Evaluating First-order Importance Score"
+        ],
+        "grammar": "Short evaluative participle plus the scientific quantity being tested. The body does not restart the topic."
+      },
+      "bodyEvidence": {
+        "voiceFragments": [
+          "Dataset: LongBench Writer(120 prompt), AIME(30 prompt)",
+          "Achieves best Acceptance Length",
+          "but Low Throughput"
+        ],
+        "paragraphGrammar": [
+          {
+            "role": "condition",
+            "level": 0,
+            "bullet": true,
+            "cadence": "One compact condition line with an inline role lead and paired conditions."
+          },
+          {
+            "role": "observation",
+            "level": 0,
+            "bullet": true,
+            "cadence": "A direct result joined to its reported limitation/explanation; one natural wrap is supported, without a new narrative introduction."
+          }
+        ],
+        "selectiveEmphasis": [],
+        "scope": "Verbatim fragments establish voice only; none is a reusable scientific claim. In particular best must be replaced by the supported comparison scope."
+      },
+      "proseTokens": {
+        "font": "Arial",
+        "sizePt": 14,
+        "color": "#000000",
+        "markerGlyph": "●",
+        "linePitchPt": 16.8,
+        "roleHeadingStyle": "inline plain lead or none",
+        "structure": "Two ordinary peer bullets: compact conditions, then connected scoped observation/limitation. No standalone report headings."
+      },
+      "workingCadence": "Short evaluative title, one compact condition note, then one direct observation connected to its limitation. Preserve qualifiers within the observation; remove the topic restart and documentary narrator. Let intact evidence retain its detailed conditions and method labels.",
+      "doNotAdd": [
+        "A second experiment-purpose sentence under the topic title",
+        "A third-person account of the researcher for internal working observations",
+        "A prose inventory of every condition or method already delivered in the evidence",
+        "A new role-heading or explanatory-gloss tier absent from the selected grammar"
+      ],
+      "doNotCopy": [
+        "Scientific names, counts, values or claims from the reference",
+        "The source result beyond its supported average and comparison set",
+        "Grammar roughness or categorical causal language as an authorship device"
+      ]
+    },
+    {
+      "family": "prose-led-overview-inset",
+      "example": "example-16-prose-led-overview-inset.png",
+      "sourceRecordId": "source-16",
+      "titleEvidence": {
+        "present": true,
+        "actualText": [
+          "KV Cache Eviction: Overview"
+        ],
+        "grammar": "Short topic plus an overview role; method identity remains in the inline goal rather than expanding the title."
+      },
+      "bodyEvidence": {
+        "voiceFragments": [
+          "Goal:",
+          "Optimize storage & latency;",
+          "Keep acceptance rate unchanged;",
+          "Motivation:",
+          "Objective difference:",
+          "For example, draft sequence 1 is better than draft sequence 2."
+        ],
+        "paragraphGrammar": [
+          {
+            "role": "goal-intro",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Inline bold goal lead, plain connector, selectively bold method phrase, plain sentence end."
+          },
+          {
+            "role": "objectives",
+            "level": 0,
+            "bullet": true,
+            "cadence": "Two short parallel action clauses under the goal."
+          },
+          {
+            "role": "motivation-role",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Standalone bold role at the same body type level."
+          },
+          {
+            "role": "motivation",
+            "level": 0,
+            "bullet": true,
+            "cadence": "Bold inline relation lead followed by a continuous causal/objective explanation."
+          },
+          {
+            "role": "example",
+            "level": 1,
+            "bullet": true,
+            "cadence": "One subordinate example follows its parent argument; the small sketch supplies the comparison."
+          }
+        ],
+        "selectiveEmphasis": [
+          {
+            "paragraphId": "goal",
+            "quote": "Goal:",
+            "span": [
+              0,
+              5
+            ],
+            "bold": true
+          },
+          {
+            "paragraphId": "goal",
+            "quote": "acceptance-aware draft model KV cache pruning",
+            "span": [
+              9,
+              54
+            ],
+            "bold": true
+          },
+          {
+            "paragraphId": "motivation-role",
+            "quote": "Motivation:",
+            "span": [
+              0,
+              11
+            ],
+            "bold": true
+          },
+          {
+            "paragraphId": "motivation",
+            "quote": "Objective difference:",
+            "span": [
+              0,
+              21
+            ],
+            "bold": true
+          }
+        ],
+        "scope": "Source scientific phrases illustrate where emphasis falls. Apply those roles to current facts, keeping a goal aspirational and a schematic relation distinct from measured results."
+      },
+      "proseTokens": {
+        "font": "Arial",
+        "sizePt": 19,
+        "color": "#333333",
+        "markerGlyphs": [
+          "●",
+          "○"
+        ],
+        "linePitchPt": 26.22,
+        "roleHeadingStyle": "Inline goal lead; standalone motivation role; inline relation lead",
+        "roleHeadingWeight": "Selective bold at the ordinary body type level",
+        "structure": "Inline goal introduction; two short peer objective bullets; motivation role; continuous parent argument with one nested example. Simple local object labels."
+      },
+      "workingCadence": "An overview title introduces a specific inline goal and a short objective list. One connected motivation develops through an inline relation lead and subordinate example. The example carries the interpretation; the inset needs only labels or a compact state mapping necessary for recovery.",
+      "doNotAdd": [
+        "A long title that absorbs the inline goal identity",
+        "Separate equal-weight headings replacing the selected inline leads",
+        "A detached question that splits the parent motivation from its example",
+        "Repeated explanation across the example, count subtitles, legend and a concluding takeaway"
+      ],
+      "doNotCopy": [
+        "Method identity, objective content or token counts from the reference",
+        "Grammar roughness as an authorship device",
+        "An achieved-performance claim inferred from a stated goal",
+        "Implicit color meaning when current facts require a recoverable mapping"
+      ]
+    }
+  ]
+}

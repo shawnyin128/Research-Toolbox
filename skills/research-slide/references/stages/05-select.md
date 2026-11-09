@@ -1,0 +1,9 @@
+# Choose the argument hierarchy
+
+Use this small handoff before fixing a detailed layout when multiple author families plausibly fit. The upstream maker proposes two functional candidates from the [compact inventory](../author-examples/family-inventory.json); a fresh selection owner receives only semantic facts, their two layout records and two reference images. Copy guides, drafted sentences and prior outputs stay outside this decision. Fact count is not a count of required prose lines: existing headers, data and equations may carry much of the account.
+
+Read the [family selector](../layout/family-selector.md). Inspect both candidates. State the report's actual purpose and whether its scientific object is the principal evidence, a subordinate example, or the mechanism itself. A table can lead a short readout or support a fuller diagnosis. Tokens can be a small example inside a motivation, rather than a mechanism that needs an explanatory panel. Choose the hierarchy that fits the current facts before inheriting type sizes or counting text slots.
+
+Return `selection.json` with `caseId`, `candidateExamples`, `selectedExample`, `reportIntent`, `objectRole`, `reason`, and `alternativeRejection`. Explain the coupled body/evidence footprint and justified prose roles. Do not write new slide sentences or select by appearance alone. Reject both and request a better pair if neither can carry the current scientific argument; the supplied pair is a proposal, not a forced choice.
+
+The detailed layout owner then receives the single selected example and this frozen decision through `make_stage_packet.py layout --selection selection.json ...`. It may adapt geometry to the current object but must return an actual hierarchy conflict upstream, rather than quietly turning supporting evidence into a new teaching panel. Straightforward continuation inside an established local family may use that family directly and record the existing source of the choice.

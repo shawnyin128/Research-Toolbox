@@ -1,0 +1,90 @@
+{
+  "schemaVersion": 1,
+  "use": "Copy-stage records only. Preserve facts and supplied uncertainty. Do not borrow experiment values from these training pages. Layout-stage need not read this file.",
+  "evidence": "measurements-gh.json",
+  "families": [
+    {
+      "family": "wide-ablation-sweep",
+      "proseTokens": {
+        "frameInkBBoxPt": [
+          38.75,
+          78.72,
+          679.17,
+          193.52
+        ],
+        "sizePt": 14,
+        "font": "Arial",
+        "color": "#000000",
+        "roleHeadingStyle": "plain",
+        "markerGlyph": "●",
+        "roleHeadingXPt": 38.75,
+        "markerXPt": 48.3,
+        "bodyXPt": 74.75,
+        "hangingPt": 26.45,
+        "linePitchPt": 16.8,
+        "sectionGapExtraPt": 0,
+        "structure": "Configurations standalone role; two ordinary bullets; Observation standalone role; two ordinary bullets. First observation wraps one line at same text x."
+      },
+      "workingCadence": "Short scientific experiment-type title; standalone plain configuration/observation roles; direct condition bullet then one scoped result and one exception-bound comparison. A long result may wrap; keep the relationship rather than rewriting into slogan plus caption.",
+      "doNotAdd": [
+        "Bold role headings absent from this family",
+        "Extra title/subtitle hierarchy",
+        "Definitions of already familiar metrics",
+        "Units missing from the experiment",
+        "A polished abstract or claim banner"
+      ],
+      "doNotCopy": [
+        "Experiment names, values, thresholds or condition labels from the training slide",
+        "Accidental grammar damage as an authorship trick"
+      ]
+    },
+    {
+      "family": "summary-with-vertical-inset",
+      "proseTokens": {
+        "framePt": [
+          61.0276,
+          104.5275,
+          392.7283,
+          313.063
+        ],
+        "glyphEnvelopePt": [
+          67.78,
+          113.85,
+          360.24,
+          301.73
+        ],
+        "sizePt": 14,
+        "font": "Arial",
+        "color": "#333333",
+        "roleHeading": "Summary:",
+        "roleHeadingWeight": "bold",
+        "roleHeadingXPt": 67.78,
+        "markerGlyphs": [
+          "●",
+          "○"
+        ],
+        "level0MarkerXPt": 77.33,
+        "level0TextXPt": 103.78,
+        "level1MarkerXPt": 113.33,
+        "level1TextXPt": 139.78,
+        "levelIncrementPt": 36,
+        "hangingPt": 26.45,
+        "linePitchPt": 19.32,
+        "paragraphGapExtraPt": 0,
+        "structure": "Bold standalone Summary then three ordinary Step items; first two have two hollow sub-bullets each. Second sub-bullet in each wraps at nested x. Pending Step3 is plain body text."
+      },
+      "workingCadence": "Standalone bold Summary role; three ordered plain Step items, with preprocessing details and attention/FFN parameter-scope exceptions nested below their parent. Final pending stage stays an ordinary summary item. Figure remains a second operational account, not a replacement for the report.",
+      "doNotAdd": [
+        "An unrequested headline claim",
+        "Uniform bold prefixes for every step",
+        "Red warning/banner for a pending stage that is already explicit",
+        "Definitions of familiar project parameter notation",
+        "Visible maker instructions or process caveats"
+      ],
+      "doNotCopy": [
+        "Method names, improvement magnitude or exact operation list from the training slide",
+        "Accidental punctuation or grammar damage as an authorship trick"
+      ]
+    }
+  ]
+}

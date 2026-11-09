@@ -1,0 +1,171 @@
+{
+  "version": 1,
+  "units": "pt",
+  "canvasPt": {
+    "width": 720,
+    "height": 405
+  },
+  "pageMarker": {
+    "geometry": {
+      "x": 674,
+      "y": 362,
+      "w": 13.5,
+      "h": 10
+    },
+    "fontFamily": "Montserrat",
+    "fontSizePt": 7,
+    "color": "#330662",
+    "bold": true,
+    "align": "right"
+  },
+  "families": {
+    "nyu": {
+      "asset": "nyu.png",
+      "assetSha256": "839e07fa9563651342ed97b5e1c9c8ca6591586e6b5302ca44732ac168957b7e",
+      "logoGeometry": {
+        "x": 31,
+        "y": 357,
+        "w": 63,
+        "h": 23
+      },
+      "fit": "contain",
+      "topStrip": {
+        "asset": "top-strip.png",
+        "assetSha256": "1af85f94c2015a90ffd663f29f813d9f9405d343fc77ddcd5753a52f8ea9ad75",
+        "geometry": {
+          "x": 0,
+          "y": 0,
+          "w": 720,
+          "h": 20
+        },
+        "fit": "contain"
+      },
+      "occupiedRegions": {
+        "footer": [
+          {
+            "kind": "logo",
+            "x": 31,
+            "y": 357,
+            "w": 63,
+            "h": 23
+          },
+          {
+            "kind": "pageNumber",
+            "x": 674,
+            "y": 362,
+            "w": 13.5,
+            "h": 10
+          }
+        ],
+        "top": [
+          {
+            "kind": "topStrip",
+            "x": 0,
+            "y": 0,
+            "w": 720,
+            "h": 20
+          }
+        ]
+      }
+    },
+    "sai": {
+      "asset": "sai-lab.png",
+      "assetSha256": "95270319c4001678441e062371750467e50dd0d108238a027ed816eb50fe29b9",
+      "logoGeometry": {
+        "x": 5,
+        "y": 353,
+        "w": 106,
+        "h": 26
+      },
+      "fit": "contain",
+      "topStrip": {
+        "asset": "top-strip.png",
+        "assetSha256": "1af85f94c2015a90ffd663f29f813d9f9405d343fc77ddcd5753a52f8ea9ad75",
+        "geometry": {
+          "x": 0,
+          "y": 0,
+          "w": 720,
+          "h": 20
+        },
+        "fit": "contain"
+      },
+      "occupiedRegions": {
+        "footer": [
+          {
+            "kind": "logo",
+            "x": 5,
+            "y": 353,
+            "w": 106,
+            "h": 26
+          },
+          {
+            "kind": "pageNumber",
+            "x": 674,
+            "y": 362,
+            "w": 13.5,
+            "h": 10
+          }
+        ],
+        "top": [
+          {
+            "kind": "topStrip",
+            "x": 0,
+            "y": 0,
+            "w": 720,
+            "h": 20
+          }
+        ]
+      }
+    }
+  },
+  "variants": {
+    "marker-left-3pt": {
+      "pageMarker": {
+        "geometry": {
+          "x": 671,
+          "y": 362,
+          "w": 13.5,
+          "h": 10
+        }
+      },
+      "evidenceExamples": [
+        "example-03.png",
+        "example-04.png",
+        "example-06.png",
+        "example-07.png",
+        "example-09.png",
+        "example-10.png"
+      ],
+      "measuredGlyphRightEdgePt": [
+        684.34,
+        684.35
+      ]
+    }
+  },
+  "evidence": {
+    "scope": "Authorized training examples01..11 and measurements.json / measurements-gh.json only; no held-out source.",
+    "defaultMarkerExamples": [
+      "example-01.png",
+      "example-02.png",
+      "example-05.png",
+      "example-08.png",
+      "example-11.png"
+    ],
+    "measuredDefaultGlyphRightEdgePt": [
+      687.17,
+      687.18
+    ],
+    "measuredMarkerGlyphYBoundsPt": [
+      362.38,
+      370.91
+    ],
+    "geometryCaveat": "Glyph bounds are not textbox frames. Frames calibrated by saved-file native reimport render; renderer differences remain. Historical 3pt-left anchor is explicit, never inferred from brand.",
+    "logoAndStrip": "Existing helper contain frames retained; original image bytes and intrinsic aspect ratios preserved. These frames are not claims about exact PDF image placements."
+  },
+  "fonts": {
+    "pageMarker": {
+      "asset": "fonts/Montserrat-variable.ttf",
+      "fontFamily": "Montserrat"
+    }
+  }
+}

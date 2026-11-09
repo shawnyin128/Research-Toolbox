@@ -1,0 +1,9 @@
+# Layout — plot-led runtime observation
+
+Use for a trend, repeated operation or ablation whose scientific plot is the main evidence and whose current report needs a brief purpose plus observations. First run the [purpose-first selector](family-selector.md). A plot does not automatically invoke example09's fuller Goal/Experiment/Results prose hierarchy.
+
+Inspect example13 and its `plot-led-runtime-observation` record in [focused starters](../author-examples/focused-layout-starters.json). The authorized local source has a36pt purple Frank Ruhl Libre Bold experiment-series title, a narrow ordinary14pt Arial note column and a large independent plot. Its plot frame is x294.17–707.67,y78.87–336.63pt,57.4% of page width and36.6% of page area. Notes begin at marker/text x30.75/57.20, nested66.75/93.20pt, with16.8pt baseline pitch. Preserve this evidence-to-notes relationship instead of shrinking the plot after drafting prose.
+
+Reserve intact plot title/conditions, axes, units, legend, scope-bearing labels and every current curve. Source plot fonts are raster, so their nominal point sizes/font identity are unknown; surrounding note/title fonts are exactly extracted native text. Use current evidence/data, never the reference's experiment. The scientific series in the plot and the deck's current identity remain controlled by current facts.
+
+The source's note grammar is ordinary purpose, then plain Observation with hollow nested bullets. It has no added chapter subtitle, bold Goal/Experiment taxonomy or red takeaway. Reserve only roles present in the current record. Another author family may legitimately use those devices when the current purpose and local series call for them. Do not add conditions twice when the plot already carries them, or expand a sparse observation into a general tutorial.

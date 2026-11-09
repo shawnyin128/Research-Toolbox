@@ -1,0 +1,1152 @@
+{
+  "schemaVersion": 1,
+  "use": "Copy-stage language evidence for the selected matching family only. All seven examples are DEVELOPMENT/TRAINING, not fresh validation. Current frozen facts supply names, values, scope and confidence. Geometry remains in separate layout records. Never pass the top-level sourceVerbatim archive into copy/layout packets.",
+  "evidence": "measurements-broad.json",
+  "sourceVerbatim": [
+    {
+      "id": "source-17",
+      "example": "example-17-algorithm-report-with-supporting-inset.png",
+      "source": "Cerebras & NYU Weekly Quantization Spring 2026.pdf",
+      "page1Based": 83,
+      "title": "Finalized Algorithm - Decoding Calibration",
+      "bodyParagraphs": [
+        {
+          "id": "idea-role",
+          "text": "High-level Idea:"
+        },
+        {
+          "id": "idea-trend",
+          "text": "Activation’s channel-wise standard deviation has a decreasing trend versus increasing decoding steps."
+        },
+        {
+          "id": "idea-difficulty",
+          "text": "High standard deviation makes it hard to quantize."
+        },
+        {
+          "id": "idea-benefit",
+          "text": "Smoothing the first few tokens has a larger benefit."
+        },
+        {
+          "id": "algorithm-role",
+          "text": "Algorithm:"
+        },
+        {
+          "id": "calibration-expansion",
+          "text": "Calibration set expansion: full-precision decodes on each input sample."
+        },
+        {
+          "id": "mix-calibration",
+          "text": "Mix calibration: 90% original sample + 10% original sample + decoding extension."
+        }
+      ],
+      "nativeTextSpansVerbatim": [
+        "83",
+        "Finalized Algorithm - Decoding Calibration",
+        "High-level Idea:",
+        "●",
+        "Activation’s channel-wise standard deviation has a ",
+        "decreasing trend versus increasing decoding steps.",
+        "●",
+        "High standard deviation makes it hard to quantize.",
+        "●",
+        "Smoothing the first few tokens has a larger benefit.",
+        "Algorithm:",
+        "●",
+        "Calibration set expansion:",
+        " full-precision decodes ",
+        "on each input sample.",
+        "●",
+        "Mix calibration:",
+        " 90% original sample + 10% ",
+        "original sample + decoding extension.",
+        "GPT-OSS-20B",
+        "Qwen3-30B-A3B-Thinking",
+        "Qwen3-4B-Thinking",
+        "Text + Decode",
+        "Qu",
+        "estions: ... How many clips did Natalia ",
+        "sell altogether in April and May?",
+        "Prediction: ",
+        "Okay, let's see. The problem ",
+        "says Natalia sold clips to 48 of her ",
+        "friends in April…",
+        "Text",
+        "The little cat sat on ",
+        "the window and ",
+        "watched birds ",
+        "outside"
+      ],
+      "selectiveSpans": [
+        {
+          "paragraphId": "idea-role",
+          "quote": "High-level Idea:",
+          "span": [
+            0,
+            16
+          ],
+          "bold": true
+        },
+        {
+          "paragraphId": "algorithm-role",
+          "quote": "Algorithm:",
+          "span": [
+            0,
+            10
+          ],
+          "bold": true
+        },
+        {
+          "paragraphId": "calibration-expansion",
+          "quote": "Calibration set expansion:",
+          "span": [
+            0,
+            26
+          ],
+          "bold": true
+        },
+        {
+          "paragraphId": "mix-calibration",
+          "quote": "Mix calibration:",
+          "span": [
+            0,
+            16
+          ],
+          "bold": true
+        }
+      ],
+      "readingNote": "Native line fragments are joined with one space in bodyParagraphs; nativeTextSpansVerbatim preserves all extracted strings, including table/object copy. Scientific content and source grammar are provenance only.",
+      "rasterObjectTranscription": {
+        "scope": "Plot text visible in the source image; plotted samples remain image evidence, not transcribed numerical measurements. Native model labels and inset sample text are preserved in nativeTextSpansVerbatim.",
+        "plotText": [
+          "Std Activation per Step",
+          "(averaged over all layers, both norm types)",
+          "Std Activation",
+          "Token Step"
+        ]
+      }
+    },
+    {
+      "id": "source-18",
+      "example": "example-18-paper-method-outline.png",
+      "source": "Cerebras & NYU Weekly Quantization.pdf",
+      "page1Based": 158,
+      "title": "QLoRA: Efﬁcient Finetuning of Quantized LLMs",
+      "bodyParagraphs": [
+        {
+          "id": "concept-1",
+          "text": "NF4, 4-bit NormalFloat Quantization"
+        },
+        {
+          "id": "detail-1a",
+          "text": "estimate the 2^k + 1 quantiles of a theoretical N(0, 1) distribution to obtain a k-bit quantile quantization data type for normal distributions"
+        },
+        {
+          "id": "detail-1b",
+          "text": "quantize an input weight tensor by normalizing it into the [−1, 1] range through absolute maximum rescaling, store the quantization constant"
+        },
+        {
+          "id": "detail-1c",
+          "text": "Group size is 64"
+        },
+        {
+          "id": "concept-2",
+          "text": "Double Quantization"
+        },
+        {
+          "id": "detail-2a",
+          "text": "Quantize the quantization constant using FP8, group size 256"
+        },
+        {
+          "id": "concept-3",
+          "text": "Dequantize for computation"
+        }
+      ],
+      "nativeTextSpansVerbatim": [
+        "158",
+        "QLoRA: Efﬁcient Finetuning of Quantized LLMs",
+        "1.",
+        "NF4, 4-bit NormalFloat Quantization",
+        "a.",
+        "estimate the 2^k + 1 quantiles of a theoretical N(0, 1) distribution to obtain ",
+        "a k-bit quantile quantization data type for normal distributions",
+        "b.",
+        "quantize an input weight tensor by normalizing it into the [−1, 1] range ",
+        "through absolute maximum rescaling, store the quantization constant",
+        "c.",
+        "Group size is 64",
+        "2.",
+        "Double Quantization",
+        "a.",
+        "Quantize the quantization constant using FP8, group size 256",
+        "3.",
+        "Dequantize for computation"
+      ],
+      "selectiveSpans": [],
+      "readingNote": "Native line fragments are joined with one space in bodyParagraphs; nativeTextSpansVerbatim preserves all extracted strings, including table/object copy. Scientific content and source grammar are provenance only.",
+      "rasterObjectTranscription": {
+        "scope": "Manually transcribed mathematical excerpt; typography is flattened here only for provenance. Equation/caption text is not native extraction.",
+        "equations": [
+          {
+            "number": "5",
+            "text": "Y^{BF16} = X^{BF16} doubleDequant(c_1^{FP32}, c_2^{k-bit}, W^{NF4}) + X^{BF16} L_1^{BF16} L_2^{BF16},"
+          },
+          {
+            "number": "6",
+            "text": "doubleDequant(c_1^{FP32}, c_2^{k-bit}, W^{k-bit}) = dequant(dequant(c_1^{FP32}, c_2^{k-bit}), W^{4bit}) = W^{BF16},"
+          }
+        ],
+        "caption": [
+          "where doubleDequant(·) is defined as:",
+          "We use NF4 for W and FP8 for c_2. We use a blocksize of 64 for W for higher quantization precision and a blocksize of 256 for c_2 to conserve memory."
+        ]
+      }
+    },
+    {
+      "id": "source-19",
+      "example": "example-19-scientific-table-readout.png",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "page1Based": 347,
+      "title": "Evaluation of Approach",
+      "bodyParagraphs": [
+        {
+          "id": "context",
+          "text": "QwQ 32B  + R1-Distill-Qwen-1.5B evaluated on GPQA Diamond (10 prompts x 4 repetitions) over 2xH200s"
+        }
+      ],
+      "nativeTextSpansVerbatim": [
+        "347",
+        "Evaluation of Approach",
+        "QwQ 32B  + R1-Distill-Qwen-1.5B evaluated on GPQA Diamond (10 prompts x 4 repetitions) over 2xH200s",
+        "K",
+        "Metrics for Quality of Drafted Reasoning Steps",
+        "Runtime Performance Metrics",
+        "End-to-End ",
+        "Accuracy",
+        "Mean score",
+        "Acceptance rate",
+        "Mean number of ",
+        "consecutively ",
+        "accepted steps",
+        "Drafting time (small ",
+        "model decoding)",
+        "Verification time ",
+        "(base model ",
+        "prefill)",
+        "Correction time ",
+        "(base model ",
+        "decoding)",
+        "1",
+        "6.0440",
+        "0.6087",
+        "0.9739",
+        "0.1119",
+        "0.0408",
+        "0.8592",
+        "0.7632",
+        "2",
+        "6.0852",
+        "0.6413",
+        "1.1619",
+        "0.1416",
+        "0.0580",
+        "0.8855",
+        "0.8000",
+        "4",
+        "6.5691",
+        "0.7538",
+        "1.9249",
+        "0.1492",
+        "0.0951",
+        "0.9045",
+        "0.6667",
+        "8",
+        "6.4421",
+        "0.7331",
+        "1.4389",
+        "0.1938",
+        "0.1663",
+        "0.8820",
+        "0.6579"
+      ],
+      "selectiveSpans": [],
+      "readingNote": "Native line fragments are joined with one space in bodyParagraphs; nativeTextSpansVerbatim preserves all extracted strings, including table/object copy. Scientific content and source grammar are provenance only."
+    },
+    {
+      "id": "source-20",
+      "example": "example-20-independent-plot-setup.png",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "page1Based": 498,
+      "title": "Merging Algorithm Design",
+      "bodyParagraphs": [
+        {
+          "id": "empirical-observation",
+          "text": "Emprical study: single token attention score variant is larger, but for recent window avg attention score"
+        },
+        {
+          "id": "series-blue",
+          "text": "Blue point: average attention variant for windowsize=64"
+        },
+        {
+          "id": "series-green",
+          "text": "Green point: average attention variant for windowsize=1"
+        },
+        {
+          "id": "interpretation",
+          "text": "By using average, the further step has smaller output difference"
+        },
+        {
+          "id": "plot-annotation",
+          "text": "Blue point is near x"
+        }
+      ],
+      "nativeTextSpansVerbatim": [
+        "498",
+        "●",
+        "Emprical study: single token attention ",
+        "score variant is larger, but for recent ",
+        "window avg attention score",
+        "○",
+        "Blue point: average attention ",
+        "variant for windowsize=64",
+        "○",
+        "Green point: average attention ",
+        "variant for windowsize=1",
+        "●",
+        "By using average, the further step has ",
+        "smaller output difference",
+        "Merging Algorithm Design",
+        "Blue point ",
+        "is near x "
+      ],
+      "selectiveSpans": [],
+      "readingNote": "Source wording is preserved exactly, including “Emprical” and “variant”. It is incomplete/rough and must not be reused as a current scientific claim. Native line fragments are joined; nativeTextSpansVerbatim preserves the original strings.",
+      "rasterObjectTranscription": {
+        "scope": "Visible raster scientific labels and equation transcribed manually; point samples remain the intact image.",
+        "plotText": [
+          "layer_1_head_1",
+          "layer_8_head_15",
+          "Attention Variance",
+          "Token Index",
+          "1e−4"
+        ],
+        "equation": {
+          "number": "10",
+          "text": "Θ^{t+1} = ∑_{k=j}^{j+m} (V_i/m) A_k^{t+1} − A_i^{t+1} V_i = (avg(A_{j:j+m}^{t+1}) − A_i^{t+1}) V_i."
+        }
+      }
+    },
+    {
+      "id": "source-21",
+      "example": "example-21-operator-graph.png",
+      "source": "Cerebras & NYU Weekly Quantization.pdf",
+      "page1Based": 589,
+      "title": "CodeQuant2: Jointly e2e Finetune Framework",
+      "bodyParagraphs": [
+        {
+          "id": "framework",
+          "text": "Developed a joint end-to-end fine-tuning framework with trainable assignment and centroid matrices"
+        },
+        {
+          "id": "joint-training",
+          "text": "Jointly finetune centroid matrix(C) and assignment matrix(A)"
+        },
+        {
+          "id": "centroid-detail",
+          "text": "Centroid matrix: continuous, trained in the same way as CodeQuant"
+        },
+        {
+          "id": "assignment-detail",
+          "text": "Assignment matrix: Binary parameters, trained using prior and STE."
+        },
+        {
+          "id": "end-to-end",
+          "text": "Employ end-to-end fine-tuning"
+        },
+        {
+          "id": "loss-detail",
+          "text": "Experiment with end-to-end loss functions, e.g. cross-entropy, KL divergence"
+        },
+        {
+          "id": "update-mapping",
+          "text": "Red: parameters with gradients (will be updated)"
+        }
+      ],
+      "nativeTextSpansVerbatim": [
+        "589",
+        "CodeQuant2: Jointly e2e Finetune Framework",
+        "Developed a joint end-to-end fine-tuning framework with ",
+        "trainable assignment and centroid matrices",
+        "●",
+        "Jointly finetune centroid matrix(C) and assignment ",
+        "matrix(A)",
+        "○",
+        "Centroid matrix: continuous, trained in the ",
+        "same way as CodeQuant",
+        "○",
+        "Assignment matrix: Binary parameters, ",
+        "trained using prior and STE.",
+        "●",
+        "Employ end-to-end fine-tuning",
+        "○",
+        "Experiment with end-to-end loss functions, ",
+        "e.g. cross-entropy, KL divergence",
+        "Red: parameters with ",
+        "gradients (will be updated)"
+      ],
+      "selectiveSpans": [],
+      "readingNote": "Native line fragments are joined with one space in bodyParagraphs; nativeTextSpansVerbatim preserves all extracted strings, including table/object copy. Scientific content and source grammar are provenance only.",
+      "rasterObjectTranscription": {
+        "scope": "Graph labels and equation visible in the raster excerpt. Native update legend is preserved in nativeTextSpansVerbatim.",
+        "graphLabels": [
+          "W_r",
+          "A",
+          "A′",
+          "λ",
+          "C",
+          "argmax",
+          "softmax",
+          "τ",
+          "M_A",
+          "W_c",
+          "Loss Function"
+        ],
+        "equation": "M_A = argmax(λA + A′)"
+      }
+    },
+    {
+      "id": "source-22",
+      "example": "example-22-numbered-procedure-report.png",
+      "source": "Cerebras & NYU Weekly Quantization.pdf",
+      "page1Based": 370,
+      "title": "CPU Implementation",
+      "bodyParagraphs": [
+        {
+          "id": "stage-1",
+          "text": "Python Frontend"
+        },
+        {
+          "id": "detail-1a",
+          "text": "Define tensor computation in Python"
+        },
+        {
+          "id": "detail-1b",
+          "text": "Specify LUT group, quantization scheme, etc."
+        },
+        {
+          "id": "stage-2",
+          "text": "ARM/X86 Kernel"
+        },
+        {
+          "id": "detail-2a",
+          "text": "LUT implementation with ARM/X86 instructions (vqtbl1q_u8 for example)"
+        },
+        {
+          "id": "stage-3",
+          "text": "TVM Compilation"
+        },
+        {
+          "id": "detail-3a",
+          "text": "Use the Python frontend and ARM/X86 implementation as input"
+        },
+        {
+          "id": "detail-3b",
+          "text": "Generate C++ code with ARM/X86 instructions"
+        },
+        {
+          "id": "stage-4",
+          "text": "Modify Llama.cpp build code"
+        },
+        {
+          "id": "detail-4a",
+          "text": "Integrate the LUT code during inference"
+        }
+      ],
+      "nativeTextSpansVerbatim": [
+        "370",
+        "CPU Implementation",
+        "1.",
+        "Python Frontend",
+        "a.",
+        "Define tensor computation in Python",
+        "b.",
+        "Specify LUT group, quantization scheme, etc.",
+        "2.",
+        "ARM/X86 Kernel",
+        "a.",
+        "LUT implementation with ARM/X86 instructions (vqtbl1q_u8 for example)",
+        "3.",
+        "TVM Compilation",
+        "a.",
+        "Use the Python frontend and ARM/X86 implementation as input",
+        "b.",
+        "Generate C++ code with ARM/X86 instructions ",
+        "4.",
+        "Modify Llama.cpp build code",
+        "a.",
+        "Integrate the LUT code during inference"
+      ],
+      "selectiveSpans": [],
+      "readingNote": "Native line fragments are joined with one space in bodyParagraphs; nativeTextSpansVerbatim preserves all extracted strings, including table/object copy. Scientific content and source grammar are provenance only."
+    },
+    {
+      "id": "source-23",
+      "example": "example-23-scientific-status-caption.png",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "page1Based": 336,
+      "title": "Adaptive Top-K | Llama 3.1 8B + EAGLE3 at Temperature=0 on H200",
+      "bodyParagraphs": [
+        {
+          "id": "scientific-heading",
+          "text": "Adaptive Top-K | Llama 3.1 8B + EAGLE3 at Temperature=0 on H200"
+        },
+        {
+          "id": "setup",
+          "text": ":Training a standalone 2 layer FFN to determine top-k at each tree depth"
+        },
+        {
+          "id": "implemented-role",
+          "text": "Improvements implemented:"
+        },
+        {
+          "id": "implemented-bias",
+          "text": "Initialized with bias to favor predicting the max top-k value"
+        },
+        {
+          "id": "implemented-features",
+          "text": "Use path probabilities, token probabilities, and entropies at latest layer"
+        },
+        {
+          "id": "implemented-space",
+          "text": "Continuous action space of [0, 10] instead of discrete {0, 1, 2,...,10}"
+        },
+        {
+          "id": "pending-role",
+          "text": "Next steps:"
+        },
+        {
+          "id": "pending-model",
+          "text": "Train larger model to obtain upper bound on predictive accuracy"
+        },
+        {
+          "id": "pending-baselines",
+          "text": "Obtain heuristic-based thresholding baselines (max token/path probability, entropy)"
+        }
+      ],
+      "nativeTextSpansVerbatim": [
+        "336",
+        "Adaptive Top-K | Llama 3.1 8B + EAGLE3 at Temperature=0 on H200",
+        "●",
+        ":Training a standalone 2 layer FFN to determine top-k at each tree depth",
+        "●",
+        "Improvements implemented:",
+        "○",
+        "Initialized with bias to favor predicting the max top-k value",
+        "○",
+        "Use path probabilities, token probabilities, and entropies at latest layer",
+        "○",
+        "Continuous action space of [0, 10] instead of discrete {0, 1, 2,...,10}",
+        "●",
+        "Next steps:",
+        "○",
+        "Train larger model to obtain upper bound on predictive accuracy",
+        "○",
+        "Obtain heuristic-based thresholding baselines (max token/path probability, entropy)",
+        "Method",
+        "Configuration",
+        "MT-Bench",
+        "HumanEval",
+        "GSM8k",
+        "Avg",
+        "Mean AL",
+        "Speedup",
+        "Mean AL",
+        "Speedup",
+        "Mean AL",
+        "Speedup",
+        "Mean AL",
+        "Speed",
+        "up",
+        "Fixed Tree ",
+        "Parameters",
+        "Depth=8",
+        "Top-k=10",
+        "6.41",
+        "3.60",
+        "7.08",
+        "4.16",
+        "6.42",
+        "3.63",
+        "6.64",
+        "3.80",
+        "Depth=12",
+        "Top-k=10",
+        "6.76",
+        "3.32",
+        "7.63",
+        "3.88",
+        "6.62",
+        "3.30",
+        "7.00",
+        "3.50",
+        "Adaptive ",
+        "Top-k",
+        "Max Depth = 8",
+        "6.33",
+        "3.46",
+        "7.01",
+        "4.04",
+        "6.24",
+        "3.53",
+        "6.53",
+        "3.68",
+        "Max Depth = 12",
+        "6.60",
+        "3.53",
+        "7.41",
+        "3.91",
+        "6.34",
+        "3.60",
+        "6.78",
+        "3.69"
+      ],
+      "selectiveSpans": [],
+      "readingNote": "Known-development example Q, explicitly promoted to training; never fresh proof. Native setup starts with a stray colon, which is provenance only. All native strings including complete table text are preserved. Body/source values and method settings never become defaults."
+    }
+  ],
+  "families": [
+    {
+      "family": "algorithm-report-with-supporting-inset",
+      "example": "example-17-algorithm-report-with-supporting-inset.png",
+      "sourceRecordId": "source-17",
+      "titleEvidence": {
+        "present": true,
+        "actualText": [
+          "Finalized Algorithm - Decoding Calibration"
+        ],
+        "grammar": "Status/role phrase followed by a specific algorithm component, separated by a dash. Preserve current working method identity and actual status."
+      },
+      "bodyEvidence": {
+        "voiceFragments": [
+          "High-level Idea:",
+          "decreasing trend versus increasing decoding steps.",
+          "Algorithm:",
+          "Calibration set expansion:",
+          "Mix calibration:"
+        ],
+        "paragraphGrammar": [
+          {
+            "role": "premise-role",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Standalone bold role at ordinary body size."
+          },
+          {
+            "role": "premises",
+            "level": 0,
+            "bullet": true,
+            "cadence": "Connected ordinary bullets develop the observation, difficulty and motivation."
+          },
+          {
+            "role": "algorithm-role",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Standalone bold role at the same body size."
+          },
+          {
+            "role": "operation",
+            "level": 0,
+            "bullet": true,
+            "cadence": "Bold inline action lead followed by the operation and its condition; one natural wrap is supported."
+          }
+        ],
+        "selectiveEmphasis": [
+          {
+            "paragraphId": "idea-role",
+            "quote": "High-level Idea:",
+            "span": [
+              0,
+              16
+            ],
+            "bold": true
+          },
+          {
+            "paragraphId": "algorithm-role",
+            "quote": "Algorithm:",
+            "span": [
+              0,
+              10
+            ],
+            "bold": true
+          },
+          {
+            "paragraphId": "calibration-expansion",
+            "quote": "Calibration set expansion:",
+            "span": [
+              0,
+              26
+            ],
+            "bold": true
+          },
+          {
+            "paragraphId": "mix-calibration",
+            "quote": "Mix calibration:",
+            "span": [
+              0,
+              16
+            ],
+            "bold": true
+          }
+        ],
+        "scope": "Verbatim cadence evidence only. Current facts supply identity, scientific content, values, scope and confidence; original scientific assertions and grammar are not reusable requirements."
+      },
+      "proseTokens": {
+        "font": "Arial",
+        "sizePt": 14,
+        "color": "#333333",
+        "linePitchPt": 16.8,
+        "roleHeadingStyle": "bold standalone roles and selected inline action leads",
+        "structure": "Standalone premise role; ordinary premise bullets; standalone algorithm role; operational bullets with bold inline leads."
+      },
+      "workingCadence": "A specific algorithm title leads into a short premise and operational narrative. Bold role headings and inline action leads distinguish scientific roles, while independent panels and a local example carry supporting evidence. Keep the main reading task in the report rather than converting it into a dependency tour.",
+      "doNotAdd": [
+        "A wide graph replacing the narrative merely because multiple operations or tensors appear",
+        "Repeated explanations of the same operation in prose, inset labels and a second glossary",
+        "A measured benefit inferred only from a motivation"
+      ],
+      "doNotCopy": [
+        "Scientific identities, settings, values or results solely from this reference without current-fact support",
+        "Source grammar damage or an unsupported generalization to imitate authorship"
+      ]
+    },
+    {
+      "family": "paper-method-outline",
+      "example": "example-18-paper-method-outline.png",
+      "sourceRecordId": "source-18",
+      "titleEvidence": {
+        "present": true,
+        "actualText": [
+          "QLoRA: Efﬁcient Finetuning of Quantized LLMs"
+        ],
+        "grammar": "Actual paper title: method name, colon, then the paper’s stated topic. Preserve a current paper identity rather than replacing it with a generic lesson heading."
+      },
+      "bodyEvidence": {
+        "voiceFragments": [
+          "NF4, 4-bit NormalFloat Quantization",
+          "Double Quantization",
+          "Dequantize for computation"
+        ],
+        "paragraphGrammar": [
+          {
+            "role": "method-concept",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Plain numbered concept/name; numbering organizes the paper account.",
+            "marker": "1."
+          },
+          {
+            "role": "concept-detail",
+            "level": 1,
+            "bullet": false,
+            "cadence": "Plain lettered explanatory clauses, settings and operations beneath their own concept.",
+            "marker": "a."
+          },
+          {
+            "role": "supporting-equation",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Independent paper excerpt supports the listed concepts, retaining its own scientific notation."
+          }
+        ],
+        "selectiveEmphasis": [],
+        "scope": "Verbatim cadence evidence only. Current facts supply identity, scientific content, values, scope and confidence; original scientific assertions and grammar are not reusable requirements."
+      },
+      "proseTokens": {
+        "font": "Arial",
+        "sizePt": 14,
+        "color": "#000000",
+        "linePitchPt": 16.8,
+        "roleHeadingStyle": "plain numbered and lettered text; no added bold role labels",
+        "structure": "Numbered conceptual outline with subordinate lettered details; separate independent equation excerpt."
+      },
+      "workingCadence": "Retain the paper title, numbered conceptual components and lettered explanatory detail. A short component may remain a noun phrase; a detail may be a longer operation with its setting. The equation excerpt supports the account without creating a new pipeline or symbol glossary.",
+      "doNotAdd": [
+        "A synthetic Goal/Experiment/Results module around a paper outline",
+        "A pipeline inferred solely from concept numbering",
+        "A second English expansion of every product, precision superscript and constant in a legible equation"
+      ],
+      "doNotCopy": [
+        "Scientific identities, settings, values or results solely from this reference without current-fact support",
+        "Source grammar damage or an unsupported generalization to imitate authorship"
+      ]
+    },
+    {
+      "family": "scientific-table-readout",
+      "example": "example-19-scientific-table-readout.png",
+      "sourceRecordId": "source-19",
+      "titleEvidence": {
+        "present": true,
+        "actualText": [
+          "Evaluation of Approach"
+        ],
+        "grammar": "Short general evaluation title. The separate scientific context line carries model, benchmark, repetition and hardware specificity. A current pure evidence readout may use a sufficient model/settings heading without adding a duplicate synthetic topic."
+      },
+      "bodyEvidence": {
+        "voiceFragments": [
+          "evaluated on GPQA Diamond",
+          "Metrics for Quality of Drafted Reasoning Steps",
+          "Runtime Performance Metrics"
+        ],
+        "paragraphGrammar": [
+          {
+            "role": "context-caption",
+            "level": 0,
+            "bullet": false,
+            "cadence": "One compact plain line gives the scientific conditions."
+          },
+          {
+            "role": "grouped-table",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Grouped scientific headers and nested column labels carry metric semantics; row stubs carry the comparison condition."
+          }
+        ],
+        "selectiveEmphasis": [],
+        "scope": "Verbatim cadence evidence only. Current facts supply identity, scientific content, values, scope and confidence; original scientific assertions and grammar are not reusable requirements."
+      },
+      "proseTokens": {
+        "font": "Montserrat",
+        "sizePt": 10,
+        "color": "#333333",
+        "linePitchPt": null,
+        "roleHeadingStyle": "plain context caption; bold table group headings",
+        "structure": "Small plain scientific caption; table carries grouped meanings and exact values, without body bullets.",
+        "linePitchStatus": "One native caption line; no multiline pitch observed.",
+        "tableFont": "Arial",
+        "tableSizePt": 8,
+        "tableHeaderWeight": "bold grouped headers; regular metric labels"
+      },
+      "workingCadence": "A context line and grouped table supply the scientific account. The selected source adds no result paragraph or metric-by-metric commentary. Preserve any current required scoped observation, but allow table headers and settings to do their own semantic work.",
+      "doNotAdd": [
+        "A paragraph translating the complete table header taxonomy",
+        "A prose inventory of every row or metric",
+        "A synthetic topic headline duplicating a sufficient scientific model/settings heading",
+        "An invented conclusion from a source that only supplies evidence"
+      ],
+      "doNotCopy": [
+        "Scientific identities, settings, values or results solely from this reference without current-fact support",
+        "Source grammar damage or an unsupported generalization to imitate authorship"
+      ]
+    },
+    {
+      "family": "independent-plot-setup",
+      "example": "example-20-independent-plot-setup.png",
+      "sourceRecordId": "source-20",
+      "titleEvidence": {
+        "present": true,
+        "actualText": [
+          "Merging Algorithm Design"
+        ],
+        "grammar": "Short method/design topic, leaving the empirical observation in the body."
+      },
+      "bodyEvidence": {
+        "voiceFragments": [
+          "Emprical study:",
+          "Blue point:",
+          "Green point:",
+          "By using average,"
+        ],
+        "paragraphGrammar": [
+          {
+            "role": "observation",
+            "level": 0,
+            "bullet": true,
+            "cadence": "Parent empirical observation introduces the comparison."
+          },
+          {
+            "role": "series-mapping",
+            "level": 1,
+            "bullet": true,
+            "cadence": "Two subordinate plain bullets map plot series to their conditions."
+          },
+          {
+            "role": "interpretation",
+            "level": 0,
+            "bullet": true,
+            "cadence": "Second peer observation carries the interpretation without retelling axes."
+          },
+          {
+            "role": "equation-support",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Independent equation supplies the mathematical relation below the notes."
+          }
+        ],
+        "selectiveEmphasis": [],
+        "scope": "Verbatim cadence evidence only. Current facts supply identity, scientific content, values, scope and confidence; original scientific assertions and grammar are not reusable requirements."
+      },
+      "proseTokens": {
+        "font": "Arial",
+        "sizePt": 14,
+        "color": "#000000",
+        "linePitchPt": 19.32,
+        "roleHeadingStyle": "plain",
+        "structure": "Parent observation; nested plain series mappings; peer interpretation; independent equation support.",
+        "markerGlyphs": [
+          "●",
+          "○"
+        ]
+      },
+      "workingCadence": "A method/design heading introduces one empirical comparison with nested series mappings and one interpretation. The plot remains intact and its mathematical support remains separate. Define a local color/condition mapping once, then let axes, legend and equation carry their assigned details.",
+      "doNotAdd": [
+        "A narration of each plotted point or every mathematical term",
+        "A new heading/glossary tier replacing the nested series mappings",
+        "Copying an incomplete source observation as a complete scientific conclusion"
+      ],
+      "doNotCopy": [
+        "Scientific identities, settings, values or results solely from this reference without current-fact support",
+        "Source grammar damage or an unsupported generalization to imitate authorship"
+      ]
+    },
+    {
+      "family": "operator-graph",
+      "example": "example-21-operator-graph.png",
+      "sourceRecordId": "source-21",
+      "titleEvidence": {
+        "present": true,
+        "actualText": [
+          "CodeQuant2: Jointly e2e Finetune Framework"
+        ],
+        "grammar": "Working method name plus a specific framework phrase. Retain the current method identity and author’s technical terminology."
+      },
+      "bodyEvidence": {
+        "voiceFragments": [
+          "Developed a joint end-to-end fine-tuning framework",
+          "Jointly finetune",
+          "Centroid matrix:",
+          "Assignment matrix:",
+          "Employ end-to-end fine-tuning"
+        ],
+        "paragraphGrammar": [
+          {
+            "role": "framework-summary",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Plain introductory sentence states the framework."
+          },
+          {
+            "role": "framework-operation",
+            "level": 0,
+            "bullet": true,
+            "cadence": "Ordinary peer bullets identify the main scientific operations."
+          },
+          {
+            "role": "parameter-distinction",
+            "level": 1,
+            "bullet": true,
+            "cadence": "Nested details distinguish parameter types and training choices."
+          },
+          {
+            "role": "local-graph-mapping",
+            "level": 0,
+            "bullet": false,
+            "cadence": "One compact annotation defines the graph’s local update-color mapping."
+          }
+        ],
+        "selectiveEmphasis": [],
+        "scope": "Verbatim cadence evidence only. Current facts supply identity, scientific content, values, scope and confidence; original scientific assertions and grammar are not reusable requirements."
+      },
+      "proseTokens": {
+        "font": "Arial",
+        "sizePt": 14,
+        "color": "#333333",
+        "linePitchPt": 19.32,
+        "roleHeadingStyle": "plain",
+        "structure": "Plain framework introduction; peer operational bullets with nested distinctions; compact independent graph and one local mapping.",
+        "markerGlyphs": [
+          "●",
+          "○"
+        ],
+        "localMappingSizePt": 9
+      },
+      "workingCadence": "A framework summary and ordinary nested notes accompany a real operator graph. Use prose for the scientific distinctions and topology for dependencies and update paths. One local mapping can explain the colored parameters; no verbal walk through each edge is needed.",
+      "doNotAdd": [
+        "A graph substituted for an algorithm whose actual reading task is narrative",
+        "A body paragraph retelling every edge, node and product",
+        "Repeated update/color explanations beside each operator"
+      ],
+      "doNotCopy": [
+        "Scientific identities, settings, values or results solely from this reference without current-fact support",
+        "Source grammar damage or an unsupported generalization to imitate authorship"
+      ]
+    },
+    {
+      "family": "numbered-procedure-report",
+      "example": "example-22-numbered-procedure-report.png",
+      "sourceRecordId": "source-22",
+      "titleEvidence": {
+        "present": true,
+        "actualText": [
+          "CPU Implementation"
+        ],
+        "grammar": "Short implementation topic; concrete system/stage names remain in the numbered report."
+      },
+      "bodyEvidence": {
+        "voiceFragments": [
+          "Python Frontend",
+          "Define tensor computation in Python",
+          "ARM/X86 Kernel",
+          "TVM Compilation",
+          "Modify Llama.cpp build code",
+          "Integrate the LUT code during inference"
+        ],
+        "paragraphGrammar": [
+          {
+            "role": "implementation-stage",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Numbered stage label: a short component noun phrase or an action; no forced full sentence.",
+            "marker": "1."
+          },
+          {
+            "role": "stage-detail",
+            "level": 1,
+            "bullet": false,
+            "cadence": "Smaller lettered actions and concrete implementation details beneath the relevant stage.",
+            "marker": "a."
+          }
+        ],
+        "selectiveEmphasis": [],
+        "scope": "Verbatim cadence evidence only. Current facts supply identity, scientific content, values, scope and confidence; original scientific assertions and grammar are not reusable requirements."
+      },
+      "proseTokens": {
+        "font": "Arial",
+        "sizePt": 18,
+        "color": "#000000",
+        "linePitchPt": 23.16,
+        "roleHeadingStyle": "plain numbered stage labels and plain subordinate lettered details",
+        "structure": "Numbered stages at18pt; subordinate lettered details at14pt; no separate scientific figure.",
+        "detailSizePt": 14,
+        "detailLinePitchPt": 19.32,
+        "markerGlyphs": [
+          "1.",
+          "a."
+        ]
+      },
+      "workingCadence": "A short implementation heading leads to numbered stage names/actions and smaller lettered details. Indentation and type hierarchy carry the ordered procedure. Keep concrete operations and inputs in their own stage rather than adding a diagram or explanatory conclusion.",
+      "doNotAdd": [
+        "An extra workflow diagram that repeats the ordered procedure",
+        "Long introductory or takeaway paragraphs around a sufficient implementation list",
+        "Uniform full sentences replacing short stage nouns and actions",
+        "Completion status or a schedule inferred from stage numbering"
+      ],
+      "doNotCopy": [
+        "Scientific identities, settings, values or results solely from this reference without current-fact support",
+        "Source grammar damage or an unsupported generalization to imitate authorship"
+      ]
+    },
+    {
+      "family": "scientific-status-caption",
+      "example": "example-23-scientific-status-caption.png",
+      "sourceRecordId": "source-23",
+      "titleEvidence": {
+        "present": true,
+        "actualText": [
+          "Adaptive Top-K | Llama 3.1 8B + EAGLE3 at Temperature=0 on H200"
+        ],
+        "grammar": "One black bold sans-serif scientific heading combines method identity and model/settings context. It is the primary heading; there is no second purple topic title. Preserve this caption-like role rather than inferring title voice from serif fonts.",
+        "role": "primary-scientific-context-heading",
+        "separateTopicTitle": false,
+        "fontEvidence": {
+          "font": "Arial-BoldMT",
+          "sizePt": 14,
+          "color": "#000000"
+        }
+      },
+      "bodyEvidence": {
+        "voiceFragments": [
+          "Adaptive Top-K |",
+          "Improvements implemented:",
+          "Initialized with bias",
+          "Next steps:",
+          "Obtain heuristic-based thresholding baselines"
+        ],
+        "paragraphGrammar": [
+          {
+            "role": "scientific-heading",
+            "level": 0,
+            "bullet": false,
+            "cadence": "One compact bold heading supplies method identity and scientific conditions."
+          },
+          {
+            "role": "setup",
+            "level": 0,
+            "bullet": true,
+            "cadence": "A short plain setup bullet identifies the current experiment."
+          },
+          {
+            "role": "implemented-role",
+            "level": 0,
+            "bullet": true,
+            "cadence": "Plain inline role bullet introduces implemented work."
+          },
+          {
+            "role": "implemented-detail",
+            "level": 1,
+            "bullet": true,
+            "cadence": "Subordinate concrete implementation clauses; no added bold labels."
+          },
+          {
+            "role": "pending-role",
+            "level": 0,
+            "bullet": true,
+            "cadence": "Plain role bullet introduces actual next work."
+          },
+          {
+            "role": "pending-detail",
+            "level": 1,
+            "bullet": true,
+            "cadence": "Subordinate action clauses preserve pending status."
+          },
+          {
+            "role": "scientific-table",
+            "level": 0,
+            "bullet": false,
+            "cadence": "Complete grouped table supplies exact comparison; no additional result paragraph is inferred."
+          }
+        ],
+        "selectiveEmphasis": [],
+        "scope": "Verbatim cadence evidence only. Current facts supply identity, scientific content, values, scope and confidence; original scientific assertions and grammar are not reusable requirements."
+      },
+      "proseTokens": {
+        "font": "Montserrat",
+        "sizePt": 10,
+        "color": "#333333",
+        "linePitchPt": 12,
+        "roleHeadingStyle": "plain implemented/pending role bullets; one bold primary scientific heading",
+        "structure": "One primary scientific heading; setup and plain status roles with nested details; grouped scientific table.",
+        "markerFont": "Arial",
+        "markerGlyphs": [
+          "●",
+          "○"
+        ],
+        "primaryHeadingFont": "Arial",
+        "primaryHeadingSizePt": 14,
+        "primaryHeadingWeight": "bold",
+        "primaryHeadingColor": "#000000",
+        "tableFont": "Arial",
+        "tableSizePt": 8
+      },
+      "workingCadence": "A compact scientific heading carries method and model/settings once. Short setup and implemented/pending hierarchies precede the grouped table. Keep implementation changes distinct from planned work, and let the intact table retain exact results without an added metric inventory.",
+      "doNotAdd": [
+        "A second purple topic title above the sufficient black scientific heading",
+        "Bold card-like status labels replacing the ordinary nested report",
+        "An exhaustive prose readout of all benchmark cells",
+        "A pending task stated as completed, or a method benefit inferred from implementation changes"
+      ],
+      "doNotCopy": [
+        "Scientific identities, settings, values or results solely from this reference without current-fact support",
+        "Source grammar damage or an unsupported generalization to imitate authorship"
+      ]
+    }
+  ]
+}

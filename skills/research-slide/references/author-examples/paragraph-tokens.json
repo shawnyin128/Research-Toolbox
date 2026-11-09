@@ -1,0 +1,386 @@
+[
+  {
+    "example": "example-01.png",
+    "markers": [
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 17.0,
+        "color": "#333333",
+        "bboxPt": [
+          54.07,
+          83.46,
+          64.33,
+          100.46
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 17.0,
+        "color": "#333333",
+        "bboxPt": [
+          54.07,
+          124.26,
+          64.33,
+          141.26
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 17.0,
+        "color": "#333333",
+        "bboxPt": [
+          54.07,
+          185.46,
+          64.33,
+          202.46
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 17.0,
+        "color": "#333333",
+        "bboxPt": [
+          54.07,
+          246.66,
+          64.33,
+          263.66
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 17.0,
+        "color": "#333333",
+        "bboxPt": [
+          54.07,
+          287.46,
+          64.33,
+          304.46
+        ]
+      }
+    ],
+    "note": "Glyph bounds in pt, not recovered native text-box bounds."
+  },
+  {
+    "example": "example-02.png",
+    "markers": [
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 10.0,
+        "color": "#333333",
+        "bboxPt": [
+          431.59,
+          342.05,
+          437.63,
+          352.05
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 10.0,
+        "color": "#333333",
+        "bboxPt": [
+          431.59,
+          354.05,
+          437.63,
+          364.05
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 10.0,
+        "color": "#333333",
+        "bboxPt": [
+          431.59,
+          366.05,
+          437.63,
+          376.05
+        ]
+      }
+    ],
+    "note": "Glyph bounds in pt, not recovered native text-box bounds."
+  },
+  {
+    "example": "example-03.png",
+    "markers": [
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 13.0,
+        "color": "#333333",
+        "bboxPt": [
+          83.35,
+          305.31,
+          91.2,
+          318.31
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 13.0,
+        "color": "#333333",
+        "bboxPt": [
+          83.35,
+          320.91,
+          91.2,
+          333.91
+        ]
+      }
+    ],
+    "note": "Glyph bounds in pt, not recovered native text-box bounds."
+  },
+  {
+    "example": "example-06.png",
+    "markers": [
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          80.78,
+          203.99,
+          89.24,
+          217.99
+        ]
+      },
+      {
+        "text": "○",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          116.78,
+          220.79,
+          125.24,
+          234.79
+        ]
+      },
+      {
+        "text": "○",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          116.78,
+          237.59,
+          125.24,
+          251.59
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          80.78,
+          271.19,
+          89.24,
+          285.19
+        ]
+      },
+      {
+        "text": "○",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          116.78,
+          287.99,
+          125.24,
+          301.99
+        ]
+      },
+      {
+        "text": "○",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          116.78,
+          304.79,
+          125.24,
+          318.79
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          80.78,
+          321.59,
+          89.24,
+          335.59
+        ]
+      },
+      {
+        "text": "○",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          116.78,
+          338.39,
+          125.24,
+          352.39
+        ]
+      },
+      {
+        "text": "○",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          116.78,
+          371.99,
+          125.24,
+          385.99
+        ]
+      }
+    ],
+    "note": "Glyph bounds in pt, not recovered native text-box bounds."
+  },
+  {
+    "example": "example-07.png",
+    "markers": [
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          45.06,
+          89.41,
+          53.51,
+          103.41
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          45.06,
+          108.73,
+          53.51,
+          122.73
+        ]
+      },
+      {
+        "text": "○",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          81.06,
+          128.05,
+          89.51,
+          142.05
+        ]
+      },
+      {
+        "text": "○",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "bboxPt": [
+          81.06,
+          166.69,
+          89.51,
+          180.69
+        ]
+      }
+    ],
+    "note": "Glyph bounds in pt, not recovered native text-box bounds."
+  },
+  {
+    "example": "example-09.png",
+    "markers": [
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#333333",
+        "bboxPt": [
+          38.82,
+          122.42,
+          47.28,
+          136.42
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#333333",
+        "bboxPt": [
+          38.82,
+          189.62,
+          47.28,
+          203.62
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#333333",
+        "bboxPt": [
+          38.82,
+          206.42,
+          47.28,
+          220.42
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#333333",
+        "bboxPt": [
+          38.82,
+          223.22,
+          47.28,
+          237.22
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#333333",
+        "bboxPt": [
+          38.82,
+          273.62,
+          47.28,
+          287.62
+        ]
+      },
+      {
+        "text": "●",
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#333333",
+        "bboxPt": [
+          38.82,
+          307.22,
+          47.28,
+          321.22
+        ]
+      }
+    ],
+    "note": "Glyph bounds in pt, not recovered native text-box bounds."
+  }
+]

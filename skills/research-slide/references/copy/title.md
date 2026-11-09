@@ -1,0 +1,7 @@
+# Copy — title language
+
+Read the selected example's `titleEvidence.actualText` separately from `bodyEvidence.voiceFragments`. Match its title presence, syntactic cadence and scientific specificity using current facts. A method/component phrase, an experiment-type phrase, a paper name, an implementation stage and a purpose-bearing title are different choices. Typography alone does not establish title language.
+
+Keep working method names and paper identities when they identify the subject. A paper-method outline can retain the paper's actual title rather than replace it with a generic lesson title. A component/result page may name the method and purpose; an overview may use a short topic plus “Overview” while its inline goal identifies the particular method. Do not automatically absorb the whole goal into a long technical title. Reference titles supply language structure, not reusable scientific names or claims.
+
+Read title, model/settings caption and first role together. A pure evidence readout may already have an adequate scientific heading in its model/settings line; honor the selected title presence and approved hierarchy rather than adding a second synthetic topic. If the selected page has no separate title, preserve that choice unless the approved layout needs one. Remove a subtitle or first sentence that only restates the heading. A distinct condition, paper identity or report role can justify another line; provenance and private production constraints do not.

@@ -1,0 +1,9 @@
+# Independent scientific plot with design notes
+
+Use `independent-plot-setup`, [example20](../author-examples/example-20-independent-plot-setup.png), when an empirical design observation needs intact plots, conditions/series mapping and a separate mathematical justification. The scientific plot remains an independent object. A method name in the title does not require a flowchart.
+
+The measured page has36pt Frank Ruhl Libre Bold purple title,14pt ordinary black Arial notes at19.32pt baseline pitch, and a dominant plot panel x316.64–684.40,y75.19–355.81pt. Filled/hollow marker-text positions are38.20/64.66 and74.20/100.66pt. The plot is51.1% of page width and35.4% of area; a separate equation excerpt sits beneath the notes at x40.36–306.77,y267.98–348.49. A native18pt gray Montserrat local observation overlays the upper plot margin in this source. It is a current-observation option, not a required callout.
+
+Reserve plot, equations and notes as coupled objects. Preserve current axes, units, conditions, panels, data series and series mapping. Plot fonts are raster and their nominal sizes are unknown; neither14pt deck notes nor the18pt native comment sets scientific label size. Keep equation typography independent. Position a scientifically justified local annotation without obscuring data. Source spelling and any scope error are not style requirements.
+
+Compare [plot-led observation](plot-led-observation.md), example13, when a trend/ablation needs only brief purpose and observations at16.8pt pitch. Compare example09 when current report intent supports fuller experimental sections. A plot alone cannot choose the amount or hierarchy of narrative. Measured frames and native spans live in [broad measurements](../author-examples/measurements-broad.json#page1Based=498); the runtime starter is science-free.

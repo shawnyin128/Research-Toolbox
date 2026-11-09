@@ -6,13 +6,14 @@
 
 </div>
 
-A single home for **experimental design, research code, and training optimization**. The three skills share the `research-*` naming convention, install independently, and combine when a task needs them. There is no mandatory end-to-end pipeline.
+A single home for **experimental design, research code, training optimization, and research slides**. The four skills share the `research-*` naming convention, install independently, and combine when a task needs them. There is no mandatory end-to-end pipeline.
 
 | Skill | Previous name | Purpose | Out of scope |
 |---|---|---|---|
 | [research-design](skills/research-design/SKILL.md) | research-fork-test | Design minimal experiments that distinguish mechanisms, with predictions, controls, and kill/expansion criteria | Routine paper summaries or automatically executing experiments |
 | [research-code](skills/research-code/SKILL.md) | SAI-CC / sai-cc | Initialize or substantively refactor research code with SAI conventions enabled by default; verify scientific behavior | Turning every small fix into a repository migration |
 | [research-tune](skills/research-tune/SKILL.md) | hyper-tune | Diagnose training, screen hyperparameters, and confirm configurations within a compute budget | Inference decoding settings or test-set-driven selection |
+| [research-slide](skills/research-slide/SKILL.md) | build-research-slides | Create, continue, revise, or review editable research slides in Google Slides or PowerPoint using the bundled author style | Automatically publishing decks or claiming native-app verification from an offline export |
 
 Skill instructions are written in English and responses follow the user's language. This README is available in English and Simplified Chinese; maintenance and migration notes are currently in Chinese.
 
@@ -75,7 +76,9 @@ python scripts/install.py --dest ~/.codex/skills --update
 python scripts/install.py --dest ~/.codex/skills --update --apply
 ```
 
-The installer does not remove skills under their old names. Follow the [migration notes](docs/migration.md) to move old entries out of discovery and avoid duplicate activation of `sai-cc` / `hyper-tune` and their replacements. Start a new session to refresh the client's skill list.
+The installer does not remove skills under their old names. Follow the [migration notes](docs/migration.md) to move old entries out of discovery and avoid duplicate activation of `sai-cc`, `hyper-tune`, or `build-research-slides` and their replacements. Start a new session to refresh the client's skill list.
+
+`research-slide` includes its reference pages, fonts, assets, and helper scripts. Use the current host's presentation tools for actual authoring and saved-file QA. Its optional PPTX adapter requires host-provided `@oai/artifact-tool` and `skia-canvas`; PDF inspection uses PyMuPDF. These renderers are not installed by the toolbox installer. Offline Google request compilation is not native Google Slides verification.
 
 ## Usage
 
@@ -83,16 +86,17 @@ The installer does not remove skills under their old names. Follow the [migratio
 Use $research-design to turn this mechanism hypothesis into a minimal discriminating experiment.
 Use $research-code to reorganize this research repository, applying SAI conventions and detecting its structure first.
 Use $research-tune to analyze these training curves and plan the next tuning round within 4 GPU-hours.
+Use $research-slide to turn these research notes into editable group-meeting slides, preserving the source evidence and author style.
 ```
 
-Clients with slash-command invocation can use `/research-design`, `/research-code`, or `/research-tune`. Natural-language discovery remains enabled.
+Clients with slash-command invocation can use `/research-design`, `/research-code`, `/research-tune`, or `/research-slide`. Natural-language discovery remains enabled.
 
 When combining skills, pass a compact experiment brief: question, intervention and fixed controls, configuration entrypoint, data roles and split identities, metric, budget, and kill/expansion rules. Avoid adding documentation rituals or extra stages solely to connect skills.
 
 ## Repository layout and maintenance
 
 ```text
-skills/             Three independent packages: SKILL.md, agents, references, necessary assets
+skills/             Four independent packages: SKILL.md, agents, references, necessary assets/scripts
 scripts/            Installation and validation; not included in installed skills
 tests/              Installer behavior, update recovery, and standalone-reference tests
 evaluations/        Scenarios and review criteria, not reported model-evaluation scores
@@ -104,6 +108,7 @@ toolbox.json        Version, installation catalog, and old-name mappings
 python -m pip install -r requirements-dev.txt
 python scripts/validate.py
 python -m unittest discover -s tests -v
+python -m unittest discover -s skills/research-slide/scripts -p "test_*.py" -v
 ```
 
 GitHub Actions runs these checks on Windows and Linux. They check packaging consistency and tooling behavior, not model performance on research tasks. See [evaluations](evaluations/README.md) for the behavioral evaluation process.

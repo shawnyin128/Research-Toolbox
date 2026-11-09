@@ -1,0 +1,6508 @@
+{
+  "schemaVersion": 1,
+  "units": "PDF pt on720x405; framePt/bboxPt are[x1,y1,x2,y2] corners. Native font sizes are exact PDF extractions; image typography remains unrecovered.",
+  "scope": "Six source pages selected by functional coverage from a21-page visual sample after conservative exclusion. Promoted permanently to DEVELOPMENT/TRAINING forv10; never fresh proof. Sources PDF1p83;PDF2p158/370/589;PDF3p347/498. No fresh targets, fresh rawcases or excluded-range pages inspected. Broader permitted-page census is recorded separately. Later explicit one-page development admission: PDF3p336 (example23), past lexical gate only; range and hash bans retained.",
+  "measurementMethod": "PyMuPDF per-page text spans, baseline origins, image placement and path envelopes; full-page images at2x. Path clipping envelopes are not inferred textboxes; no original clipping or scientific errors are reusable requirements.",
+  "rawSourceWarning": "Verbatim source copy and values are provenance only. Family records are separately science-free. Preserve current numeric truth/scope, not errors in these originals.",
+  "records": [
+    {
+      "example": "example-17-algorithm-report-with-supporting-inset.png",
+      "family": "algorithm-report-with-supporting-inset",
+      "source": "Cerebras & NYU Weekly Quantization Spring 2026.pdf",
+      "sourceId": "PDF1",
+      "page1Based": 83,
+      "trainingOnly": true,
+      "canvasPt": [
+        720,
+        405
+      ],
+      "textSpans": [
+        {
+          "text": "83",
+          "font": "Montserrat-Bold",
+          "sizePt": 7.0,
+          "color": "#330662",
+          "bboxPt": [
+            678.4062,
+            362.381,
+            687.1702,
+            370.914
+          ],
+          "baselineOriginPt": [
+            678.4062,
+            369.157
+          ]
+        },
+        {
+          "text": "Finalized Algorithm - Decoding Calibration",
+          "font": "FrankRuhlLibre-Bold",
+          "sizePt": 27.0,
+          "color": "#57068C",
+          "bboxPt": [
+            33.561,
+            26.9495,
+            567.189,
+            61.8065
+          ],
+          "baselineOriginPt": [
+            33.561,
+            52.7885
+          ]
+        },
+        {
+          "text": "High-level Idea:",
+          "font": "Arial-BoldMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            35.061,
+            76.0369,
+            138.423,
+            90.0369
+          ],
+          "baselineOriginPt": [
+            35.061,
+            86.9026
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            44.6097,
+            92.8369,
+            53.0657,
+            106.8369
+          ],
+          "baselineOriginPt": [
+            44.6097,
+            103.7026
+          ]
+        },
+        {
+          "text": "Activation\u2019s channel-wise standard deviation has a ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            92.8369,
+            387.3489,
+            106.8369
+          ],
+          "baselineOriginPt": [
+            71.061,
+            103.7026
+          ]
+        },
+        {
+          "text": "decreasing trend versus increasing decoding steps.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            109.6369,
+            389.981,
+            123.6369
+          ],
+          "baselineOriginPt": [
+            71.061,
+            120.5026
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            44.6097,
+            126.4369,
+            53.0657,
+            140.4369
+          ],
+          "baselineOriginPt": [
+            44.6097,
+            137.3026
+          ]
+        },
+        {
+          "text": "High standard deviation makes it hard to quantize.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            126.4369,
+            382.141,
+            140.4369
+          ],
+          "baselineOriginPt": [
+            71.061,
+            137.3026
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            44.6097,
+            143.2369,
+            53.0657,
+            157.2369
+          ],
+          "baselineOriginPt": [
+            44.6097,
+            154.1026
+          ]
+        },
+        {
+          "text": "Smoothing the first few tokens has a larger benefit.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            143.2369,
+            385.963,
+            157.2369
+          ],
+          "baselineOriginPt": [
+            71.061,
+            154.1026
+          ]
+        },
+        {
+          "text": "Algorithm:",
+          "font": "Arial-BoldMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            35.061,
+            160.0369,
+            105.761,
+            174.0369
+          ],
+          "baselineOriginPt": [
+            35.061,
+            170.9026
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            44.6097,
+            176.8369,
+            53.0657,
+            190.8369
+          ],
+          "baselineOriginPt": [
+            44.6097,
+            187.7026
+          ]
+        },
+        {
+          "text": "Calibration set expansion:",
+          "font": "Arial-BoldMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            176.8369,
+            245.921,
+            190.8369
+          ],
+          "baselineOriginPt": [
+            71.061,
+            187.7026
+          ]
+        },
+        {
+          "text": " full-precision decodes ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            245.9975,
+            176.8369,
+            389.1055,
+            190.8369
+          ],
+          "baselineOriginPt": [
+            245.9975,
+            187.7026
+          ]
+        },
+        {
+          "text": "on each input sample.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            193.6369,
+            207.953,
+            207.6369
+          ],
+          "baselineOriginPt": [
+            71.061,
+            204.5026
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            44.6097,
+            210.4369,
+            53.0657,
+            224.4369
+          ],
+          "baselineOriginPt": [
+            44.6097,
+            221.3026
+          ]
+        },
+        {
+          "text": "Mix calibration:",
+          "font": "Arial-BoldMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            210.4369,
+            173.6391,
+            224.4369
+          ],
+          "baselineOriginPt": [
+            71.061,
+            221.3026
+          ]
+        },
+        {
+          "text": " 90% original sample + 10% ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            173.6863,
+            210.4369,
+            351.3883,
+            224.4369
+          ],
+          "baselineOriginPt": [
+            173.6863,
+            221.3026
+          ]
+        },
+        {
+          "text": "original sample + decoding extension.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            227.2369,
+            305.575,
+            241.2369
+          ],
+          "baselineOriginPt": [
+            71.061,
+            238.1026
+          ]
+        },
+        {
+          "text": "GPT-OSS-20B",
+          "font": "ArialMT",
+          "sizePt": 12.3503,
+          "color": "#333333",
+          "bboxPt": [
+            522.9949,
+            159.1738,
+            603.9017,
+            171.5241
+          ],
+          "baselineOriginPt": [
+            522.9949,
+            168.7591
+          ]
+        },
+        {
+          "text": "Qwen3-30B-A3B-Thinking",
+          "font": "ArialMT",
+          "sizePt": 12.3503,
+          "color": "#333333",
+          "bboxPt": [
+            491.7805,
+            273.6639,
+            635.1675,
+            286.0142
+          ],
+          "baselineOriginPt": [
+            491.7805,
+            283.2492
+          ]
+        },
+        {
+          "text": "Qwen3-4B-Thinking",
+          "font": "ArialMT",
+          "sizePt": 12.3503,
+          "color": "#333333",
+          "bboxPt": [
+            508.9286,
+            388.1541,
+            618.0188,
+            400.5044
+          ],
+          "baselineOriginPt": [
+            508.9286,
+            397.7394
+          ]
+        },
+        {
+          "text": "Text + Decode",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            241.3976,
+            271.3056,
+            331.2216,
+            285.3056
+          ],
+          "baselineOriginPt": [
+            241.3976,
+            282.1713
+          ]
+        },
+        {
+          "text": "Qu",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#188038",
+          "bboxPt": [
+            193.2111,
+            301.8165,
+            207.8741,
+            312.8165
+          ],
+          "baselineOriginPt": [
+            193.2111,
+            310.3538
+          ]
+        },
+        {
+          "text": "estions: ... How many clips did Natalia ",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#008000",
+          "bboxPt": [
+            207.8745,
+            301.8165,
+            396.0185,
+            312.8165
+          ],
+          "baselineOriginPt": [
+            207.8745,
+            310.3538
+          ]
+        },
+        {
+          "text": "sell altogether in April and May?",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#008000",
+          "bboxPt": [
+            193.2111,
+            315.0165,
+            349.0261,
+            326.0165
+          ],
+          "baselineOriginPt": [
+            193.2111,
+            323.5538
+          ]
+        },
+        {
+          "text": "Prediction: ",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#188038",
+          "bboxPt": [
+            193.2111,
+            340.2165,
+            248.1891,
+            351.2165
+          ],
+          "baselineOriginPt": [
+            193.2111,
+            348.7538
+          ]
+        },
+        {
+          "text": "Okay, let's see. The problem ",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#FF9900",
+          "bboxPt": [
+            248.1989,
+            340.2165,
+            389.7798,
+            351.2165
+          ],
+          "baselineOriginPt": [
+            248.1989,
+            348.7538
+          ]
+        },
+        {
+          "text": "says Natalia sold clips to 48 of her ",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#FF9900",
+          "bboxPt": [
+            193.2111,
+            353.4165,
+            363.0511,
+            364.4165
+          ],
+          "baselineOriginPt": [
+            193.2111,
+            361.9538
+          ]
+        },
+        {
+          "text": "friends in April\u2026",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#FF9900",
+          "bboxPt": [
+            193.2111,
+            366.6165,
+            273.2471,
+            377.6165
+          ],
+          "baselineOriginPt": [
+            193.2111,
+            375.1538
+          ]
+        },
+        {
+          "text": "Text",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            82.5438,
+            272.5336,
+            108.2058,
+            286.5336
+          ],
+          "baselineOriginPt": [
+            82.5438,
+            283.3993
+          ]
+        },
+        {
+          "text": "The little cat sat on ",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#008000",
+          "bboxPt": [
+            48.7993,
+            316.5859,
+            144.0703,
+            327.5859
+          ],
+          "baselineOriginPt": [
+            48.7993,
+            325.1232
+          ]
+        },
+        {
+          "text": "the window and ",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#008000",
+          "bboxPt": [
+            48.7993,
+            331.7659,
+            128.2413,
+            342.7659
+          ],
+          "baselineOriginPt": [
+            48.7993,
+            340.3032
+          ]
+        },
+        {
+          "text": "watched birds ",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#008000",
+          "bboxPt": [
+            48.7993,
+            346.9459,
+            119.6833,
+            357.9459
+          ],
+          "baselineOriginPt": [
+            48.7993,
+            355.4832
+          ]
+        },
+        {
+          "text": "outside",
+          "font": "ArialMT",
+          "sizePt": 11.0,
+          "color": "#008000",
+          "bboxPt": [
+            48.7993,
+            362.1259,
+            84.2523,
+            373.1259
+          ],
+          "baselineOriginPt": [
+            48.7993,
+            370.6632
+          ]
+        }
+      ],
+      "images": [
+        {
+          "framePt": [
+            32.0611,
+            357.4111,
+            93.1695,
+            378.1512
+          ],
+          "pixels": [
+            330,
+            112
+          ]
+        },
+        {
+          "framePt": [
+            0.0001,
+            -8.7917,
+            720.0002,
+            20.7402
+          ],
+          "pixels": [
+            2048,
+            84
+          ]
+        },
+        {
+          "framePt": [
+            401.5,
+            -20.8091,
+            708.619,
+            153.2933
+          ],
+          "pixels": [
+            2048,
+            1161
+          ]
+        },
+        {
+          "framePt": [
+            401.499,
+            92.7984,
+            708.6184,
+            266.7569
+          ],
+          "pixels": [
+            2048,
+            1160
+          ]
+        },
+        {
+          "framePt": [
+            403.8563,
+            207.5553,
+            710.9752,
+            381.6615
+          ],
+          "pixels": [
+            2048,
+            1161
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "framePt": [
+            0.0,
+            0.0,
+            720.0,
+            405.0
+          ],
+          "type": "f",
+          "fill": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            32.0611,
+            357.4111,
+            93.1695,
+            378.1512
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            363.7736,
+            355.687,
+            693.9153,
+            379.876
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            0.0001,
+            0.0001,
+            720.0002,
+            20.7402
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            184.6476,
+            258.2264,
+            399.5079,
+            390.4803
+          ],
+          "type": "f",
+          "fill": [
+            0.9529411792755127,
+            0.9529411792755127,
+            0.9529411792755127
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            184.6476,
+            280.2687,
+            399.5079,
+            302.311
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            184.6476,
+            258.2264,
+            399.5079,
+            390.4803
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            184.6476,
+            280.2687,
+            399.5079,
+            302.311
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            184.6476,
+            258.2264,
+            399.5079,
+            390.4803
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            28.311,
+            21.6185,
+            691.689,
+            66.713
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            28.311,
+            66.7126,
+            399.5079,
+            245.6732
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            401.5,
+            61.6122,
+            708.619,
+            153.2933
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            401.499,
+            173.004,
+            708.6183,
+            266.7569
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            403.8563,
+            289.8236,
+            710.9753,
+            381.6615
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            432.4705,
+            91.8307,
+            691.8642,
+            113.3976
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            432.4705,
+            91.8307,
+            687.3395,
+            113.0214
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "widthPt": 1.324803113937378,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            685.7314,
+            111.4133,
+            689.9341,
+            114.3827
+          ],
+          "type": "fs",
+          "fill": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "widthPt": 1.324803113937378,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            433.58,
+            201.0892,
+            693.0446,
+            228.0183
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            433.58,
+            201.0892,
+            688.5286,
+            227.5496
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "widthPt": 1.324803113937378,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            686.8929,
+            225.9139,
+            691.1182,
+            228.8777
+          ],
+          "type": "fs",
+          "fill": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "widthPt": 1.324803113937378,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            434.1035,
+            313.9807,
+            694.631,
+            335.1461
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            434.1035,
+            313.9807,
+            690.1057,
+            334.7784
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "widthPt": 1.324803113937378,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            688.5001,
+            333.1729,
+            692.7007,
+            336.1428
+          ],
+          "type": "fs",
+          "fill": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "color": [
+            0.0,
+            0.0,
+            1.0
+          ],
+          "widthPt": 1.324803113937378,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            503.8797,
+            153.2933,
+            623.0294,
+            175.3327
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            484.7579,
+            267.7835,
+            642.1516,
+            289.8228
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            484.7579,
+            382.2736,
+            642.1516,
+            404.313
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            215.3898,
+            267.7179,
+            357.2401,
+            286.5446
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            186.4611,
+            293.0438,
+            401.3272,
+            386.3745
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            39.6477,
+            258.436,
+            151.1004,
+            390.69
+          ],
+          "type": "f",
+          "fill": [
+            0.9529411792755127,
+            0.9529411792755127,
+            0.9529411792755127
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            39.6477,
+            280.4783,
+            151.1004,
+            302.5207
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            39.6477,
+            258.436,
+            151.1004,
+            390.69
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            39.6477,
+            280.4783,
+            151.1004,
+            302.5207
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            39.6477,
+            258.436,
+            151.1004,
+            390.69
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            70.4292,
+            268.9459,
+            120.319,
+            287.7726
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            42.0493,
+            307.8132,
+            148.3012,
+            381.6794
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        }
+      ]
+    },
+    {
+      "example": "example-18-paper-method-outline.png",
+      "family": "paper-method-outline",
+      "source": "Cerebras & NYU Weekly Quantization.pdf",
+      "sourceId": "PDF2",
+      "page1Based": 158,
+      "trainingOnly": true,
+      "canvasPt": [
+        720,
+        405
+      ],
+      "textSpans": [
+        {
+          "text": "158",
+          "font": "Montserrat-Bold",
+          "sizePt": 7.0,
+          "color": "#330662",
+          "bboxPt": [
+            672.8099,
+            362.381,
+            684.3389,
+            370.914
+          ],
+          "baselineOriginPt": [
+            672.8099,
+            369.157
+          ]
+        },
+        {
+          "text": "QLoRA: Ef\ufb01cient Finetuning of Quantized LLMs",
+          "font": "FrankRuhlLibre-Bold",
+          "sizePt": 23.0,
+          "color": "#57068C",
+          "bboxPt": [
+            28.9193,
+            29.8228,
+            526.3864,
+            59.5158
+          ],
+          "baselineOriginPt": [
+            28.9193,
+            51.8338
+          ]
+        },
+        {
+          "text": "1.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            75.6339,
+            87.3214,
+            87.2959,
+            101.3214
+          ],
+          "baselineOriginPt": [
+            75.6339,
+            98.187
+          ]
+        },
+        {
+          "text": "NF4, 4-bit NormalFloat Quantization",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            105.3031,
+            87.3214,
+            329.2191,
+            101.3214
+          ],
+          "baselineOriginPt": [
+            105.3031,
+            98.187
+          ]
+        },
+        {
+          "text": "a.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            111.6339,
+            104.1214,
+            123.2959,
+            118.1214
+          ],
+          "baselineOriginPt": [
+            111.6339,
+            114.987
+          ]
+        },
+        {
+          "text": "estimate the 2^k + 1 quantiles of a theoretical N(0, 1) distribution to obtain ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            141.3031,
+            104.1214,
+            601.5529,
+            118.1214
+          ],
+          "baselineOriginPt": [
+            141.3031,
+            114.987
+          ]
+        },
+        {
+          "text": "a k-bit quantile quantization data type for normal distributions",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            141.3031,
+            120.9214,
+            518.463,
+            134.9214
+          ],
+          "baselineOriginPt": [
+            141.3031,
+            131.787
+          ]
+        },
+        {
+          "text": "b.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            111.6339,
+            137.7214,
+            123.2959,
+            151.7214
+          ],
+          "baselineOriginPt": [
+            111.6339,
+            148.587
+          ]
+        },
+        {
+          "text": "quantize an input weight tensor by normalizing it into the [\u22121, 1] range ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            141.3031,
+            137.7214,
+            576.367,
+            151.7214
+          ],
+          "baselineOriginPt": [
+            141.3031,
+            148.587
+          ]
+        },
+        {
+          "text": "through absolute maximum rescaling, store the quantization constant",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            141.3031,
+            154.5214,
+            568.275,
+            168.5214
+          ],
+          "baselineOriginPt": [
+            141.3031,
+            165.387
+          ]
+        },
+        {
+          "text": "c.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            112.4196,
+            171.3214,
+            123.2976,
+            185.3214
+          ],
+          "baselineOriginPt": [
+            112.4196,
+            182.187
+          ]
+        },
+        {
+          "text": "Group size is 64",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            141.3031,
+            171.3214,
+            242.3971,
+            185.3214
+          ],
+          "baselineOriginPt": [
+            141.3031,
+            182.187
+          ]
+        },
+        {
+          "text": "2.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            75.6339,
+            188.1214,
+            87.2959,
+            202.1214
+          ],
+          "baselineOriginPt": [
+            75.6339,
+            198.987
+          ]
+        },
+        {
+          "text": "Double Quantization",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            105.3031,
+            188.1214,
+            232.0871,
+            202.1214
+          ],
+          "baselineOriginPt": [
+            105.3031,
+            198.987
+          ]
+        },
+        {
+          "text": "a.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            111.6339,
+            204.9213,
+            123.2959,
+            218.9213
+          ],
+          "baselineOriginPt": [
+            111.6339,
+            215.787
+          ]
+        },
+        {
+          "text": "Quantize the quantization constant using FP8, group size 256",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            141.3031,
+            204.9213,
+            523.153,
+            218.9213
+          ],
+          "baselineOriginPt": [
+            141.3031,
+            215.787
+          ]
+        },
+        {
+          "text": "3.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            75.6339,
+            221.7213,
+            87.2959,
+            235.7213
+          ],
+          "baselineOriginPt": [
+            75.6339,
+            232.587
+          ]
+        },
+        {
+          "text": "Dequantize for computation",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            105.3031,
+            221.7213,
+            276.4111,
+            235.7213
+          ],
+          "baselineOriginPt": [
+            105.3031,
+            232.587
+          ]
+        }
+      ],
+      "images": [
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "pixels": [
+            330,
+            112
+          ]
+        },
+        {
+          "framePt": [
+            0.0,
+            -8.7917,
+            720.0002,
+            20.7402
+          ],
+          "pixels": [
+            2048,
+            84
+          ]
+        },
+        {
+          "framePt": [
+            106.8878,
+            245.2421,
+            554.9647,
+            350.0197
+          ],
+          "pixels": [
+            1052,
+            246
+          ]
+        },
+        {
+          "framePt": [
+            5.1299,
+            353.4332,
+            110.7914,
+            379.2629
+          ],
+          "pixels": [
+            634,
+            155
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "framePt": [
+            0.0,
+            0.0,
+            720.0,
+            405.0
+          ],
+          "type": "f",
+          "fill": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            360.9408,
+            355.687,
+            691.0825,
+            379.876
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            0.0,
+            0.0001,
+            720.0002,
+            20.7402
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            22.1693,
+            23.0038,
+            685.5472,
+            61.0117
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            62.5532,
+            77.997,
+            604.7972,
+            245.2411
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            106.8878,
+            245.2421,
+            554.9646,
+            350.0197
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            5.1299,
+            353.4332,
+            110.7914,
+            379.2629
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        }
+      ]
+    },
+    {
+      "example": "example-19-scientific-table-readout.png",
+      "family": "scientific-table-readout",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "sourceId": "PDF3",
+      "page1Based": 347,
+      "trainingOnly": true,
+      "canvasPt": [
+        720,
+        405
+      ],
+      "textSpans": [
+        {
+          "text": "347",
+          "font": "Montserrat-Bold",
+          "sizePt": 7.0,
+          "color": "#330662",
+          "bboxPt": [
+            674.1598,
+            362.381,
+            687.1798,
+            370.914
+          ],
+          "baselineOriginPt": [
+            674.1598,
+            369.157
+          ]
+        },
+        {
+          "text": "Evaluation of Approach",
+          "font": "FrankRuhlLibre-Bold",
+          "sizePt": 35.0,
+          "color": "#57068C",
+          "bboxPt": [
+            31.2933,
+            48.6409,
+            407.7533,
+            93.8259
+          ],
+          "baselineOriginPt": [
+            31.2933,
+            82.1359
+          ]
+        },
+        {
+          "text": "QwQ 32B  + R1-Distill-Qwen-1.5B evaluated on GPQA Diamond (10 prompts x 4 repetitions) over 2xH200s",
+          "font": "Montserrat-Regular",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            87.9272,
+            108.8688,
+            606.4772,
+            121.0588
+          ],
+          "baselineOriginPt": [
+            87.9272,
+            118.5488
+          ]
+        },
+        {
+          "text": "K",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            91.1604,
+            142.7496,
+            96.9364,
+            150.7496
+          ],
+          "baselineOriginPt": [
+            91.1604,
+            148.9585
+          ]
+        },
+        {
+          "text": "Metrics for Quality of Drafted Reasoning Steps",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            147.4424,
+            142.7496,
+            324.6424,
+            150.7496
+          ],
+          "baselineOriginPt": [
+            147.4424,
+            148.9585
+          ]
+        },
+        {
+          "text": "Runtime Performance Metrics",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            412.7182,
+            142.7496,
+            526.0062,
+            150.7496
+          ],
+          "baselineOriginPt": [
+            412.7182,
+            148.9585
+          ]
+        },
+        {
+          "text": "End-to-End ",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            595.9683,
+            142.7496,
+            641.2322,
+            150.7496
+          ],
+          "baselineOriginPt": [
+            595.9683,
+            148.9585
+          ]
+        },
+        {
+          "text": "Accuracy",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            599.5019,
+            152.3496,
+            635.5099,
+            160.3496
+          ],
+          "baselineOriginPt": [
+            599.5019,
+            158.5585
+          ]
+        },
+        {
+          "text": "Mean score",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            134.0039,
+            172.7496,
+            175.7879,
+            180.7496
+          ],
+          "baselineOriginPt": [
+            134.0039,
+            178.9585
+          ]
+        },
+        {
+          "text": "Acceptance rate",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            200.0797,
+            172.7496,
+            257.8557,
+            180.7496
+          ],
+          "baselineOriginPt": [
+            200.0797,
+            178.9585
+          ]
+        },
+        {
+          "text": "Mean number of ",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            281.0147,
+            172.7496,
+            341.4547,
+            180.7496
+          ],
+          "baselineOriginPt": [
+            281.0147,
+            178.9585
+          ]
+        },
+        {
+          "text": "consecutively ",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            286.1249,
+            182.3496,
+            336.3489,
+            190.3496
+          ],
+          "baselineOriginPt": [
+            286.1249,
+            188.5585
+          ]
+        },
+        {
+          "text": "accepted steps",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            283.2332,
+            191.9496,
+            337.0172,
+            199.9496
+          ],
+          "baselineOriginPt": [
+            283.2332,
+            198.1585
+          ]
+        },
+        {
+          "text": "Drafting time (small ",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            361.4703,
+            172.7496,
+            432.5423,
+            180.7496
+          ],
+          "baselineOriginPt": [
+            361.4703,
+            178.9585
+          ]
+        },
+        {
+          "text": "model decoding)",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            366.3425,
+            182.3496,
+            425.4705,
+            190.3496
+          ],
+          "baselineOriginPt": [
+            366.3425,
+            188.5585
+          ]
+        },
+        {
+          "text": "Verification time ",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            449.4519,
+            172.7496,
+            508.0919,
+            180.7496
+          ],
+          "baselineOriginPt": [
+            449.4519,
+            178.9585
+          ]
+        },
+        {
+          "text": "(base model ",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            455.6682,
+            182.3496,
+            501.8922,
+            190.3496
+          ],
+          "baselineOriginPt": [
+            455.6682,
+            188.5585
+          ]
+        },
+        {
+          "text": "prefill)",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            466.7784,
+            191.9496,
+            488.5464,
+            199.9496
+          ],
+          "baselineOriginPt": [
+            466.7784,
+            198.1585
+          ]
+        },
+        {
+          "text": "Correction time ",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            524.0244,
+            172.7496,
+            580.4484,
+            180.7496
+          ],
+          "baselineOriginPt": [
+            524.0244,
+            178.9585
+          ]
+        },
+        {
+          "text": "(base model ",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            529.1268,
+            182.3496,
+            575.3509,
+            190.3496
+          ],
+          "baselineOriginPt": [
+            529.1268,
+            188.5585
+          ]
+        },
+        {
+          "text": "decoding)",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            533.5659,
+            191.9496,
+            568.6939,
+            199.9496
+          ],
+          "baselineOriginPt": [
+            533.5659,
+            198.1585
+          ]
+        },
+        {
+          "text": "1",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            91.8238,
+            219.4996,
+            96.2718,
+            227.4996
+          ],
+          "baselineOriginPt": [
+            91.8238,
+            225.7085
+          ]
+        },
+        {
+          "text": "6.0440",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            142.6595,
+            219.4996,
+            167.1155,
+            227.4996
+          ],
+          "baselineOriginPt": [
+            142.6595,
+            225.7085
+          ]
+        },
+        {
+          "text": "0.6087",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            216.7352,
+            219.4996,
+            241.1912,
+            227.4996
+          ],
+          "baselineOriginPt": [
+            216.7352,
+            225.7085
+          ]
+        },
+        {
+          "text": "0.9739",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            297.8907,
+            219.4996,
+            322.3468,
+            227.4996
+          ],
+          "baselineOriginPt": [
+            297.8907,
+            225.7085
+          ]
+        },
+        {
+          "text": "0.1119",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            384.2591,
+            219.4996,
+            407.5311,
+            227.4996
+          ],
+          "baselineOriginPt": [
+            384.2591,
+            225.7085
+          ]
+        },
+        {
+          "text": "0.0408",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            465.436,
+            219.4996,
+            489.892,
+            227.4996
+          ],
+          "baselineOriginPt": [
+            465.436,
+            225.7085
+          ]
+        },
+        {
+          "text": "0.8592",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            538.8947,
+            219.4996,
+            563.3506,
+            227.4996
+          ],
+          "baselineOriginPt": [
+            538.8947,
+            225.7085
+          ]
+        },
+        {
+          "text": "0.7632",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            605.2736,
+            219.4996,
+            629.7296,
+            227.4996
+          ],
+          "baselineOriginPt": [
+            605.2736,
+            225.7085
+          ]
+        },
+        {
+          "text": "2",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            91.8238,
+            249.4996,
+            96.2718,
+            257.4996
+          ],
+          "baselineOriginPt": [
+            91.8238,
+            255.7085
+          ]
+        },
+        {
+          "text": "6.0852",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            142.6595,
+            249.4996,
+            167.1155,
+            257.4996
+          ],
+          "baselineOriginPt": [
+            142.6595,
+            255.7085
+          ]
+        },
+        {
+          "text": "0.6413",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            216.7352,
+            249.4996,
+            241.1912,
+            257.4996
+          ],
+          "baselineOriginPt": [
+            216.7352,
+            255.7085
+          ]
+        },
+        {
+          "text": "1.1619",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            297.8907,
+            249.4996,
+            322.3468,
+            257.4996
+          ],
+          "baselineOriginPt": [
+            297.8907,
+            255.7085
+          ]
+        },
+        {
+          "text": "0.1416",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            383.6654,
+            249.4996,
+            408.1214,
+            257.4996
+          ],
+          "baselineOriginPt": [
+            383.6654,
+            255.7085
+          ]
+        },
+        {
+          "text": "0.0580",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            465.436,
+            249.4996,
+            489.892,
+            257.4996
+          ],
+          "baselineOriginPt": [
+            465.436,
+            255.7085
+          ]
+        },
+        {
+          "text": "0.8855",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            538.8947,
+            249.4996,
+            563.3506,
+            257.4996
+          ],
+          "baselineOriginPt": [
+            538.8947,
+            255.7085
+          ]
+        },
+        {
+          "text": "0.8000",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            605.2736,
+            249.4996,
+            629.7296,
+            257.4996
+          ],
+          "baselineOriginPt": [
+            605.2736,
+            255.7085
+          ]
+        },
+        {
+          "text": "4",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            91.8238,
+            279.4996,
+            96.2718,
+            287.4996
+          ],
+          "baselineOriginPt": [
+            91.8238,
+            285.7085
+          ]
+        },
+        {
+          "text": "6.5691",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            142.6595,
+            279.4996,
+            167.1155,
+            287.4996
+          ],
+          "baselineOriginPt": [
+            142.6595,
+            285.7085
+          ]
+        },
+        {
+          "text": "0.7538",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            216.7352,
+            279.4996,
+            241.1912,
+            287.4996
+          ],
+          "baselineOriginPt": [
+            216.7352,
+            285.7085
+          ]
+        },
+        {
+          "text": "1.9249",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            297.8907,
+            279.4996,
+            322.3468,
+            287.4996
+          ],
+          "baselineOriginPt": [
+            297.8907,
+            285.7085
+          ]
+        },
+        {
+          "text": "0.1492",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            383.6654,
+            279.4996,
+            408.1214,
+            287.4996
+          ],
+          "baselineOriginPt": [
+            383.6654,
+            285.7085
+          ]
+        },
+        {
+          "text": "0.0951",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            465.436,
+            279.4996,
+            489.892,
+            287.4996
+          ],
+          "baselineOriginPt": [
+            465.436,
+            285.7085
+          ]
+        },
+        {
+          "text": "0.9045",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            538.8947,
+            279.4996,
+            563.3506,
+            287.4996
+          ],
+          "baselineOriginPt": [
+            538.8947,
+            285.7085
+          ]
+        },
+        {
+          "text": "0.6667",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            605.2736,
+            279.4996,
+            629.7296,
+            287.4996
+          ],
+          "baselineOriginPt": [
+            605.2736,
+            285.7085
+          ]
+        },
+        {
+          "text": "8",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            91.8238,
+            309.4996,
+            96.2718,
+            317.4996
+          ],
+          "baselineOriginPt": [
+            91.8238,
+            315.7085
+          ]
+        },
+        {
+          "text": "6.4421",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            142.6595,
+            309.4996,
+            167.1155,
+            317.4996
+          ],
+          "baselineOriginPt": [
+            142.6595,
+            315.7085
+          ]
+        },
+        {
+          "text": "0.7331",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            216.7352,
+            309.4996,
+            241.1912,
+            317.4996
+          ],
+          "baselineOriginPt": [
+            216.7352,
+            315.7085
+          ]
+        },
+        {
+          "text": "1.4389",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            297.8907,
+            309.4996,
+            322.3468,
+            317.4996
+          ],
+          "baselineOriginPt": [
+            297.8907,
+            315.7085
+          ]
+        },
+        {
+          "text": "0.1938",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            383.6654,
+            309.4996,
+            408.1214,
+            317.4996
+          ],
+          "baselineOriginPt": [
+            383.6654,
+            315.7085
+          ]
+        },
+        {
+          "text": "0.1663",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            465.436,
+            309.4996,
+            489.892,
+            317.4996
+          ],
+          "baselineOriginPt": [
+            465.436,
+            315.7085
+          ]
+        },
+        {
+          "text": "0.8820",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            538.8947,
+            309.4996,
+            563.3506,
+            317.4996
+          ],
+          "baselineOriginPt": [
+            538.8947,
+            315.7085
+          ]
+        },
+        {
+          "text": "0.6579",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            605.2736,
+            309.4996,
+            629.7296,
+            317.4996
+          ],
+          "baselineOriginPt": [
+            605.2736,
+            315.7085
+          ]
+        }
+      ],
+      "images": [
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "pixels": [
+            330,
+            112
+          ]
+        },
+        {
+          "framePt": [
+            0.0,
+            -8.7917,
+            720.0002,
+            20.7403
+          ],
+          "pixels": [
+            2048,
+            84
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "framePt": [
+            0.0,
+            0.0,
+            720.0,
+            405.0
+          ],
+          "type": "f",
+          "fill": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            363.7736,
+            355.687,
+            693.9153,
+            379.876
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            0.0,
+            0.0001,
+            720.0002,
+            20.7403
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            24.5433,
+            41.7859,
+            687.9213,
+            86.8803
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            81.1772,
+            102.1988,
+            638.8228,
+            128.8681
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            66.0915,
+            134.5285,
+            122.001,
+            211.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            122.001,
+            134.5285,
+            350.0738,
+            164.5285
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            350.0738,
+            134.5285,
+            588.6191,
+            164.5285
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            588.6191,
+            134.5285,
+            646.373,
+            211.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            122.001,
+            164.5285,
+            187.7628,
+            211.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            187.7628,
+            164.5285,
+            270.1526,
+            211.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            270.1526,
+            164.5285,
+            350.0738,
+            211.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            350.0738,
+            164.5285,
+            441.7018,
+            211.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            441.7018,
+            164.5285,
+            513.6152,
+            211.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            513.6152,
+            164.5285,
+            588.6191,
+            211.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            66.0915,
+            211.2785,
+            122.001,
+            241.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            66.0915,
+            241.2785,
+            122.001,
+            271.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            66.0915,
+            271.2785,
+            122.001,
+            301.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            66.0915,
+            301.2785,
+            122.001,
+            331.2785
+          ],
+          "type": "f",
+          "fill": [
+            0.800000011920929,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            66.0915,
+            134.1545,
+            66.0915,
+            331.6526
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            122.001,
+            134.1545,
+            122.001,
+            331.6526
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            187.7628,
+            164.1545,
+            187.7628,
+            331.6526
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            270.1526,
+            164.1545,
+            270.1526,
+            331.6526
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            350.0738,
+            134.1545,
+            350.0738,
+            331.6526
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            441.7018,
+            164.1545,
+            441.7018,
+            331.6526
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            513.6152,
+            164.1545,
+            513.6152,
+            331.6526
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            588.6191,
+            134.1545,
+            588.6191,
+            331.6526
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            646.373,
+            134.1545,
+            646.373,
+            331.6526
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            65.7175,
+            134.5285,
+            646.7471,
+            134.5285
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            121.627,
+            164.5285,
+            588.9931,
+            164.5285
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            65.7175,
+            211.2785,
+            646.7471,
+            211.2785
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            65.7175,
+            241.2785,
+            646.7471,
+            241.2785
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            65.7175,
+            271.2785,
+            646.7471,
+            271.2785
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            65.7175,
+            301.2785,
+            646.7471,
+            301.2785
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            65.7175,
+            331.2785,
+            646.7471,
+            331.2785
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        }
+      ]
+    },
+    {
+      "example": "example-20-independent-plot-setup.png",
+      "family": "independent-plot-setup",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "sourceId": "PDF3",
+      "page1Based": 498,
+      "trainingOnly": true,
+      "canvasPt": [
+        720,
+        405
+      ],
+      "textSpans": [
+        {
+          "text": "498",
+          "font": "Montserrat-Bold",
+          "sizePt": 7.0,
+          "color": "#330662",
+          "bboxPt": [
+            670.4662,
+            362.381,
+            684.3403,
+            370.914
+          ],
+          "baselineOriginPt": [
+            670.4662,
+            369.157
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            38.2042,
+            95.5645,
+            46.6602,
+            109.5645
+          ],
+          "baselineOriginPt": [
+            38.2042,
+            106.4302
+          ]
+        },
+        {
+          "text": "Emprical study: single token attention ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            64.6555,
+            95.5645,
+            300.2614,
+            109.5645
+          ],
+          "baselineOriginPt": [
+            64.6555,
+            106.4302
+          ]
+        },
+        {
+          "text": "score variant is larger, but for recent ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            64.6555,
+            114.8845,
+            291.6935,
+            128.8845
+          ],
+          "baselineOriginPt": [
+            64.6555,
+            125.7502
+          ]
+        },
+        {
+          "text": "window avg attention score",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            64.6555,
+            134.2045,
+            233.4255,
+            148.2045
+          ],
+          "baselineOriginPt": [
+            64.6555,
+            145.0701
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            74.2042,
+            153.5245,
+            82.6602,
+            167.5245
+          ],
+          "baselineOriginPt": [
+            74.2042,
+            164.3901
+          ]
+        },
+        {
+          "text": "Blue point: average attention ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            100.6555,
+            153.5245,
+            282.6274,
+            167.5245
+          ],
+          "baselineOriginPt": [
+            100.6555,
+            164.3901
+          ]
+        },
+        {
+          "text": "variant for windowsize=64",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            100.6555,
+            172.8445,
+            262.0335,
+            186.8445
+          ],
+          "baselineOriginPt": [
+            100.6555,
+            183.7101
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            74.2042,
+            192.1645,
+            82.6602,
+            206.1645
+          ],
+          "baselineOriginPt": [
+            74.2042,
+            203.0301
+          ]
+        },
+        {
+          "text": "Green point: average attention ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            100.6555,
+            192.1645,
+            293.5194,
+            206.1645
+          ],
+          "baselineOriginPt": [
+            100.6555,
+            203.0301
+          ]
+        },
+        {
+          "text": "variant for windowsize=1",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            100.6555,
+            211.4845,
+            254.2495,
+            225.4845
+          ],
+          "baselineOriginPt": [
+            100.6555,
+            222.3501
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            38.2042,
+            230.8044,
+            46.6602,
+            244.8044
+          ],
+          "baselineOriginPt": [
+            38.2042,
+            241.6701
+          ]
+        },
+        {
+          "text": "By using average, the further step has ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            64.6555,
+            230.8044,
+            304.9375,
+            244.8044
+          ],
+          "baselineOriginPt": [
+            64.6555,
+            241.6701
+          ]
+        },
+        {
+          "text": "smaller output difference",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            64.6555,
+            250.1244,
+            217.6055,
+            264.1245
+          ],
+          "baselineOriginPt": [
+            64.6555,
+            260.9901
+          ]
+        },
+        {
+          "text": "Merging Algorithm Design",
+          "font": "FrankRuhlLibre-Bold",
+          "sizePt": 36.0,
+          "color": "#57068C",
+          "bboxPt": [
+            24.1575,
+            29.2255,
+            460.2615,
+            75.7015
+          ],
+          "baselineOriginPt": [
+            24.1575,
+            63.6775
+          ]
+        },
+        {
+          "text": "Blue point ",
+          "font": "Montserrat-Regular",
+          "sizePt": 18.0,
+          "color": "#333333",
+          "bboxPt": [
+            614.4606,
+            73.8954,
+            713.0826,
+            95.8374
+          ],
+          "baselineOriginPt": [
+            614.4606,
+            91.3194
+          ]
+        },
+        {
+          "text": "is near x ",
+          "font": "Montserrat-Regular",
+          "sizePt": 18.0,
+          "color": "#333333",
+          "bboxPt": [
+            614.4606,
+            95.4954,
+            692.4547,
+            117.4374
+          ],
+          "baselineOriginPt": [
+            614.4606,
+            112.9194
+          ]
+        }
+      ],
+      "images": [
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "pixels": [
+            330,
+            112
+          ]
+        },
+        {
+          "framePt": [
+            0.0,
+            -8.7917,
+            720.0002,
+            20.7402
+          ],
+          "pixels": [
+            2048,
+            84
+          ]
+        },
+        {
+          "framePt": [
+            316.6378,
+            75.187,
+            684.3956,
+            355.811
+          ],
+          "pixels": [
+            1224,
+            934
+          ]
+        },
+        {
+          "framePt": [
+            40.3622,
+            267.9783,
+            306.7678,
+            348.494
+          ],
+          "pixels": [
+            986,
+            298
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "framePt": [
+            0.0,
+            0.0,
+            720.0,
+            405.0
+          ],
+          "type": "f",
+          "fill": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            360.9408,
+            355.687,
+            691.0825,
+            379.876
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            0.0,
+            0.0001,
+            720.0002,
+            20.7402
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            21.9055,
+            86.2402,
+            316.6378,
+            273.8465
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            316.6378,
+            75.187,
+            684.3956,
+            355.811
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            40.3622,
+            267.9783,
+            306.7678,
+            348.494
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            17.4075,
+            29.2795,
+            641.6673,
+            78.7205
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            508.8799,
+            119.1594,
+            630.8406,
+            191.372
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            512.7521,
+            119.1594,
+            630.8406,
+            189.0794
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            509.8234,
+            188.0134,
+            513.3832,
+            190.8134
+          ],
+          "type": "fs",
+          "fill": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "color": [
+            0.20000000298023224,
+            0.20000000298023224,
+            0.20000000298023224
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            607.7106,
+            67.2894,
+            721.2618,
+            125.4705
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        }
+      ]
+    },
+    {
+      "example": "example-21-operator-graph.png",
+      "family": "operator-graph",
+      "source": "Cerebras & NYU Weekly Quantization.pdf",
+      "sourceId": "PDF2",
+      "page1Based": 589,
+      "trainingOnly": true,
+      "canvasPt": [
+        720,
+        405
+      ],
+      "textSpans": [
+        {
+          "text": "589",
+          "font": "Montserrat-Bold",
+          "sizePt": 7.0,
+          "color": "#330662",
+          "bboxPt": [
+            673.9287,
+            362.381,
+            687.1727,
+            370.914
+          ],
+          "baselineOriginPt": [
+            673.9287,
+            369.157
+          ]
+        },
+        {
+          "text": "CodeQuant2: Jointly e2e Finetune Framework",
+          "font": "FrankRuhlLibre-Bold",
+          "sizePt": 22.0,
+          "color": "#57068C",
+          "bboxPt": [
+            30.502,
+            45.2358,
+            488.4319,
+            73.6378
+          ],
+          "baselineOriginPt": [
+            30.502,
+            66.2898
+          ]
+        },
+        {
+          "text": "Developed a joint end-to-end fine-tuning framework with ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            39.8976,
+            108.342,
+            390.6396,
+            122.342
+          ],
+          "baselineOriginPt": [
+            39.8976,
+            119.2077
+          ]
+        },
+        {
+          "text": "trainable assignment and centroid matrices",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            39.8976,
+            127.662,
+            306.6676,
+            141.662
+          ],
+          "baselineOriginPt": [
+            39.8976,
+            138.5277
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            49.4463,
+            146.982,
+            57.9023,
+            160.982
+          ],
+          "baselineOriginPt": [
+            49.4463,
+            157.8477
+          ]
+        },
+        {
+          "text": "Jointly finetune centroid matrix(C) and assignment ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            75.8976,
+            146.982,
+            390.8416,
+            160.982
+          ],
+          "baselineOriginPt": [
+            75.8976,
+            157.8477
+          ]
+        },
+        {
+          "text": "matrix(A)",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            75.8976,
+            166.302,
+            132.6396,
+            180.302
+          ],
+          "baselineOriginPt": [
+            75.8976,
+            177.1677
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            85.4463,
+            185.622,
+            93.9023,
+            199.622
+          ],
+          "baselineOriginPt": [
+            85.4463,
+            196.4877
+          ]
+        },
+        {
+          "text": "Centroid matrix: continuous, trained in the ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            111.8976,
+            185.622,
+            374.7196,
+            199.622
+          ],
+          "baselineOriginPt": [
+            111.8976,
+            196.4877
+          ]
+        },
+        {
+          "text": "same way as CodeQuant",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            111.8976,
+            204.942,
+            269.0056,
+            218.942
+          ],
+          "baselineOriginPt": [
+            111.8976,
+            215.8077
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            85.4463,
+            224.262,
+            93.9023,
+            238.262
+          ],
+          "baselineOriginPt": [
+            85.4463,
+            235.1277
+          ]
+        },
+        {
+          "text": "Assignment matrix: Binary parameters, ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            111.8976,
+            224.262,
+            356.8136,
+            238.262
+          ],
+          "baselineOriginPt": [
+            111.8976,
+            235.1277
+          ]
+        },
+        {
+          "text": "trained using prior and STE.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            111.8976,
+            243.582,
+            286.0716,
+            257.582
+          ],
+          "baselineOriginPt": [
+            111.8976,
+            254.4477
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            49.4463,
+            262.902,
+            57.9023,
+            276.902
+          ],
+          "baselineOriginPt": [
+            49.4463,
+            273.7677
+          ]
+        },
+        {
+          "text": "Employ end-to-end fine-tuning",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            75.8976,
+            262.902,
+            263.3436,
+            276.902
+          ],
+          "baselineOriginPt": [
+            75.8976,
+            273.7677
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            85.4463,
+            282.222,
+            93.9023,
+            296.222
+          ],
+          "baselineOriginPt": [
+            85.4463,
+            293.0877
+          ]
+        },
+        {
+          "text": "Experiment with end-to-end loss functions, ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            111.8976,
+            282.222,
+            379.3956,
+            296.222
+          ],
+          "baselineOriginPt": [
+            111.8976,
+            293.0877
+          ]
+        },
+        {
+          "text": "e.g. cross-entropy, KL divergence",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#333333",
+          "bboxPt": [
+            111.8976,
+            301.542,
+            319.5456,
+            315.542
+          ],
+          "baselineOriginPt": [
+            111.8976,
+            312.4077
+          ]
+        },
+        {
+          "text": "Red: parameters with ",
+          "font": "ArialMT",
+          "sizePt": 9.0,
+          "color": "#333333",
+          "bboxPt": [
+            578.1437,
+            110.7073,
+            666.1187,
+            119.7073
+          ],
+          "baselineOriginPt": [
+            578.1437,
+            117.6924
+          ]
+        },
+        {
+          "text": "gradients (will be updated)",
+          "font": "ArialMT",
+          "sizePt": 9.0,
+          "color": "#333333",
+          "bboxPt": [
+            578.1437,
+            121.5073,
+            683.6417,
+            130.5073
+          ],
+          "baselineOriginPt": [
+            578.1437,
+            128.4924
+          ]
+        }
+      ],
+      "images": [
+        {
+          "framePt": [
+            32.0611,
+            357.4111,
+            93.1695,
+            378.1512
+          ],
+          "pixels": [
+            330,
+            112
+          ]
+        },
+        {
+          "framePt": [
+            0.0001,
+            -8.7917,
+            720.0002,
+            20.7402
+          ],
+          "pixels": [
+            2048,
+            84
+          ]
+        },
+        {
+          "framePt": [
+            5.1299,
+            353.4332,
+            110.7914,
+            379.2629
+          ],
+          "pixels": [
+            634,
+            155
+          ]
+        },
+        {
+          "framePt": [
+            445.5768,
+            82.1929,
+            604.5748,
+            351.1417
+          ],
+          "pixels": [
+            389,
+            658
+          ]
+        },
+        {
+          "framePt": [
+            551.6063,
+            254.7493,
+            657.2677,
+            270.2717
+          ],
+          "pixels": [
+            422,
+            62
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "framePt": [
+            0.0,
+            0.0,
+            720.0,
+            405.0
+          ],
+          "type": "f",
+          "fill": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            32.0611,
+            357.4111,
+            93.1695,
+            378.1512
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            363.7736,
+            355.687,
+            693.9153,
+            379.876
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            0.0001,
+            0.0001,
+            720.0002,
+            20.7402
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            5.1299,
+            353.4332,
+            110.7914,
+            379.2629
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            25.252,
+            39.9198,
+            694.748,
+            85.0143
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            33.1476,
+            99.0177,
+            405.0059,
+            334.3169
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            445.5768,
+            82.1929,
+            604.5748,
+            351.1417
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            571.3937,
+            103.7894,
+            694.748,
+            135.9154
+          ],
+          "type": "f",
+          "fill": [
+            0.95686274766922,
+            0.800000011920929,
+            0.800000011920929
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            551.6063,
+            254.7492,
+            657.2677,
+            270.2717
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        }
+      ]
+    },
+    {
+      "example": "example-22-numbered-procedure-report.png",
+      "family": "numbered-procedure-report",
+      "source": "Cerebras & NYU Weekly Quantization.pdf",
+      "sourceId": "PDF2",
+      "page1Based": 370,
+      "trainingOnly": true,
+      "canvasPt": [
+        720,
+        405
+      ],
+      "textSpans": [
+        {
+          "text": "370",
+          "font": "Montserrat-Bold",
+          "sizePt": 7.0,
+          "color": "#330662",
+          "bboxPt": [
+            671.3059,
+            362.381,
+            684.3538,
+            370.914
+          ],
+          "baselineOriginPt": [
+            671.3059,
+            369.157
+          ]
+        },
+        {
+          "text": "CPU Implementation",
+          "font": "FrankRuhlLibre-Bold",
+          "sizePt": 22.0,
+          "color": "#57068C",
+          "bboxPt": [
+            31.2933,
+            34.9144,
+            244.4953,
+            63.3164
+          ],
+          "baselineOriginPt": [
+            31.2933,
+            55.9684
+          ]
+        },
+        {
+          "text": "1.",
+          "font": "ArialMT",
+          "sizePt": 18.0,
+          "color": "#000000",
+          "bboxPt": [
+            67.2462,
+            104.6976,
+            82.2402,
+            122.6976
+          ],
+          "baselineOriginPt": [
+            67.2462,
+            118.6678
+          ]
+        },
+        {
+          "text": "Python Frontend",
+          "font": "ArialMT",
+          "sizePt": 18.0,
+          "color": "#000000",
+          "bboxPt": [
+            100.2579,
+            104.6976,
+            233.2419,
+            122.6976
+          ],
+          "baselineOriginPt": [
+            100.2579,
+            118.6678
+          ]
+        },
+        {
+          "text": "a.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            106.5886,
+            130.9621,
+            118.2506,
+            144.9621
+          ],
+          "baselineOriginPt": [
+            106.5886,
+            141.8278
+          ]
+        },
+        {
+          "text": "Define tensor computation in Python",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            136.2579,
+            130.9621,
+            361.7838,
+            144.9621
+          ],
+          "baselineOriginPt": [
+            136.2579,
+            141.8278
+          ]
+        },
+        {
+          "text": "b.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            106.5886,
+            150.2821,
+            118.2506,
+            164.2821
+          ],
+          "baselineOriginPt": [
+            106.5886,
+            161.1478
+          ]
+        },
+        {
+          "text": "Specify LUT group, quantization scheme, etc.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            136.2579,
+            150.2821,
+            418.2738,
+            164.2821
+          ],
+          "baselineOriginPt": [
+            136.2579,
+            161.1478
+          ]
+        },
+        {
+          "text": "2.",
+          "font": "ArialMT",
+          "sizePt": 18.0,
+          "color": "#000000",
+          "bboxPt": [
+            67.2462,
+            170.3376,
+            82.2402,
+            188.3376
+          ],
+          "baselineOriginPt": [
+            67.2462,
+            184.3078
+          ]
+        },
+        {
+          "text": "ARM/X86 Kernel",
+          "font": "ArialMT",
+          "sizePt": 18.0,
+          "color": "#000000",
+          "bboxPt": [
+            100.2579,
+            170.3376,
+            234.2139,
+            188.3376
+          ],
+          "baselineOriginPt": [
+            100.2579,
+            184.3078
+          ]
+        },
+        {
+          "text": "a.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            106.5886,
+            196.6021,
+            118.2506,
+            210.6021
+          ],
+          "baselineOriginPt": [
+            106.5886,
+            207.4678
+          ]
+        },
+        {
+          "text": "LUT implementation with ARM/X86 instructions (vqtbl1q_u8 for example)",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            136.2579,
+            196.6021,
+            586.2457,
+            210.6021
+          ],
+          "baselineOriginPt": [
+            136.2579,
+            207.4678
+          ]
+        },
+        {
+          "text": "3.",
+          "font": "ArialMT",
+          "sizePt": 18.0,
+          "color": "#000000",
+          "bboxPt": [
+            67.2462,
+            216.6576,
+            82.2402,
+            234.6576
+          ],
+          "baselineOriginPt": [
+            67.2462,
+            230.6278
+          ]
+        },
+        {
+          "text": "TVM Compilation",
+          "font": "ArialMT",
+          "sizePt": 18.0,
+          "color": "#000000",
+          "bboxPt": [
+            100.2579,
+            216.6576,
+            238.2099,
+            234.6576
+          ],
+          "baselineOriginPt": [
+            100.2579,
+            230.6278
+          ]
+        },
+        {
+          "text": "a.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            106.5886,
+            242.9221,
+            118.2506,
+            256.9221
+          ],
+          "baselineOriginPt": [
+            106.5886,
+            253.7878
+          ]
+        },
+        {
+          "text": "Use the Python frontend and ARM/X86 implementation as input",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            136.2579,
+            242.9221,
+            528.9717,
+            256.9221
+          ],
+          "baselineOriginPt": [
+            136.2579,
+            253.7878
+          ]
+        },
+        {
+          "text": "b.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            106.5886,
+            262.2421,
+            118.2506,
+            276.2421
+          ],
+          "baselineOriginPt": [
+            106.5886,
+            273.1078
+          ]
+        },
+        {
+          "text": "Generate C++ code with ARM/X86 instructions ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            136.2579,
+            262.2421,
+            429.3898,
+            276.2421
+          ],
+          "baselineOriginPt": [
+            136.2579,
+            273.1078
+          ]
+        },
+        {
+          "text": "4.",
+          "font": "ArialMT",
+          "sizePt": 18.0,
+          "color": "#000000",
+          "bboxPt": [
+            67.2462,
+            282.2976,
+            82.2402,
+            300.2976
+          ],
+          "baselineOriginPt": [
+            67.2462,
+            296.2678
+          ]
+        },
+        {
+          "text": "Modify Llama.cpp build code",
+          "font": "ArialMT",
+          "sizePt": 18.0,
+          "color": "#000000",
+          "bboxPt": [
+            100.2579,
+            282.2976,
+            328.2639,
+            300.2976
+          ],
+          "baselineOriginPt": [
+            100.2579,
+            296.2678
+          ]
+        },
+        {
+          "text": "a.",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            106.5886,
+            308.5621,
+            118.2506,
+            322.5621
+          ],
+          "baselineOriginPt": [
+            106.5886,
+            319.4278
+          ]
+        },
+        {
+          "text": "Integrate the LUT code during inference",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            136.2579,
+            308.5621,
+            383.3159,
+            322.5621
+          ],
+          "baselineOriginPt": [
+            136.2579,
+            319.4278
+          ]
+        }
+      ],
+      "images": [
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "pixels": [
+            330,
+            112
+          ]
+        },
+        {
+          "framePt": [
+            0.0,
+            -8.7917,
+            720.0002,
+            20.7402
+          ],
+          "pixels": [
+            2048,
+            84
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "framePt": [
+            0.0,
+            0.0,
+            720.0,
+            405.0
+          ],
+          "type": "f",
+          "fill": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            360.9408,
+            355.687,
+            691.0825,
+            379.876
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            0.0,
+            0.0001,
+            720.0002,
+            20.7402
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            24.5433,
+            28.0984,
+            674.7874,
+            79.9016
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            57.5079,
+            94.6378,
+            695.4685,
+            344.2756
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        }
+      ]
+    },
+    {
+      "example": "example-23-scientific-status-caption.png",
+      "family": "scientific-status-caption",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "sourceId": "PDF3",
+      "page1Based": 336,
+      "formerDevelopmentCase": "Q",
+      "trainingOnly": true,
+      "admission": "Explicit root authorization re-admits ONLY known-development PDF3p336 past conservative lexical quarantine; fresh range and excluded image/native-text hashes remain enforced and passed. Distinct standalone width-predictor development experiment, not excluded training loss comparison.",
+      "canvasPt": [
+        720,
+        405
+      ],
+      "textSpans": [
+        {
+          "text": "336",
+          "font": "Montserrat-Bold",
+          "sizePt": 7.0,
+          "color": "#330662",
+          "bboxPt": [
+            674.4604,
+            362.381,
+            687.1794,
+            370.914
+          ],
+          "baselineOriginPt": [
+            674.4604,
+            369.157
+          ]
+        },
+        {
+          "text": "Adaptive Top-K | Llama 3.1 8B + EAGLE3 at Temperature=0 on H200",
+          "font": "Arial-BoldMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            78.3484,
+            45.6334,
+            527.8883,
+            59.6334
+          ],
+          "baselineOriginPt": [
+            78.3484,
+            56.4991
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            90.3107,
+            76.4097,
+            96.3507,
+            86.4097
+          ],
+          "baselineOriginPt": [
+            90.3107,
+            84.1709
+          ]
+        },
+        {
+          "text": ":Training a standalone 2 layer FFN to determine top-k at each tree depth",
+          "font": "Montserrat-Regular",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            114.3484,
+            74.4909,
+            474.8986,
+            86.6809
+          ],
+          "baselineOriginPt": [
+            114.3484,
+            84.1709
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            90.3107,
+            88.4097,
+            96.3507,
+            98.4097
+          ],
+          "baselineOriginPt": [
+            90.3107,
+            96.1709
+          ]
+        },
+        {
+          "text": "Improvements implemented:",
+          "font": "Montserrat-Regular",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            114.3484,
+            86.4909,
+            262.0984,
+            98.6809
+          ],
+          "baselineOriginPt": [
+            114.3484,
+            96.1709
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            126.3107,
+            100.4097,
+            132.3507,
+            110.4097
+          ],
+          "baselineOriginPt": [
+            126.3107,
+            108.1709
+          ]
+        },
+        {
+          "text": "Initialized with bias to favor predicting the max top-k value",
+          "font": "Montserrat-Regular",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            150.3484,
+            98.4909,
+            443.8185,
+            110.6809
+          ],
+          "baselineOriginPt": [
+            150.3484,
+            108.1709
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            126.3107,
+            112.4097,
+            132.3507,
+            122.4097
+          ],
+          "baselineOriginPt": [
+            126.3107,
+            120.1709
+          ]
+        },
+        {
+          "text": "Use path probabilities, token probabilities, and entropies at latest layer",
+          "font": "Montserrat-Regular",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            150.3484,
+            110.4909,
+            501.2484,
+            122.6809
+          ],
+          "baselineOriginPt": [
+            150.3484,
+            120.1709
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            126.3107,
+            124.4097,
+            132.3507,
+            134.4097
+          ],
+          "baselineOriginPt": [
+            126.3107,
+            132.1709
+          ]
+        },
+        {
+          "text": "Continuous action space of [0, 10] instead of discrete {0, 1, 2,...,10}",
+          "font": "Montserrat-Regular",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            150.3484,
+            122.4909,
+            466.3285,
+            134.6809
+          ],
+          "baselineOriginPt": [
+            150.3484,
+            132.1709
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            90.3107,
+            136.4097,
+            96.3507,
+            146.4097
+          ],
+          "baselineOriginPt": [
+            90.3107,
+            144.1709
+          ]
+        },
+        {
+          "text": "Next steps:",
+          "font": "Montserrat-Regular",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            114.3484,
+            134.4909,
+            168.9784,
+            146.6809
+          ],
+          "baselineOriginPt": [
+            114.3484,
+            144.1709
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            126.3107,
+            148.4097,
+            132.3507,
+            158.4097
+          ],
+          "baselineOriginPt": [
+            126.3107,
+            156.1709
+          ]
+        },
+        {
+          "text": "Train larger model to obtain upper bound on predictive accuracy",
+          "font": "Montserrat-Regular",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            150.3484,
+            146.4909,
+            473.5785,
+            158.6809
+          ],
+          "baselineOriginPt": [
+            150.3484,
+            156.1709
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            126.3107,
+            160.4097,
+            132.3507,
+            170.4097
+          ],
+          "baselineOriginPt": [
+            126.3107,
+            168.1709
+          ]
+        },
+        {
+          "text": "Obtain heuristic-based thresholding baselines (max token/path probability, entropy)",
+          "font": "Montserrat-Regular",
+          "sizePt": 10.0,
+          "color": "#333333",
+          "bboxPt": [
+            150.3484,
+            158.4909,
+            569.2884,
+            170.6809
+          ],
+          "baselineOriginPt": [
+            150.3484,
+            168.1709
+          ]
+        },
+        {
+          "text": "Method",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            104.7569,
+            190.5734,
+            133.1729,
+            198.5734
+          ],
+          "baselineOriginPt": [
+            104.7569,
+            196.7824
+          ]
+        },
+        {
+          "text": "Configuration",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            161.1762,
+            190.5734,
+            213.5522,
+            198.5734
+          ],
+          "baselineOriginPt": [
+            161.1762,
+            196.7824
+          ]
+        },
+        {
+          "text": "MT-Bench",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            238.3278,
+            190.5734,
+            276.5278,
+            198.5734
+          ],
+          "baselineOriginPt": [
+            238.3278,
+            196.7824
+          ]
+        },
+        {
+          "text": "HumanEval",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            336.8789,
+            190.5734,
+            380.4149,
+            198.5734
+          ],
+          "baselineOriginPt": [
+            336.8789,
+            196.7824
+          ]
+        },
+        {
+          "text": "GSM8k",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            450.2845,
+            190.5734,
+            477.3885,
+            198.5734
+          ],
+          "baselineOriginPt": [
+            450.2845,
+            196.7824
+          ]
+        },
+        {
+          "text": "Avg",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            563.6899,
+            190.5734,
+            578.4979,
+            198.5734
+          ],
+          "baselineOriginPt": [
+            563.6899,
+            196.7824
+          ]
+        },
+        {
+          "text": "Mean AL",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            238.3278,
+            214.5695,
+            271.3438,
+            222.5695
+          ],
+          "baselineOriginPt": [
+            238.3278,
+            220.7784
+          ]
+        },
+        {
+          "text": "Speedup",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            288.5226,
+            214.5695,
+            322.2667,
+            222.5695
+          ],
+          "baselineOriginPt": [
+            288.5226,
+            220.7784
+          ]
+        },
+        {
+          "text": "Mean AL",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            336.8789,
+            214.5695,
+            369.895,
+            222.5695
+          ],
+          "baselineOriginPt": [
+            336.8789,
+            220.7784
+          ]
+        },
+        {
+          "text": "Speedup",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            393.5817,
+            214.5695,
+            427.3257,
+            222.5695
+          ],
+          "baselineOriginPt": [
+            393.5817,
+            220.7784
+          ]
+        },
+        {
+          "text": "Mean AL",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            450.2845,
+            214.5695,
+            483.3005,
+            222.5695
+          ],
+          "baselineOriginPt": [
+            450.2845,
+            220.7784
+          ]
+        },
+        {
+          "text": "Speedup",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            506.9872,
+            214.5695,
+            540.7312,
+            222.5695
+          ],
+          "baselineOriginPt": [
+            506.9872,
+            220.7784
+          ]
+        },
+        {
+          "text": "Mean AL",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            563.6899,
+            214.5695,
+            596.7059,
+            222.5695
+          ],
+          "baselineOriginPt": [
+            563.6899,
+            220.7784
+          ]
+        },
+        {
+          "text": "Speed",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            620.3927,
+            214.5695,
+            644.3767,
+            222.5695
+          ],
+          "baselineOriginPt": [
+            620.3927,
+            220.7784
+          ]
+        },
+        {
+          "text": "up",
+          "font": "Arial-BoldMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            620.3927,
+            224.1695,
+            630.1527,
+            232.1695
+          ],
+          "baselineOriginPt": [
+            620.3927,
+            230.3784
+          ]
+        },
+        {
+          "text": "Fixed Tree ",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            104.7569,
+            257.7663,
+            144.7409,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            104.7569,
+            263.9753
+          ]
+        },
+        {
+          "text": "Parameters",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            104.7569,
+            267.3663,
+            146.0849,
+            275.3663
+          ],
+          "baselineOriginPt": [
+            104.7569,
+            273.5753
+          ]
+        },
+        {
+          "text": "Depth=8",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            161.1762,
+            257.7663,
+            191.6242,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            161.1762,
+            263.9753
+          ]
+        },
+        {
+          "text": "Top-k=10",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            161.1762,
+            267.3663,
+            194.2962,
+            275.3663
+          ],
+          "baselineOriginPt": [
+            161.1762,
+            273.5753
+          ]
+        },
+        {
+          "text": "6.41",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            238.3278,
+            257.7663,
+            253.8878,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            238.3278,
+            263.9753
+          ]
+        },
+        {
+          "text": "3.60",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            288.5226,
+            257.7663,
+            304.0826,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            288.5226,
+            263.9753
+          ]
+        },
+        {
+          "text": "7.08",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            336.8789,
+            257.7663,
+            352.4389,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            336.8789,
+            263.9753
+          ]
+        },
+        {
+          "text": "4.16",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            393.5817,
+            257.7663,
+            409.1417,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            393.5817,
+            263.9753
+          ]
+        },
+        {
+          "text": "6.42",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            450.2845,
+            257.7663,
+            465.8445,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            450.2845,
+            263.9753
+          ]
+        },
+        {
+          "text": "3.63",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            506.9872,
+            257.7663,
+            522.5472,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            506.9872,
+            263.9753
+          ]
+        },
+        {
+          "text": "6.64",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            563.6899,
+            257.7663,
+            579.2499,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            563.6899,
+            263.9753
+          ]
+        },
+        {
+          "text": "3.80",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            620.3927,
+            257.7663,
+            635.9527,
+            265.7663
+          ],
+          "baselineOriginPt": [
+            620.3927,
+            263.9753
+          ]
+        },
+        {
+          "text": "Depth=12",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            161.1762,
+            291.3628,
+            196.0722,
+            299.3628
+          ],
+          "baselineOriginPt": [
+            161.1762,
+            297.5717
+          ]
+        },
+        {
+          "text": "Top-k=10",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            161.1762,
+            300.9628,
+            194.2962,
+            308.9628
+          ],
+          "baselineOriginPt": [
+            161.1762,
+            307.1717
+          ]
+        },
+        {
+          "text": "6.76",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            238.3278,
+            291.3628,
+            253.8878,
+            299.3628
+          ],
+          "baselineOriginPt": [
+            238.3278,
+            297.5717
+          ]
+        },
+        {
+          "text": "3.32",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            288.5226,
+            291.3628,
+            304.0826,
+            299.3628
+          ],
+          "baselineOriginPt": [
+            288.5226,
+            297.5717
+          ]
+        },
+        {
+          "text": "7.63",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            336.8789,
+            291.3628,
+            352.4389,
+            299.3628
+          ],
+          "baselineOriginPt": [
+            336.8789,
+            297.5717
+          ]
+        },
+        {
+          "text": "3.88",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            393.5817,
+            291.3628,
+            409.1417,
+            299.3628
+          ],
+          "baselineOriginPt": [
+            393.5817,
+            297.5717
+          ]
+        },
+        {
+          "text": "6.62",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            450.2845,
+            291.3628,
+            465.8445,
+            299.3628
+          ],
+          "baselineOriginPt": [
+            450.2845,
+            297.5717
+          ]
+        },
+        {
+          "text": "3.30",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            506.9872,
+            291.3628,
+            522.5472,
+            299.3628
+          ],
+          "baselineOriginPt": [
+            506.9872,
+            297.5717
+          ]
+        },
+        {
+          "text": "7.00",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            563.6899,
+            291.3628,
+            579.2499,
+            299.3628
+          ],
+          "baselineOriginPt": [
+            563.6899,
+            297.5717
+          ]
+        },
+        {
+          "text": "3.50",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            620.3927,
+            291.3628,
+            635.9527,
+            299.3628
+          ],
+          "baselineOriginPt": [
+            620.3927,
+            297.5717
+          ]
+        },
+        {
+          "text": "Adaptive ",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            104.7569,
+            324.9592,
+            138.0849,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            104.7569,
+            331.1682
+          ]
+        },
+        {
+          "text": "Top-k",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            104.7569,
+            334.5592,
+            124.3169,
+            342.5592
+          ],
+          "baselineOriginPt": [
+            104.7569,
+            340.7682
+          ]
+        },
+        {
+          "text": "Max Depth = 8",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            161.1762,
+            324.9592,
+            213.3842,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            161.1762,
+            331.1682
+          ]
+        },
+        {
+          "text": "6.33",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            238.3278,
+            324.9592,
+            253.8878,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            238.3278,
+            331.1682
+          ]
+        },
+        {
+          "text": "3.46",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            288.5226,
+            324.9592,
+            304.0826,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            288.5226,
+            331.1682
+          ]
+        },
+        {
+          "text": "7.01",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            336.8789,
+            324.9592,
+            352.4389,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            336.8789,
+            331.1682
+          ]
+        },
+        {
+          "text": "4.04",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            393.5817,
+            324.9592,
+            409.1417,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            393.5817,
+            331.1682
+          ]
+        },
+        {
+          "text": "6.24",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            450.2845,
+            324.9592,
+            465.8445,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            450.2845,
+            331.1682
+          ]
+        },
+        {
+          "text": "3.53",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            506.9872,
+            324.9592,
+            522.5472,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            506.9872,
+            331.1682
+          ]
+        },
+        {
+          "text": "6.53",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            563.6899,
+            324.9592,
+            579.2499,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            563.6899,
+            331.1682
+          ]
+        },
+        {
+          "text": "3.68",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            620.3927,
+            324.9592,
+            635.9527,
+            332.9592
+          ],
+          "baselineOriginPt": [
+            620.3927,
+            331.1682
+          ]
+        },
+        {
+          "text": "Max Depth = 12",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            161.1762,
+            355.6659,
+            217.8322,
+            363.6659
+          ],
+          "baselineOriginPt": [
+            161.1762,
+            361.8749
+          ]
+        },
+        {
+          "text": "6.60",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            238.3278,
+            355.6659,
+            253.8878,
+            363.6659
+          ],
+          "baselineOriginPt": [
+            238.3278,
+            361.8749
+          ]
+        },
+        {
+          "text": "3.53",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            288.5226,
+            355.6659,
+            304.0826,
+            363.6659
+          ],
+          "baselineOriginPt": [
+            288.5226,
+            361.8749
+          ]
+        },
+        {
+          "text": "7.41",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            336.8789,
+            355.6659,
+            352.4389,
+            363.6659
+          ],
+          "baselineOriginPt": [
+            336.8789,
+            361.8749
+          ]
+        },
+        {
+          "text": "3.91",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            393.5817,
+            355.6659,
+            409.1417,
+            363.6659
+          ],
+          "baselineOriginPt": [
+            393.5817,
+            361.8749
+          ]
+        },
+        {
+          "text": "6.34",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            450.2845,
+            355.6659,
+            465.8445,
+            363.6659
+          ],
+          "baselineOriginPt": [
+            450.2845,
+            361.8749
+          ]
+        },
+        {
+          "text": "3.60",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            506.9872,
+            355.6659,
+            522.5472,
+            363.6659
+          ],
+          "baselineOriginPt": [
+            506.9872,
+            361.8749
+          ]
+        },
+        {
+          "text": "6.78",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            563.6899,
+            355.6659,
+            579.2499,
+            363.6659
+          ],
+          "baselineOriginPt": [
+            563.6899,
+            361.8749
+          ]
+        },
+        {
+          "text": "3.69",
+          "font": "ArialMT",
+          "sizePt": 8.0,
+          "color": "#000000",
+          "bboxPt": [
+            620.3927,
+            355.6659,
+            635.9527,
+            363.6659
+          ],
+          "baselineOriginPt": [
+            620.3927,
+            361.8749
+          ]
+        }
+      ],
+      "images": [
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "pixels": [
+            330,
+            112
+          ]
+        },
+        {
+          "framePt": [
+            0.0,
+            -8.7917,
+            720.0002,
+            20.7403
+          ],
+          "pixels": [
+            2048,
+            84
+          ]
+        }
+      ],
+      "drawings": [
+        {
+          "framePt": [
+            0.0,
+            0.0,
+            720.0,
+            405.0
+          ],
+          "type": "f",
+          "fill": [
+            1.0,
+            1.0,
+            1.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            363.7736,
+            355.687,
+            693.9153,
+            379.876
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            0.0,
+            0.0001,
+            720.0002,
+            20.7403
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            71.5984,
+            36.3091,
+            635.3858,
+            67.8209
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            71.5984,
+            67.8209,
+            673.9606,
+            96.2146
+          ],
+          "type": "f",
+          "fill": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "color": null,
+          "widthPt": null,
+          "dashes": null
+        },
+        {
+          "framePt": [
+            98.0069,
+            181.9783,
+            98.0069,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            154.4262,
+            181.9783,
+            154.4262,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            231.5778,
+            181.9783,
+            231.5778,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            281.7726,
+            205.9744,
+            281.7726,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            330.1289,
+            181.9783,
+            330.1289,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            386.8317,
+            205.9744,
+            386.8317,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            443.5345,
+            181.9783,
+            443.5345,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            500.2372,
+            205.9744,
+            500.2372,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            556.9399,
+            181.9783,
+            556.9399,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            613.6427,
+            205.9744,
+            613.6427,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            654.4025,
+            181.9783,
+            654.4025,
+            378.5256
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            97.6329,
+            182.3524,
+            654.7766,
+            182.3524
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            231.2037,
+            206.3484,
+            654.7766,
+            206.3484
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            97.6329,
+            249.5453,
+            654.7766,
+            249.5453
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            154.0522,
+            283.1417,
+            654.7766,
+            283.1417
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            97.6329,
+            316.7382,
+            654.7766,
+            316.7382
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            154.0522,
+            347.4449,
+            654.7766,
+            347.4449
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        },
+        {
+          "framePt": [
+            97.6329,
+            378.1516,
+            654.7766,
+            378.1516
+          ],
+          "type": "s",
+          "fill": null,
+          "color": [
+            0.0,
+            0.0,
+            0.0
+          ],
+          "widthPt": 0.75,
+          "dashes": "[] 0"
+        }
+      ]
+    }
+  ]
+}

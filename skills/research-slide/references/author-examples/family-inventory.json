@@ -1,0 +1,452 @@
+{
+  "schemaVersion": 1,
+  "use": "Compact science-free candidate inventory. Compare report purpose AND scientific object role, then inspect two compatible images and their selected records. Evidence form alone is insufficient. Sizes are coupled observed hierarchies, not universal defaults.",
+  "units": "PDF pt on720x405",
+  "trainingBoundary": "All23 references are permanent development/training; none can be fresh proof. Raw scientific copy stays in separate measurements.",
+  "families": [
+    {
+      "exampleId": "example-01",
+      "family": "idea-with-mechanism",
+      "purpose": "Develop an idea beside a supporting mechanism.",
+      "evidenceForm": "report premise plus mechanism figure",
+      "bodyObjectHierarchy": "22pt title /17pt prose; independently styled inset supports the idea",
+      "image": "example-01.png",
+      "measurement": "measurements.json#example=example-01.png",
+      "guide": "../layout/mechanism.md",
+      "layoutRecord": null,
+      "objectRole": "Narrative idea leads; mechanism supports it."
+    },
+    {
+      "exampleId": "example-02",
+      "family": "dense-result-table",
+      "purpose": "Inspect a dense result comparison.",
+      "evidenceForm": "native grouped scientific table",
+      "bodyObjectHierarchy": "27pt title /10pt table; table leads, grouped gray headers and condition stubs",
+      "image": "example-02.png",
+      "measurement": "measurements.json#example=example-02.png",
+      "guide": "../layout/scientific-table.md",
+      "layoutRecord": null,
+      "objectRole": "Table is the primary scientific account."
+    },
+    {
+      "exampleId": "example-03",
+      "family": "experimental-account-with-table",
+      "purpose": "Report setup and scoped results beside full comparison.",
+      "evidenceForm": "report plus native table",
+      "bodyObjectHierarchy": "25pt title /13pt report /10pt table; local comparison emphasis",
+      "image": "example-03.png",
+      "measurement": "measurements.json#example=example-03.png",
+      "guide": "../layout/experiment.md",
+      "layoutRecord": null,
+      "objectRole": "Report and evidence share the page; table carries exact results."
+    },
+    {
+      "exampleId": "example-04",
+      "family": "aligned-factorization",
+      "purpose": "Trace mathematical dimensions and factorization.",
+      "evidenceForm": "aligned native matrices/equations",
+      "bodyObjectHierarchy": "36pt title;12\u201318pt local labels; aligned mathematical objects lead",
+      "image": "example-04.png",
+      "measurement": "measurements.json#example=example-04.png",
+      "guide": "../layout/mechanism.md",
+      "layoutRecord": null,
+      "objectRole": "Aligned mathematical objects carry the mechanism."
+    },
+    {
+      "exampleId": "example-05",
+      "family": "positional-transformation",
+      "purpose": "Trace positional correspondences through a transformation.",
+      "evidenceForm": "worked vectors/tokens and operations",
+      "bodyObjectHierarchy": "30pt title;10\u201316pt local labels; aligned channel positions and arrows",
+      "image": "example-05.png",
+      "measurement": "measurements.json#example=example-05.png",
+      "guide": "../layout/mechanism.md",
+      "layoutRecord": null,
+      "objectRole": "The worked transformation is primary, preserving positional identity."
+    },
+    {
+      "exampleId": "example-06",
+      "family": "system-diagnostic",
+      "purpose": "Inspect a runtime/memory diagnostic comparison.",
+      "evidenceForm": "setup/diagnosis plus complete native table",
+      "bodyObjectHierarchy": "24pt title /14pt report /10pt table; evidence ordering follows diagnostic comparison",
+      "image": "example-06.png",
+      "measurement": "measurements.json#example=example-06.png",
+      "guide": "../layout/experiment.md",
+      "layoutRecord": null,
+      "objectRole": "Complete diagnostic evidence supports scoped explanations."
+    },
+    {
+      "exampleId": "example-07",
+      "family": "compact-budget-ablation",
+      "purpose": "Compare a bounded resource ablation.",
+      "evidenceForm": "compact native table and ordinary notes",
+      "bodyObjectHierarchy": "36pt title /14pt report /10pt table; deliberate report-to-table gap",
+      "image": "example-07.png",
+      "measurement": "measurements.json#example=example-07.png",
+      "guide": "../layout/ablation.md",
+      "layoutRecord": null,
+      "objectRole": "Compact table is primary evidence beneath bounded report."
+    },
+    {
+      "exampleId": "example-08",
+      "family": "untitled-working-mechanism",
+      "purpose": "Define a representation through working mathematical objects.",
+      "evidenceForm": "native object/math and sparse labels",
+      "bodyObjectHierarchy": "no invented title;8\u201311pt local scientific labels carry hierarchy",
+      "image": "example-08.png",
+      "measurement": "measurements.json#example=example-08.png",
+      "guide": "../layout/mechanism.md",
+      "layoutRecord": null,
+      "objectRole": "Scientific object/math carries hierarchy without a separate topic heading."
+    },
+    {
+      "exampleId": "example-09",
+      "family": "curve-report",
+      "purpose": "Report fuller experimental context and results with curves.",
+      "evidenceForm": "scientific curves with structured report",
+      "bodyObjectHierarchy": "29pt title /14pt report; Goal/Experiment/Results when justified, local red emphasis",
+      "image": "example-09.png",
+      "measurement": "measurements.json#example=example-09.png",
+      "guide": "../layout/experiment.md",
+      "layoutRecord": null,
+      "objectRole": "Independent curve evidence accompanies fuller scientific report."
+    },
+    {
+      "exampleId": "example-10",
+      "family": "wide-ablation-sweep",
+      "purpose": "Inspect a controlled sweep across methods and metrics.",
+      "evidenceForm": "wide native grouped table",
+      "bodyObjectHierarchy": "36/14/10pt; ordinary report above low wide black grid; current operating point independent from winners",
+      "image": "example-10.png",
+      "measurement": "measurements-gh.json#example=example-10.png",
+      "guide": "../layout/ablation.md",
+      "layoutRecord": "author-family-layouts.json#family=wide-ablation-sweep",
+      "objectRole": "Wide table carries sweep evidence beneath ordinary report."
+    },
+    {
+      "exampleId": "example-11",
+      "family": "summary-with-vertical-inset",
+      "purpose": "Report staged implementation/progress.",
+      "evidenceForm": "nested working summary plus vertical workflow inset",
+      "bodyObjectHierarchy": "22/14pt; main narrative larger than narrow pastel supporting stages",
+      "image": "example-11.png",
+      "measurement": "measurements-gh.json#example=example-11.png",
+      "guide": "../layout/workflow.md",
+      "layoutRecord": "author-family-layouts.json#family=summary-with-vertical-inset",
+      "objectRole": "Working progress narrative leads, narrow staged figure supports."
+    },
+    {
+      "exampleId": "example-12",
+      "family": "runtime-focus-table",
+      "purpose": "Report a bounded runtime-cost comparison and a selected configuration in the current experiment series.",
+      "objectRole": "Choose object role from current report intent; inspect full-page reference.",
+      "evidenceForm": "native focus table",
+      "bodyObjectHierarchy": {
+        "titlePt": 36,
+        "bodyPt": 14,
+        "bodyColor": "#000000",
+        "evidenceFramePt": [
+          12.7421,
+          234.0276,
+          674.2421,
+          333.0276
+        ],
+        "localObjectFonts": {
+          "font": "ArialMT",
+          "sizePt": 10
+        }
+      },
+      "image": "example-12-runtime-focus-table.png",
+      "measurement": "measurements-cfi.json#page1Based=516",
+      "guide": "../layout/runtime-focus-table.md",
+      "layoutRecord": "focused-layout-starters.json#family=runtime-focus-table"
+    },
+    {
+      "exampleId": "example-13",
+      "family": "plot-led-runtime-observation",
+      "purpose": "Inspect a trend, repeated operation, or runtime ablation with brief purpose and bounded observations; conditions may already be in the scientific plot.",
+      "objectRole": "Choose object role from current report intent; inspect full-page reference.",
+      "evidenceForm": "dominant intact scientific plot",
+      "bodyObjectHierarchy": {
+        "titlePt": 36,
+        "bodyPt": 14,
+        "bodyColor": "#000000",
+        "evidenceFramePt": [
+          294.1713,
+          78.874,
+          707.6714,
+          336.6259
+        ],
+        "localObjectFonts": {}
+      },
+      "image": "example-13-plot-led-observation.png",
+      "measurement": "measurements-cfi.json#page1Based=517",
+      "guide": "../layout/plot-led-observation.md",
+      "layoutRecord": "focused-layout-starters.json#family=plot-led-runtime-observation"
+    },
+    {
+      "exampleId": "example-14",
+      "family": "compact-scientific-object-with-notes",
+      "purpose": "Explain one operational mechanism with a compact self-contained scientific object and brief adjacent working notes.",
+      "objectRole": "Choose object role from current report intent; inspect full-page reference.",
+      "evidenceForm": "one native independently styled scientific mechanism",
+      "bodyObjectHierarchy": {
+        "titlePt": 42,
+        "bodyPt": 14,
+        "bodyColor": "#000000",
+        "evidenceFramePt": [
+          21.1203,
+          81.9224,
+          257.8465,
+          318.2283
+        ],
+        "localObjectFonts": {}
+      },
+      "image": "example-14-compact-scientific-object.png",
+      "measurement": "measurements-cfi.json#page1Based=522",
+      "guide": "../layout/compact-object.md",
+      "layoutRecord": "focused-layout-starters.json#family=compact-scientific-object-with-notes"
+    },
+    {
+      "exampleId": "example-15",
+      "family": "evidence-led-short-readout",
+      "purpose": "Give a brief experimental readout: concise context and a scoped observation above one complete independently typeset scientific evidence object.",
+      "objectRole": "Primary experimental evidence; surrounding notes orient the internal audience rather than teach the object.",
+      "evidenceForm": "one complete independent scientific evidence figure",
+      "bodyObjectHierarchy": {
+        "titlePt": 24,
+        "bodyPt": 14,
+        "bodyColor": "#000000",
+        "evidenceFramePt": [
+          108.4902,
+          113.8858,
+          568.6095,
+          404.9999
+        ],
+        "localObjectFonts": {}
+      },
+      "image": "example-15-evidence-led-short-readout.png",
+      "measurement": "measurements-mn.json#page1Based=373",
+      "guide": "../layout/evidence-led-readout.md",
+      "layoutRecord": "focused-layout-starters.json#family=evidence-led-short-readout"
+    },
+    {
+      "exampleId": "example-16",
+      "family": "prose-led-overview-inset",
+      "purpose": "Introduce an intended research objective and its motivation; a compact schematic supports one nested example.",
+      "objectRole": "Supporting illustration within the motivation argument; the main reading task is the objective and rationale, not a mechanism lesson.",
+      "evidenceForm": "compact native schematic inset",
+      "bodyObjectHierarchy": {
+        "titlePt": 36,
+        "bodyPt": 19,
+        "bodyColor": "#333333",
+        "evidenceFramePt": [
+          523.9409,
+          282.6007,
+          675.1457,
+          375.4872
+        ],
+        "localObjectFonts": {}
+      },
+      "image": "example-16-prose-led-overview-inset.png",
+      "measurement": "measurements-mn.json#page1Based=56",
+      "guide": "../layout/prose-led-overview.md",
+      "layoutRecord": "focused-layout-starters.json#family=prose-led-overview-inset"
+    },
+    {
+      "exampleId": "example-17",
+      "family": "algorithm-report-with-supporting-inset",
+      "purpose": "Explain an algorithm through premise and operational narrative, supported by independent empirical panels and a local illustration.",
+      "objectRole": "Narrative-led method report; supporting panels corroborate the premise, and local illustration supports the operation.",
+      "evidenceForm": "independent raster plots plus native supporting illustration",
+      "bodyObjectHierarchy": {
+        "titlePt": 27,
+        "bodyPt": 14,
+        "bodyColor": "#333333",
+        "evidenceFramePt": [
+          [
+            401.5,
+            61.6122,
+            708.619,
+            153.2933
+          ],
+          [
+            401.499,
+            173.004,
+            708.6183,
+            266.7569
+          ],
+          [
+            403.8563,
+            289.8236,
+            710.9753,
+            381.6615
+          ]
+        ],
+        "localObjectFonts": {
+          "sourcePlotTypography": "Raster, unknown nominal fonts; retain current axes, labels, series and conditions."
+        }
+      },
+      "image": "example-17-algorithm-report-with-supporting-inset.png",
+      "measurement": "measurements-broad.json#page1Based=83",
+      "guide": "../layout/method-report.md",
+      "layoutRecord": "focused-layout-starters.json#family=algorithm-report-with-supporting-inset"
+    },
+    {
+      "exampleId": "example-18",
+      "family": "paper-method-outline",
+      "purpose": "Report a paper method as an ordered conceptual outline with subordinate explanatory clauses and an independent equation excerpt.",
+      "objectRole": "The method outline leads; the equation object supports the listed concepts rather than becoming a new pipeline.",
+      "evidenceForm": "independent paper-equation excerpt",
+      "bodyObjectHierarchy": {
+        "titlePt": 23,
+        "bodyPt": 14,
+        "bodyColor": "#000000",
+        "evidenceFramePt": [
+          106.8878,
+          245.2421,
+          554.9647,
+          350.0197
+        ],
+        "localObjectFonts": {
+          "fontStatus": "Embedded equation/caption fonts unrecovered; retain scientific typesetting and equation identifiers when needed."
+        }
+      },
+      "image": "example-18-paper-method-outline.png",
+      "measurement": "measurements-broad.json#page1Based=158",
+      "guide": "../layout/method-report.md",
+      "layoutRecord": "focused-layout-starters.json#family=paper-method-outline"
+    },
+    {
+      "exampleId": "example-19",
+      "family": "scientific-table-readout",
+      "purpose": "Present a self-contained scientific comparison with one local context/caption line and a grouped results table.",
+      "objectRole": "The table is the primary explanation; a small scientific context line supplies interpretation conditions.",
+      "evidenceForm": "native independent scientific table",
+      "bodyObjectHierarchy": {
+        "titlePt": 35,
+        "bodyPt": 10,
+        "bodyColor": "#333333",
+        "evidenceFramePt": [
+          66.0915,
+          134.5285,
+          646.373,
+          331.2785
+        ],
+        "localObjectFonts": {
+          "font": "ArialMT",
+          "sizePt": 8
+        }
+      },
+      "image": "example-19-scientific-table-readout.png",
+      "measurement": "measurements-broad.json#page1Based=347",
+      "guide": "../layout/scientific-table.md",
+      "layoutRecord": "focused-layout-starters.json#family=scientific-table-readout"
+    },
+    {
+      "exampleId": "example-20",
+      "family": "independent-plot-setup",
+      "purpose": "Explain an empirical design observation with an intact plot panel and a separate mathematical justification.",
+      "objectRole": "Independent scientific plots lead the evidence; ordinary notes map conditions/series, while equations support the interpretation.",
+      "evidenceForm": "independent raster plot panel plus separate equation excerpt",
+      "bodyObjectHierarchy": {
+        "titlePt": 36,
+        "bodyPt": 14,
+        "bodyColor": "#000000",
+        "evidenceFramePt": [
+          316.6378,
+          75.187,
+          684.3956,
+          355.811
+        ],
+        "localObjectFonts": {
+          "plotFontStatus": "Raster, unknown nominal fonts; scientific plot styling remains independent."
+        }
+      },
+      "image": "example-20-independent-plot-setup.png",
+      "measurement": "measurements-broad.json#page1Based=498",
+      "guide": "../layout/independent-plot-setup.md",
+      "layoutRecord": "focused-layout-starters.json#family=independent-plot-setup"
+    },
+    {
+      "exampleId": "example-21",
+      "family": "operator-graph",
+      "purpose": "Explain a system whose operators, dependencies and parameter/update paths must be traced.",
+      "objectRole": "Ordinary framework notes accompany a compact independent graph; graph topology carries distinct scientific content.",
+      "evidenceForm": "independent operator/dependency graph",
+      "bodyObjectHierarchy": {
+        "titlePt": 22,
+        "bodyPt": 14,
+        "bodyColor": "#333333",
+        "evidenceFramePt": [
+          445.5768,
+          82.1929,
+          604.5748,
+          351.1417
+        ],
+        "localObjectFonts": {
+          "fontStatus": "Graph/math labels raster; nominal fonts and strokes are not native measurements."
+        }
+      },
+      "image": "example-21-operator-graph.png",
+      "measurement": "measurements-broad.json#page1Based=589",
+      "guide": "../layout/operator-graph.md",
+      "layoutRecord": "focused-layout-starters.json#family=operator-graph"
+    },
+    {
+      "exampleId": "example-22",
+      "family": "numbered-procedure-report",
+      "purpose": "Report an ordered implementation procedure with subordinate concrete details.",
+      "objectRole": "Ordered prose is the primary scientific object; indentation and type hierarchy carry sequence without an extra flowchart.",
+      "evidenceForm": "native ordered procedure, no separate figure",
+      "bodyObjectHierarchy": {
+        "titlePt": 22,
+        "bodyPt": 18,
+        "bodyColor": "#000000",
+        "evidenceFramePt": [
+          67.2462,
+          104.6976,
+          586.2457,
+          322.5621
+        ],
+        "localObjectFonts": {}
+      },
+      "image": "example-22-numbered-procedure-report.png",
+      "measurement": "measurements-broad.json#page1Based=370",
+      "guide": "../layout/method-report.md",
+      "layoutRecord": "focused-layout-starters.json#family=numbered-procedure-report"
+    },
+    {
+      "exampleId": "example-23",
+      "family": "scientific-status-caption",
+      "purpose": "Report a compact scientific method/model/conditions caption, current implementation status and pending work above a neutral comparison table.",
+      "objectRole": "Compact scientific heading and internal status narrative introduce the table. There is no separate purple topic-title layer.",
+      "evidenceForm": "native neutral grouped scientific table",
+      "bodyObjectHierarchy": {
+        "titlePt": 14,
+        "titleFont": "Arial-BoldMT",
+        "titleColor": "#000000",
+        "additionalTopicTitle": false,
+        "bodyPt": 10,
+        "bodyFont": "Montserrat-Regular",
+        "bodyColor": "#333333",
+        "evidenceFramePt": [
+          98.0069,
+          182.3524,
+          654.4025,
+          378.1516
+        ],
+        "localObjectFonts": {
+          "font": "ArialMT",
+          "sizePt": 8,
+          "headerFont": "Arial-BoldMT"
+        }
+      },
+      "image": "example-23-scientific-status-caption.png",
+      "measurement": "measurements-broad.json#page1Based=336",
+      "guide": "../layout/scientific-table.md",
+      "layoutRecord": "focused-layout-starters.json#family=scientific-status-caption"
+    }
+  ]
+}

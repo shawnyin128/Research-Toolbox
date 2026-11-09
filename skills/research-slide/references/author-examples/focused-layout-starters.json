@@ -1,0 +1,1367 @@
+{
+  "schemaVersion": 1,
+  "units": "PDF pt on 720\u00d7405; framePt are [x1,y1,x2,y2] corners. Convert to boxPt{x,y,w,h}; CSS px multiplier 4/3.",
+  "use": "Science-free composition starters. Select by current scientific purpose and local series before evidence form. Reference values/text live only in separately scoped measurement provenance and are not reusable facts.",
+  "developmentBoundary": "Examples12/13/14 and15/16 are former old tests C/F/I and M/N explicitly promoted to development/training. All old reviews and revisits are development feedback, never fresh validation. Examples17\u201322 are v10 functional-coverage training prototypes, permanently excluded from fresh proof. Their raw science lives only in measurements-broad.json. Example23 is explicitly admitted known-development Q336, permanently training; only its conservative lexical quarantine was overridden, with range/hash bans retained.",
+  "referenceIndex": [
+    {
+      "family": "runtime-focus-table",
+      "image": "example-12-runtime-focus-table.png",
+      "measurement": "measurements-cfi.json#page1Based=516"
+    },
+    {
+      "family": "plot-led-runtime-observation",
+      "image": "example-13-plot-led-observation.png",
+      "measurement": "measurements-cfi.json#page1Based=517"
+    },
+    {
+      "family": "compact-scientific-object-with-notes",
+      "image": "example-14-compact-scientific-object.png",
+      "measurement": "measurements-cfi.json#page1Based=522"
+    },
+    {
+      "family": "evidence-led-short-readout",
+      "image": "example-15-evidence-led-short-readout.png",
+      "detailImage": "example-15-evidence-detail.png",
+      "measurement": "measurements-mn.json#page1Based=373"
+    },
+    {
+      "family": "prose-led-overview-inset",
+      "image": "example-16-prose-led-overview-inset.png",
+      "detailImage": "example-16-inset-detail.png",
+      "measurement": "measurements-mn.json#page1Based=56"
+    },
+    {
+      "family": "algorithm-report-with-supporting-inset",
+      "image": "example-17-algorithm-report-with-supporting-inset.png",
+      "measurement": "measurements-broad.json#page1Based=83",
+      "guide": "../layout/method-report.md"
+    },
+    {
+      "family": "paper-method-outline",
+      "image": "example-18-paper-method-outline.png",
+      "measurement": "measurements-broad.json#page1Based=158",
+      "guide": "../layout/method-report.md"
+    },
+    {
+      "family": "scientific-table-readout",
+      "image": "example-19-scientific-table-readout.png",
+      "measurement": "measurements-broad.json#page1Based=347",
+      "guide": "../layout/scientific-table.md"
+    },
+    {
+      "family": "independent-plot-setup",
+      "image": "example-20-independent-plot-setup.png",
+      "measurement": "measurements-broad.json#page1Based=498",
+      "guide": "../layout/independent-plot-setup.md"
+    },
+    {
+      "family": "operator-graph",
+      "image": "example-21-operator-graph.png",
+      "measurement": "measurements-broad.json#page1Based=589",
+      "guide": "../layout/operator-graph.md"
+    },
+    {
+      "family": "numbered-procedure-report",
+      "image": "example-22-numbered-procedure-report.png",
+      "measurement": "measurements-broad.json#page1Based=370",
+      "guide": "../layout/method-report.md"
+    },
+    {
+      "family": "scientific-status-caption",
+      "image": "example-23-scientific-status-caption.png",
+      "measurement": "measurements-broad.json#page1Based=336",
+      "guide": "../layout/scientific-table.md"
+    }
+  ],
+  "selectionContract": [
+    "scientific report intent",
+    "scientific object role in the argument",
+    "current local series/identity",
+    "required facts already carried by evidence versus concise prose",
+    "candidate comparison before final single-family packet",
+    "composition family with coupled body type and evidence footprint",
+    "copy grammar separately selected within fixed composition"
+  ],
+  "families": [
+    {
+      "referenceChromeObserved": "NYU",
+      "chromeSelection": "Current user/deck series controls identity. Observed reference footer is provenance, not authority to replace current identity.",
+      "canvasPt": [
+        720,
+        405
+      ],
+      "family": "runtime-focus-table",
+      "trainingExample": "example-12-runtime-focus-table.png",
+      "measurementRecord": "measurements-cfi.json#page1Based=516",
+      "purpose": "Report a bounded runtime-cost comparison and a selected configuration in the current experiment series.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 36,
+        "color": "#57068C",
+        "sourceClipFramePt": [
+          24.5433,
+          36.7008,
+          671.3386,
+          88.5039
+        ],
+        "glyphEnvelopePt": [
+          31.2933,
+          36.6468,
+          640.5213,
+          83.1228
+        ],
+        "caveat": "Clip frame and glyph envelope are measurements, not recovered textbox padding. Render visible glyph anchors; repair actual clipping narrowly."
+      },
+      "titleGrammar": "Observed pattern: Ablation Study for <current study subject>. Retain this current experiment-series lead when established; do not shorten it automatically to a bare topic.",
+      "narrative": {
+        "sourceClipFramePt": [
+          27.687,
+          94.3878,
+          663.1201,
+          193.7657
+        ],
+        "glyphEnvelopePt": [
+          43.986,
+          103.7121,
+          583.705,
+          168.1121
+        ],
+        "font": "ArialMT",
+        "sizePt": 14,
+        "color": "#000000",
+        "markerGlyph": "\u25cf",
+        "markerXPt": 43.986,
+        "textXPt": 70.4373,
+        "hangingPt": 26.4513,
+        "baselinePitchPt": 16.8,
+        "weight": "normal",
+        "nestedMarkerGlyph": "\u25cb",
+        "nestedMarkerXPt": 79.986,
+        "nestedTextXPt": 106.4373,
+        "levelIncrementPt": 36
+      },
+      "narrativeSlots": [
+        "question/purpose",
+        "short summary role",
+        "nested bounded observations"
+      ],
+      "evidence": {
+        "kind": "native focus table",
+        "framePt": [
+          12.7421,
+          234.0276,
+          674.2421,
+          333.0276
+        ],
+        "columnEdgesPt": [
+          12.7421,
+          158.2421,
+          260.2421,
+          371.2421,
+          467.2421,
+          560.9921,
+          674.2421
+        ],
+        "rowHeightPt": 16.5,
+        "observedRowsIncludingHeader": 6,
+        "font": "ArialMT",
+        "sizePt": 10,
+        "headerFont": "Arial-BoldMT",
+        "headerColor": "#1F3B63",
+        "bodyColor": "#000000",
+        "headerFill": "#FFFFFF",
+        "bodyFill": "#FFFFFF",
+        "focusRowFill": "#CCCCCC",
+        "focusRowTextColor": "#1F3B63",
+        "focusRowTextWeight": "bold",
+        "rulesPt": 0.75,
+        "mainRuleColor": "#B7C4D6",
+        "headerBottomRuleColor": "#1F3B63",
+        "secondaryObservedRuleColors": [
+          "#8EA9C7",
+          "#CCCCCC",
+          "#000000"
+        ],
+        "emphasisControls": {
+          "focusRowIds": "Explicit current selected configuration IDs, never inferred from row order or all maxima.",
+          "focusCellStyle": "Gray row fill and navy bold text in this local variant.",
+          "winnerCellIds": "Separate current scientifically justified comparison cells; empty unless supplied/derived from the declared comparison.",
+          "winnerStyle": "Independent from focus. This source has no separate winner markup; selected row includes nonwinning values. Do not automatically bold all extrema.",
+          "headerStyle": "Independent from focus and winner semantics."
+        }
+      },
+      "footprint": {
+        "evidenceWidthFraction": 0.9188,
+        "evidenceAreaFraction": 0.2246,
+        "narrativeLastGlyphToEvidencePt": 65.9155
+      },
+      "invariants": [
+        "Low wide table and intentional gap below short connected question/summary notes.",
+        "Observed table has a selected row, not an all-metric-winning row.",
+        "Native editable rows/columns adapt to current facts; measured row count and column count are illustrative geometry, not a required scientific schema.",
+        "Blue/gray focus is a local variant; plain black and green operating-row variants remain legitimate sibling families."
+      ]
+    },
+    {
+      "referenceChromeObserved": "NYU",
+      "chromeSelection": "Current user/deck series controls identity. Observed reference footer is provenance, not authority to replace current identity.",
+      "canvasPt": [
+        720,
+        405
+      ],
+      "family": "plot-led-runtime-observation",
+      "trainingExample": "example-13-plot-led-observation.png",
+      "measurementRecord": "measurements-cfi.json#page1Based=517",
+      "purpose": "Inspect a trend, repeated operation, or runtime ablation with brief purpose and bounded observations; conditions may already be in the scientific plot.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 36,
+        "color": "#57068C",
+        "sourceClipFramePt": [
+          24.5433,
+          20.5217,
+          671.3386,
+          72.3248
+        ],
+        "glyphEnvelopePt": [
+          31.2933,
+          20.4677,
+          646.7853,
+          66.9437
+        ],
+        "caveat": "Clip frame and glyph envelope are measurements, not recovered textbox padding. Render visible glyph anchors; repair actual clipping narrowly."
+      },
+      "titleGrammar": "Observed pattern: Ablation Study for <current study subject>. Retain the established current experiment-series lead; do not import a chapter subtitle.",
+      "narrative": {
+        "sourceClipFramePt": [
+          14.4488,
+          94.3878,
+          278,
+          278.6161
+        ],
+        "glyphEnvelopePt": [
+          30.7475,
+          103.7121,
+          264.5448,
+          268.9121
+        ],
+        "font": "ArialMT",
+        "sizePt": 14,
+        "color": "#000000",
+        "markerGlyph": "\u25cf",
+        "markerXPt": 30.7475,
+        "textXPt": 57.1988,
+        "hangingPt": 26.4513,
+        "baselinePitchPt": 16.8,
+        "weight": "normal",
+        "nestedMarkerGlyph": "\u25cb",
+        "nestedMarkerXPt": 66.7475,
+        "nestedTextXPt": 93.1988,
+        "levelIncrementPt": 36
+      },
+      "narrativeSlots": [
+        "brief recording purpose/question",
+        "plain Observation role only when present",
+        "nested scoped observations"
+      ],
+      "evidence": {
+        "kind": "dominant intact scientific plot",
+        "framePt": [
+          294.1713,
+          78.874,
+          707.6714,
+          336.6259
+        ],
+        "sourceWasRaster": true,
+        "sourcePixels": [
+          1508,
+          940
+        ],
+        "preserve": [
+          "plot title/conditions",
+          "axes/units",
+          "legend",
+          "every current series/curve",
+          "scope-bearing labels"
+        ],
+        "chartFontStatus": "Raster label identity and nominal sizes unknown. Keep supplied asset intact or rebuild from authorized data with its actual readable scientific style.",
+        "sampledCurveColors": [
+          "#4379D3",
+          "#DB7042",
+          "#52AE7F",
+          "#E2A53A",
+          "#8466CA"
+        ],
+        "paletteStatus": "Exact high-frequency saturated source-raster samples within visual hue classes; JPEG edges vary. These are observed pixel colors, not recovered vector design colors.",
+        "scientificSeriesPolicy": "Current series IDs, labels, colors and all values belong to current facts/asset. No reference experiment series or measured values are preloaded."
+      },
+      "footprint": {
+        "plotWidthFraction": 0.5743,
+        "plotAreaFraction": 0.3655,
+        "notesGlyphEnvelopeAreaFraction": 0.1325,
+        "horizontalFrameGapPt": 16.1713
+      },
+      "invariants": [
+        "Reserve dominant plot footprint before notes. Let the evidence carry experiment conditions already visible in it.",
+        "Plain 14pt connected purpose/Observation notes; do not add Goal/Experiment/Observation taxonomy, subtitle or red takeaway by default.",
+        "Goal/Experiment/Results family remains legitimate when current report purpose and series support that fuller narrative; plot presence alone cannot select it.",
+        "Additional explanation or condition notes require a current fact/task, not a template slot."
+      ]
+    },
+    {
+      "referenceChromeObserved": "NYU",
+      "chromeSelection": "Current user/deck series controls identity. Observed reference footer is provenance, not authority to replace current identity.",
+      "canvasPt": [
+        720,
+        405
+      ],
+      "family": "compact-scientific-object-with-notes",
+      "trainingExample": "example-14-compact-scientific-object.png",
+      "detailImage": "example-14-object-detail.png",
+      "measurementRecord": "measurements-cfi.json#page1Based=522",
+      "purpose": "Explain one operational mechanism with a compact self-contained scientific object and brief adjacent working notes.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 42,
+        "color": "#57068C",
+        "sourceClipFramePt": [
+          24.5433,
+          -3.624,
+          728.126,
+          48.1791
+        ],
+        "glyphEnvelopePt": [
+          31.2933,
+          -4.8123,
+          603.5013,
+          49.4097
+        ],
+        "caveat": "Clip frame and glyph envelope are measurements, not recovered textbox padding. Render visible glyph anchors; repair actual clipping narrowly."
+      },
+      "titleGrammar": "Observed lowercase topic phrase. Use established current local capitalization; large local topic hierarchy is independent of figure fonts.",
+      "narrative": {
+        "sourceClipFramePt": [
+          279.2086,
+          66.748,
+          687.8701,
+          193.5276
+        ],
+        "glyphEnvelopePt": [
+          288.7573,
+          69.322,
+          664.4386,
+          148.842
+        ],
+        "font": "ArialMT",
+        "sizePt": 14,
+        "color": "#000000",
+        "markerGlyph": "\u25cf",
+        "markerXPt": 288.7573,
+        "textXPt": 315.2086,
+        "hangingPt": 26.4513,
+        "baselinePitchPt": 21.84,
+        "weight": "normal"
+      },
+      "narrativeSlots": [
+        "brief operational notes tied to current facts"
+      ],
+      "evidence": {
+        "kind": "one native independently styled scientific mechanism",
+        "sourceWasRaster": false,
+        "framePt": [
+          21.1203,
+          81.9224,
+          257.8465,
+          318.2283
+        ],
+        "frameDefinition": "Diagram-local text including rotated operation label plus state outlines; excludes caption.",
+        "stateOutlineFramesPt": [
+          [
+            67.3602,
+            94.8602,
+            165.7697,
+            130.8366
+          ],
+          [
+            71.563,
+            162.4173,
+            257.8465,
+            234.9606
+          ],
+          [
+            71.563,
+            266.2598,
+            255.8622,
+            318.2283
+          ]
+        ],
+        "geometryStatus": "Measured source topology and scale. Current mechanism determines states and cells; source example counts and tokens are not preloaded.",
+        "cellSizePt": [
+          19.6535,
+          19.6535
+        ],
+        "localTypography": {
+          "stateAndOperation": {
+            "font": "TimesNewRomanPSMT",
+            "sizePt": 12,
+            "color": "#333333"
+          },
+          "region": {
+            "font": "TimesNewRomanPSMT",
+            "sizePt": 10,
+            "color": "#000000",
+            "variantColor": "#333333"
+          },
+          "itemIds": {
+            "font": "Montserrat-Regular",
+            "sizePt": 14,
+            "color": "#000000"
+          },
+          "measurementStatus": "All local fonts and point sizes recovered from native PDF text, not estimated from raster."
+        },
+        "outlineColor": "#333333",
+        "strokePt": 0.75,
+        "stateDashPt": [
+          3,
+          2.25
+        ],
+        "semanticFills": {
+          "retainedBoundary": "#FFE599",
+          "selectedInterior": "#A2C4C9",
+          "otherInterior": "#D0E0E3",
+          "initial": "#FFFFFF"
+        },
+        "encoding": "Dashed state boundaries; yellow boundary cells; dark-cyan selected interior solid outlines; pale-cyan other interior dashed outlines; thin arrows and outside return path. Only carry roles justified by the current object.",
+        "mainMechanismCount": 1
+      },
+      "caption": {
+        "glyphEnvelopePt": [
+          21.6811,
+          332.8586,
+          252.7691,
+          345.8586
+        ],
+        "font": "ArialMT",
+        "sizePt": 13,
+        "color": "#333333",
+        "role": "Optional short local object caption, when current facts identify it."
+      },
+      "footprint": {
+        "objectEnvelopeAreaFraction": 0.1918,
+        "objectWidthFraction": 0.3288,
+        "notesLastGlyphYPt": 148.842,
+        "horizontalObjectToNotesGlyphGapPt": 30.9108
+      },
+      "invariants": [
+        "One primary object contains the mechanism and its necessary annotations.",
+        "Keep local scientific serif/sans roles and semantic encodings, independent of deck prose type.",
+        "No automatic second symbolic/abstract diagram, full-body teaching panels or guardrail footer. Add a second object only for a distinct current scientific task.",
+        "Do not duplicate numeric and symbolic versions of the same relationship merely because both representations occur in facts.",
+        "The title bbox crosses the page but visible ink is not bbox. Inspect actual rendering and repair real clipping narrowly."
+      ]
+    },
+    {
+      "family": "evidence-led-short-readout",
+      "trainingExample": "example-15-evidence-led-short-readout.png",
+      "detailImage": "example-15-evidence-detail.png",
+      "measurementRecord": "measurements-mn.json#page1Based=373",
+      "purpose": "Give a brief experimental readout: concise context and a scoped observation above one complete independently typeset scientific evidence object.",
+      "objectRole": "Primary experimental evidence; surrounding notes orient the internal audience rather than teach the object.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 24,
+        "color": "#57068C",
+        "sourceClipFramePt": [
+          16.4173,
+          9.0925,
+          720,
+          48.187
+        ],
+        "glyphEnvelopePt": [
+          23.1673,
+          11.3065,
+          469.3514,
+          42.2905
+        ]
+      },
+      "titleGrammar": "Short evaluation-oriented topic; current subject only. No inherited method string or subtitle.",
+      "narrative": {
+        "sourceClipFramePt": [
+          27.5354,
+          60.0591,
+          678.8189,
+          125.5157
+        ],
+        "glyphEnvelopePt": [
+          43.8341,
+          69.3834,
+          666.5732,
+          116.9834
+        ],
+        "font": "ArialMT",
+        "sizePt": 14,
+        "color": "#000000",
+        "weight": "normal",
+        "markerGlyph": "\u25cf",
+        "markerXPt": 43.8341,
+        "textXPt": 70.2854,
+        "hangingPt": 26.4513,
+        "baselinePitchPt": 16.8
+      },
+      "narrativeSlots": [
+        "brief dataset/condition context",
+        "scoped observation and reported explanation in one connected note"
+      ],
+      "evidence": {
+        "kind": "one complete independent scientific evidence figure",
+        "framePt": [
+          108.4902,
+          113.8858,
+          568.6095,
+          404.9999
+        ],
+        "sourceWasRaster": true,
+        "sourcePixels": [
+          991,
+          627
+        ],
+        "localTypographyStatus": "Raster serif scientific labels. Nominal font identities/sizes unrecovered; do not present a guessed table font as a native measurement.",
+        "preserve": [
+          "caption and units",
+          "ranking key and exclusions",
+          "all panels and headers",
+          "all current rows and exact values",
+          "separate baseline or unranked comparison"
+        ],
+        "aspectRatioPolicy": "Contain the complete current figure. Source is landscape991:627, not portrait. Let actual asset ratio and complete content guide minimal footprint adjustment.",
+        "sourceAnnotation": {
+          "kind": "independent native outline",
+          "framePt": [
+            130.4744,
+            195.0472,
+            552.6004,
+            209.9528
+          ],
+          "strokePt": 1.5,
+          "color": "#FF0000",
+          "fillOpacity": 0
+        },
+        "focusPolicy": "Optional non-obscuring local focus layer names the discussed evidence region; keep it separate from embedded ranking colors. Do not invent focus or modify scientific source pixels."
+      },
+      "footprint": {
+        "evidenceWidthFraction": 0.6391,
+        "evidenceHeightFraction": 0.7188,
+        "evidenceAreaFraction": 0.4594,
+        "notesGlyphEnvelopeAreaFraction": 0.1017,
+        "sourceFigureEndsAtCanvas": true
+      },
+      "invariants": [
+        "A shallow full-width report band above dominant evidence; body14pt and460pt figure width are a coupled observed composition. Do not inherit10pt deck prose because the evidence happens to be a dense table.",
+        "The source image frame starts3.10pt before the last note glyph ends, but its upper raster whitespace prevents visible collision. Frames do not equal visible ink; inspect the complete caption and lower rule.",
+        "Source figure ends at the canvas edge. Reserve current footer clearance and minimally contain the figure if actual ink would clip or collide; do not force an explanatory sidebar merely from this source frame.",
+        "A small number of note slots does not justify an unlimited multi-sentence sidebar. Necessary scope stays in concise local notes and/or shared evidence witnesses.",
+        "Dense native-table pages and adjacent-note figures remain legitimate when their scientific task and note load call for them. This family does not apply to every table."
+      ],
+      "referenceChromeObserved": "SAI",
+      "chromeSelection": "Current user/deck context controls identity; observed footer is provenance.",
+      "canvasPt": [
+        720,
+        405
+      ]
+    },
+    {
+      "family": "prose-led-overview-inset",
+      "trainingExample": "example-16-prose-led-overview-inset.png",
+      "detailImage": "example-16-inset-detail.png",
+      "measurementRecord": "measurements-mn.json#page1Based=56",
+      "purpose": "Introduce an intended research objective and its motivation; a compact schematic supports one nested example.",
+      "objectRole": "Supporting illustration within the motivation argument; the main reading task is the objective and rationale, not a mechanism lesson.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 36,
+        "color": "#57068C",
+        "sourceClipFramePt": [
+          28.311,
+          19.8075,
+          691.689,
+          64.902
+        ],
+        "glyphEnvelopePt": [
+          35.061,
+          20.7128,
+          512.5651,
+          67.1888
+        ]
+      },
+      "titleGrammar": "Short topic overview. Specific method identity can reside in an inline objective statement; no automatic migration of all specificity into a long technical headline.",
+      "narrative": {
+        "sourceClipFramePt": [
+          28.311,
+          64.9016,
+          691.689,
+          279.0354
+        ],
+        "glyphEnvelopePt": [
+          35.061,
+          75.1453,
+          680.7532,
+          277.6853
+        ],
+        "font": "ArialMT",
+        "sizePt": 19,
+        "color": "#333333",
+        "baselinePitchPt": 26.22,
+        "markerGlyph": "\u25cf",
+        "markerXPt": 41.5873,
+        "textXPt": 71.061,
+        "hangingPt": 29.4737,
+        "nestedMarkerGlyph": "\u25cb",
+        "nestedMarkerXPt": 77.5873,
+        "nestedTextXPt": 107.061,
+        "levelIncrementPt": 36,
+        "emphasis": "Bold inline objective role and subject phrase; standalone motivation role; inline objective-difference lead. Ordinary remainder and nested example."
+      },
+      "narrativeSlots": [
+        "inline intended-goal role plus subject",
+        "short objective list",
+        "motivation role",
+        "connected objective-difference bullet",
+        "nested schematic example/comparison"
+      ],
+      "evidence": {
+        "kind": "compact native schematic inset",
+        "sourceWasRaster": false,
+        "framePt": [
+          523.9409,
+          282.6007,
+          675.1457,
+          375.4872
+        ],
+        "frameDefinition": "Visible native row-label glyphs and token rectangles, excluding page number.",
+        "localTypography": {
+          "itemLabel": {
+            "font": "ArialMT",
+            "sizePt": 13,
+            "color": "#333333"
+          },
+          "rowLabel": {
+            "font": "ArialMT",
+            "sizePt": 15,
+            "color": "#333333"
+          },
+          "measurementStatus": "Native PDF text extraction, not a raster estimate."
+        },
+        "cellSizePt": [
+          23.4331,
+          25.8425
+        ],
+        "cellPitchXPt": 31.7362,
+        "cellGapPt": 8.3031,
+        "rowShapeFramesPt": [
+          [
+            523.9409,
+            301.2549,
+            674.3189,
+            327.0974
+          ],
+          [
+            524.7677,
+            349.6447,
+            675.1457,
+            375.4872
+          ]
+        ],
+        "rowLabelGlyphFramesPt": [
+          [
+            541.5863,
+            282.6007,
+            658.2413,
+            297.6007
+          ],
+          [
+            541.5863,
+            332.1302,
+            658.2413,
+            347.1302
+          ]
+        ],
+        "strokePt": 0.75,
+        "strokeColor": "#333333",
+        "cornerRadiusPt": 0,
+        "semanticFills": {
+          "firstState": "#EA9999",
+          "secondState": "#A4C2F4"
+        },
+        "geometryStatus": "Observed local scale and square-corner grammar. Current facts determine all item counts, state runs and row labels; source counts are not preloaded.",
+        "interpretationPolicy": "Keep required state meaning explicit with a short local key or existing prose witness when needed. Add the minimum necessary mapping; do not automatically duplicate it across row subtitles, legend and concluding caption."
+      },
+      "footprint": {
+        "insetWidthFraction": 0.21,
+        "insetAreaFraction": 0.0482,
+        "narrativeGlyphEnvelopeAreaFraction": 0.4485,
+        "nestedExampleToInsetPt": 4.9154
+      },
+      "invariants": [
+        "Large19pt narrative,36pt overview title and compact lower-right inset form one coupled hierarchy. A generic17pt side column with an expanded right teaching panel is another composition.",
+        "The diagram illustrates the nested motivation example. Keep relation to that argument; do not independently allocate a legend, duplicate comparison sentence, mechanism stages and equal-weight panel.",
+        "Preserve independent scientific typography, square-corner geometry, local color roles and compact shape footprint. No automatic rounded cards, wider equal columns or new palette.",
+        "Scientific intent stays aspirational where facts describe a goal. All current positions, state assignments and comparison relations remain explicit and correct.",
+        "For staged progress choose workflow; for a mechanism requiring transitions choose the suitable mechanism family. Token presence alone does not make a page a mechanism lesson."
+      ],
+      "referenceChromeObserved": "SAI",
+      "chromeSelection": "Current user/deck context controls identity; observed footer is provenance.",
+      "canvasPt": [
+        720,
+        405
+      ]
+    },
+    {
+      "canvasPt": [
+        720,
+        405
+      ],
+      "chromeSelection": "Use current deck/user identity; observed footer is provenance only.",
+      "typeScalePolicy": "Adapt surrounding prose and independent object footprint together. Native deck fonts are measured; raster scientific fonts are unknown. Do not enlarge every object or normalize figure typography into deck prose.",
+      "trainingOnly": true,
+      "family": "algorithm-report-with-supporting-inset",
+      "trainingExample": "example-17-algorithm-report-with-supporting-inset.png",
+      "measurementRecord": "measurements-broad.json#page1Based=83",
+      "purpose": "Explain an algorithm through premise and operational narrative, supported by independent empirical panels and a local illustration.",
+      "objectRole": "Narrative-led method report; supporting panels corroborate the premise, and local illustration supports the operation.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 27,
+        "color": "#57068C",
+        "glyphEnvelopePt": [
+          33.561,
+          26.9495,
+          567.189,
+          61.8065
+        ]
+      },
+      "narrative": {
+        "font": "ArialMT",
+        "sizePt": 14,
+        "color": "#333333",
+        "glyphEnvelopePt": [
+          35.061,
+          76.0369,
+          389.981,
+          241.2369
+        ],
+        "baselinePitchPt": 16.8,
+        "markerXPt": 44.6097,
+        "textXPt": 71.061,
+        "roles": [
+          "bold premise role",
+          "ordinary connected premise bullets",
+          "bold algorithm role",
+          "operational bullets with selective bold operation leads"
+        ]
+      },
+      "evidence": {
+        "kind": "independent raster plots plus native supporting illustration",
+        "visiblePlotClipFramesPt": [
+          [
+            401.5,
+            61.6122,
+            708.619,
+            153.2933
+          ],
+          [
+            401.499,
+            173.004,
+            708.6183,
+            266.7569
+          ],
+          [
+            403.8563,
+            289.8236,
+            710.9753,
+            381.6615
+          ]
+        ],
+        "illustrationEnvelopePt": [
+          39.6477,
+          258.2264,
+          399.5079,
+          390.69
+        ],
+        "nativeIllustrationTypography": {
+          "labelFont": "ArialMT",
+          "labelSizePt": 14,
+          "sampleSizePt": 11
+        },
+        "scientificCaption": {
+          "font": "ArialMT",
+          "sizePt": 12.3503,
+          "color": "#333333"
+        },
+        "sourcePlotTypography": "Raster, unknown nominal fonts; retain current axes, labels, series and conditions.",
+        "outlinePt": 0.75,
+        "outlineColor": "#333333",
+        "illustrationFill": "#F3F3F3",
+        "caveat": "Visible plot clips, not full embedded image boxes. Source lower objects/caption approach footer/canvas edge; repair overlap/clipping locally."
+      },
+      "guide": "../layout/method-report.md",
+      "invariants": [
+        "Current facts determine content, scientific object count and topology; observed row/stage/panel counts are measurement evidence only.",
+        "Preserve scientific scope, numeric truth and object identity. Repair clipping or overlap narrowly rather than copying defects."
+      ]
+    },
+    {
+      "canvasPt": [
+        720,
+        405
+      ],
+      "chromeSelection": "Use current deck/user identity; observed footer is provenance only.",
+      "typeScalePolicy": "Adapt surrounding prose and independent object footprint together. Native deck fonts are measured; raster scientific fonts are unknown. Do not enlarge every object or normalize figure typography into deck prose.",
+      "trainingOnly": true,
+      "family": "paper-method-outline",
+      "trainingExample": "example-18-paper-method-outline.png",
+      "measurementRecord": "measurements-broad.json#page1Based=158",
+      "purpose": "Report a paper method as an ordered conceptual outline with subordinate explanatory clauses and an independent equation excerpt.",
+      "objectRole": "The method outline leads; the equation object supports the listed concepts rather than becoming a new pipeline.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 23,
+        "color": "#57068C",
+        "glyphEnvelopePt": [
+          28.9193,
+          29.8228,
+          526.3864,
+          59.5158
+        ]
+      },
+      "narrative": {
+        "font": "ArialMT",
+        "sizePt": 14,
+        "color": "#000000",
+        "glyphEnvelopePt": [
+          75.6339,
+          87.3214,
+          601.5529,
+          235.7213
+        ],
+        "baselinePitchPt": 16.8,
+        "topLevelMarker": "decimal",
+        "topMarkerXPt": 75.6339,
+        "topTextXPt": 105.3031,
+        "nestedMarker": "lowercase-letter",
+        "nestedMarkerXPt": 111.6339,
+        "nestedTextXPt": 141.3031,
+        "levelIncrementPt": 36,
+        "roles": [
+          "ordered method concept",
+          "lettered explanation/condition"
+        ]
+      },
+      "evidence": {
+        "kind": "independent paper-equation excerpt",
+        "framePt": [
+          106.8878,
+          245.2421,
+          554.9647,
+          350.0197
+        ],
+        "sourceWasRaster": true,
+        "sourcePixels": [
+          1052,
+          246
+        ],
+        "fontStatus": "Embedded equation/caption fonts unrecovered; retain scientific typesetting and equation identifiers when needed.",
+        "preserve": [
+          "complete equation",
+          "symbol definitions",
+          "conditions",
+          "equation identity/attribution"
+        ]
+      },
+      "guide": "../layout/method-report.md",
+      "invariants": [
+        "Current facts determine content, scientific object count and topology; observed row/stage/panel counts are measurement evidence only.",
+        "Preserve scientific scope, numeric truth and object identity. Repair clipping or overlap narrowly rather than copying defects."
+      ],
+      "footprint": {
+        "evidenceWidthFraction": 0.6223,
+        "evidenceAreaFraction": 0.161
+      }
+    },
+    {
+      "canvasPt": [
+        720,
+        405
+      ],
+      "chromeSelection": "Use current deck/user identity; observed footer is provenance only.",
+      "typeScalePolicy": "Adapt surrounding prose and independent object footprint together. Native deck fonts are measured; raster scientific fonts are unknown. Do not enlarge every object or normalize figure typography into deck prose.",
+      "trainingOnly": true,
+      "family": "scientific-table-readout",
+      "trainingExample": "example-19-scientific-table-readout.png",
+      "measurementRecord": "measurements-broad.json#page1Based=347",
+      "purpose": "Present a self-contained scientific comparison with one local context/caption line and a grouped results table.",
+      "objectRole": "The table is the primary explanation; a small scientific context line supplies interpretation conditions.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 35,
+        "color": "#57068C",
+        "glyphEnvelopePt": [
+          31.2933,
+          48.6409,
+          407.7533,
+          93.8259
+        ]
+      },
+      "narrative": {
+        "font": "Montserrat-Regular",
+        "sizePt": 10,
+        "color": "#333333",
+        "glyphEnvelopePt": [
+          87.9272,
+          108.8688,
+          606.4772,
+          121.0588
+        ],
+        "roles": [
+          "one scientific context/caption line"
+        ],
+        "captionNotDeckBulletDefault": true
+      },
+      "evidence": {
+        "kind": "native independent scientific table",
+        "framePt": [
+          66.0915,
+          134.5285,
+          646.373,
+          331.2785
+        ],
+        "columnEdgesPt": [
+          66.0915,
+          122.001,
+          187.7628,
+          270.1526,
+          350.0738,
+          441.7018,
+          513.6152,
+          588.6191,
+          646.373
+        ],
+        "headerHeightsPt": [
+          30,
+          46.75
+        ],
+        "dataRowHeightPt": 30,
+        "font": "ArialMT",
+        "sizePt": 8,
+        "color": "#000000",
+        "groupHeaderFont": "Arial-BoldMT",
+        "groupHeaderFill": "#CCCCCC",
+        "conditionStubFill": "#CCCCCC",
+        "bodyFill": "#FFFFFF",
+        "ruleColor": "#333333",
+        "rulesPt": 0.75,
+        "emphasisControls": {
+          "focusRowIds": [],
+          "winnerCellIds": [],
+          "headerStyle": "neutral grouped gray",
+          "policy": "Focus/winner marks are absent in this source. Add only current meaningful comparison marks; do not derive them from the sample or transplant green operating-row styling."
+        },
+        "semantics": "Grouped metric families and shared condition stubs carry context. Units/formats may live inside current headers and figures; preserve them without an obligatory prose duplicate."
+      },
+      "guide": "../layout/scientific-table.md",
+      "invariants": [
+        "Current facts determine content, scientific object count and topology; observed row/stage/panel counts are measurement evidence only.",
+        "Preserve scientific scope, numeric truth and object identity. Repair clipping or overlap narrowly rather than copying defects."
+      ],
+      "footprint": {
+        "evidenceWidthFraction": 0.8059,
+        "evidenceAreaFraction": 0.3915
+      }
+    },
+    {
+      "canvasPt": [
+        720,
+        405
+      ],
+      "chromeSelection": "Use current deck/user identity; observed footer is provenance only.",
+      "typeScalePolicy": "Adapt surrounding prose and independent object footprint together. Native deck fonts are measured; raster scientific fonts are unknown. Do not enlarge every object or normalize figure typography into deck prose.",
+      "trainingOnly": true,
+      "family": "independent-plot-setup",
+      "trainingExample": "example-20-independent-plot-setup.png",
+      "measurementRecord": "measurements-broad.json#page1Based=498",
+      "purpose": "Explain an empirical design observation with an intact plot panel and a separate mathematical justification.",
+      "objectRole": "Independent scientific plots lead the evidence; ordinary notes map conditions/series, while equations support the interpretation.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 36,
+        "color": "#57068C",
+        "glyphEnvelopePt": [
+          24.1575,
+          29.2255,
+          460.2615,
+          75.7015
+        ]
+      },
+      "narrative": {
+        "font": "ArialMT",
+        "sizePt": 14,
+        "color": "#000000",
+        "glyphEnvelopePt": [
+          38.2042,
+          95.5645,
+          304.9375,
+          264.1245
+        ],
+        "baselinePitchPt": 19.32,
+        "markerXPt": 38.2042,
+        "textXPt": 64.6555,
+        "nestedMarkerXPt": 74.2042,
+        "nestedTextXPt": 100.6555,
+        "levelIncrementPt": 36,
+        "roles": [
+          "empirical observation",
+          "nested series/condition explanation",
+          "scoped interpretation"
+        ]
+      },
+      "evidence": {
+        "kind": "independent raster plot panel plus separate equation excerpt",
+        "framePt": [
+          316.6378,
+          75.187,
+          684.3956,
+          355.811
+        ],
+        "equationFramePt": [
+          40.3622,
+          267.9783,
+          306.7678,
+          348.494
+        ],
+        "sourceWasRaster": true,
+        "sourcePixels": [
+          1224,
+          934
+        ],
+        "plotFontStatus": "Raster, unknown nominal fonts; scientific plot styling remains independent.",
+        "localAnnotation": {
+          "font": "Montserrat-Regular",
+          "sizePt": 18,
+          "color": "#333333",
+          "glyphEnvelopePt": [
+            614.4606,
+            73.8954,
+            713.0826,
+            117.4374
+          ]
+        },
+        "preserve": [
+          "axes/units",
+          "conditions",
+          "series/color mapping",
+          "all current panels",
+          "equation content"
+        ],
+        "annotationPolicy": "Native comment is a source-specific observation, not a compulsory callout. Position any current justified comment without covering data."
+      },
+      "guide": "../layout/independent-plot-setup.md",
+      "invariants": [
+        "Current facts determine content, scientific object count and topology; observed row/stage/panel counts are measurement evidence only.",
+        "Preserve scientific scope, numeric truth and object identity. Repair clipping or overlap narrowly rather than copying defects."
+      ],
+      "footprint": {
+        "evidenceWidthFraction": 0.5108,
+        "evidenceAreaFraction": 0.3539
+      }
+    },
+    {
+      "canvasPt": [
+        720,
+        405
+      ],
+      "chromeSelection": "Use current deck/user identity; observed footer is provenance only.",
+      "typeScalePolicy": "Adapt surrounding prose and independent object footprint together. Native deck fonts are measured; raster scientific fonts are unknown. Do not enlarge every object or normalize figure typography into deck prose.",
+      "trainingOnly": true,
+      "family": "operator-graph",
+      "trainingExample": "example-21-operator-graph.png",
+      "measurementRecord": "measurements-broad.json#page1Based=589",
+      "purpose": "Explain a system whose operators, dependencies and parameter/update paths must be traced.",
+      "objectRole": "Ordinary framework notes accompany a compact independent graph; graph topology carries distinct scientific content.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 22,
+        "color": "#57068C",
+        "glyphEnvelopePt": [
+          30.502,
+          45.2358,
+          488.4319,
+          73.6378
+        ]
+      },
+      "narrative": {
+        "font": "ArialMT",
+        "sizePt": 14,
+        "color": "#333333",
+        "glyphEnvelopePt": [
+          39.8976,
+          108.342,
+          390.8416,
+          315.542
+        ],
+        "baselinePitchPt": 19.32,
+        "markerXPt": 49.4463,
+        "textXPt": 75.8976,
+        "nestedMarkerXPt": 85.4463,
+        "nestedTextXPt": 111.8976,
+        "levelIncrementPt": 36,
+        "roles": [
+          "framework premise",
+          "ordinary main points",
+          "hollow nested parameter/training distinctions"
+        ]
+      },
+      "evidence": {
+        "kind": "independent operator/dependency graph",
+        "framePt": [
+          445.5768,
+          82.1929,
+          604.5748,
+          351.1417
+        ],
+        "equationFramePt": [
+          551.6063,
+          254.7493,
+          657.2677,
+          270.2717
+        ],
+        "sourceWasRaster": true,
+        "sourcePixels": [
+          389,
+          658
+        ],
+        "fontStatus": "Graph/math labels raster; nominal fonts and strokes are not native measurements.",
+        "visualGrammar": [
+          "vertical dependency flow",
+          "branch and recombination",
+          "operator-specific square/rounded shapes",
+          "plain solid forward paths",
+          "dashed semantic update paths",
+          "pale semantic parameter fill"
+        ],
+        "nativeLegend": {
+          "font": "ArialMT",
+          "sizePt": 9,
+          "color": "#333333",
+          "glyphEnvelopePt": [
+            578.1437,
+            110.7073,
+            683.6417,
+            130.5073
+          ]
+        },
+        "preserve": [
+          "current nodes/operators",
+          "edge direction",
+          "branch/recombination",
+          "distinct forward/update semantics",
+          "necessary local equation/key"
+        ],
+        "scope": "Use graph only when current science requires dependencies. No source nodes, operator counts or update colors become defaults."
+      },
+      "guide": "../layout/operator-graph.md",
+      "invariants": [
+        "Current facts determine content, scientific object count and topology; observed row/stage/panel counts are measurement evidence only.",
+        "Preserve scientific scope, numeric truth and object identity. Repair clipping or overlap narrowly rather than copying defects."
+      ],
+      "footprint": {
+        "evidenceWidthFraction": 0.2208,
+        "evidenceAreaFraction": 0.1466
+      }
+    },
+    {
+      "canvasPt": [
+        720,
+        405
+      ],
+      "chromeSelection": "Use current deck/user identity; observed footer is provenance only.",
+      "typeScalePolicy": "Adapt surrounding prose and independent object footprint together. Native deck fonts are measured; raster scientific fonts are unknown. Do not enlarge every object or normalize figure typography into deck prose.",
+      "trainingOnly": true,
+      "family": "numbered-procedure-report",
+      "trainingExample": "example-22-numbered-procedure-report.png",
+      "measurementRecord": "measurements-broad.json#page1Based=370",
+      "purpose": "Report an ordered implementation procedure with subordinate concrete details.",
+      "objectRole": "Ordered prose is the primary scientific object; indentation and type hierarchy carry sequence without an extra flowchart.",
+      "title": {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 22,
+        "color": "#57068C",
+        "glyphEnvelopePt": [
+          31.2933,
+          34.9144,
+          244.4953,
+          63.3164
+        ]
+      },
+      "narrative": {
+        "font": "ArialMT",
+        "sizePt": 18,
+        "color": "#000000",
+        "glyphEnvelopePt": [
+          67.2462,
+          104.6976,
+          586.2457,
+          322.5621
+        ],
+        "topLevelMarker": "decimal",
+        "topMarkerXPt": 67.2462,
+        "topTextXPt": 100.2579,
+        "nestedFont": "ArialMT",
+        "nestedSizePt": 14,
+        "nestedMarker": "lowercase-letter",
+        "nestedMarkerXPt": 106.5886,
+        "nestedTextXPt": 136.2579,
+        "nestedBaselinePitchPt": 19.32,
+        "topToFirstNestedBaselinePt": 23.16,
+        "roles": [
+          "ordered operation/implementation stage",
+          "lettered concrete supporting detail"
+        ]
+      },
+      "evidence": {
+        "kind": "native ordered procedure, no separate figure",
+        "framePt": [
+          67.2462,
+          104.6976,
+          586.2457,
+          322.5621
+        ],
+        "preserve": [
+          "actual order",
+          "nested ownership",
+          "complete implementation identifiers"
+        ],
+        "spacingPolicy": "Stage spacing follows each stage detail load. Source step count is not a required schema."
+      },
+      "guide": "../layout/method-report.md",
+      "invariants": [
+        "Current facts determine content, scientific object count and topology; observed row/stage/panel counts are measurement evidence only.",
+        "Preserve scientific scope, numeric truth and object identity. Repair clipping or overlap narrowly rather than copying defects."
+      ],
+      "footprint": {
+        "evidenceWidthFraction": 0.7208,
+        "evidenceAreaFraction": 0.3878
+      }
+    },
+    {
+      "family": "scientific-status-caption",
+      "trainingExample": "example-23-scientific-status-caption.png",
+      "measurementRecord": "measurements-broad.json#page1Based=336",
+      "guide": "../layout/scientific-table.md",
+      "trainingOnly": true,
+      "canvasPt": [
+        720,
+        405
+      ],
+      "chromeSelection": "Current deck/user identity controls footer; observed footer is provenance only.",
+      "purpose": "Report a compact scientific method/model/conditions caption, current implementation status and pending work above a neutral comparison table.",
+      "objectRole": "Compact scientific heading and internal status narrative introduce the table. There is no separate purple topic-title layer.",
+      "title": {
+        "font": "Arial-BoldMT",
+        "sizePt": 14,
+        "color": "#000000",
+        "glyphEnvelopePt": [
+          78.3484,
+          45.6334,
+          527.8883,
+          59.6334
+        ],
+        "role": "primary scientific method/model/conditions heading",
+        "additionalTopicTitle": false
+      },
+      "narrative": {
+        "font": "Montserrat-Regular",
+        "sizePt": 10,
+        "color": "#333333",
+        "glyphEnvelopePt": [
+          90.3107,
+          74.4909,
+          569.2884,
+          170.6809
+        ],
+        "baselinePitchPt": 12,
+        "markerFont": "ArialMT",
+        "markerSizePt": 10,
+        "markerXPt": 90.3107,
+        "textXPt": 114.3484,
+        "nestedMarkerXPt": 126.3107,
+        "nestedTextXPt": 150.3484,
+        "levelIncrementPt": 36,
+        "roles": [
+          "current method implementation description",
+          "implemented changes with nested details when supplied",
+          "pending work with nested details when explicitly supplied"
+        ],
+        "statusPolicy": "Implemented and planned remain distinct. Do not infer missing progress, fabricate next steps, or turn a plan into an observed result."
+      },
+      "evidence": {
+        "kind": "native neutral grouped scientific table",
+        "framePt": [
+          98.0069,
+          182.3524,
+          654.4025,
+          378.1516
+        ],
+        "columnEdgesPt": [
+          98.0069,
+          154.4262,
+          231.5778,
+          281.7726,
+          330.1289,
+          386.8317,
+          443.5345,
+          500.2372,
+          556.9399,
+          613.6427,
+          654.4025
+        ],
+        "headerHeightsPt": [
+          23.996,
+          43.1969
+        ],
+        "observedDataRowHeightsPt": [
+          33.5964,
+          33.5965,
+          30.7067,
+          30.7067
+        ],
+        "font": "ArialMT",
+        "sizePt": 8,
+        "color": "#000000",
+        "headerFont": "Arial-BoldMT",
+        "headerFill": "#FFFFFF",
+        "bodyFill": "#FFFFFF",
+        "rulesPt": 0.75,
+        "ruleColor": "#000000",
+        "cellTextAlignment": "left",
+        "structure": "Method/configuration stubs, grouped evidence headings and nested metric columns; merged repeated condition/method cells when scientifically meaningful. Current science determines grouping and row/column count.",
+        "emphasisControls": {
+          "focusRowIds": [],
+          "winnerCellIds": [],
+          "policy": "No focus or winner emphasis in source. Current justified focus/winner marks remain independent; neutral styling is a valid author variant."
+        },
+        "semantics": "Heading, table headers, configuration cells and status notes jointly carry conditions. Retain exact current scientific tokens and scope without compulsory prose duplication.",
+        "containment": "Source table approaches footer level; preserve complete table while repairing actual collisions locally."
+      },
+      "footprint": {
+        "evidenceWidthFraction": 0.7728,
+        "evidenceAreaFraction": 0.3736
+      },
+      "invariants": [
+        "A black/sans primary scientific caption is legitimate; do not add a purple topic title solely for deck uniformity.",
+        "This family is one observed author variant, not a universal table or status template. Current scientific roles choose the family and actual slots.",
+        "Adapt compact heading,10pt status body and8pt table footprint together; source values, method identifiers, status counts and row counts are not defaults.",
+        "Preserve numeric truth, implementation/pending distinction and independent table identity; do not imitate source grammar errors or clipped/wrapped tokens."
+      ]
+    }
+  ]
+}

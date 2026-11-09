@@ -24,3 +24,11 @@
 本次核对了 [PyTorch cross-entropy 定义](https://docs.pytorch.org/docs/stable/generated/torch.nn.CrossEntropyLoss.html)、[Transformers 调度器参数语义](https://huggingface.co/docs/transformers/main_classes/optimizer_schedules) 和 [uv 项目文件语义](https://docs.astral.sh/uv/concepts/projects/layout/)；这不等同于验证所有模型训练配方。
 
 两个来源仓库的所读文件树没有独立 LICENSE 文件，压缩包也没有许可证文本。因此此整合不擅自增加 MIT/Apache 等许可声明，也不把公开可见等同于开放许可。
+
+## research-slide：2026-11-08 接入
+
+来源为用户提供的 `build-research-slides-v10-complete.zip`，外层 SHA-256 为 `e4ef51e765b509b3664a47a0ec28f3cd3a8ed5caca42de5a76e59250d72cc1f1`；其中实际 skill ZIP 的 SHA-256 为 `85734b2860baf1d0e474ec79dd64d2a64c43f3302bb135f5caa74c14fd1c77d4`，与原交付清单一致。
+
+导入实际 skill 的 127 个文件，保留参考页、字体及其 OFL 文本、品牌素材、分阶段指南和辅助脚本。没有将外层验证稿、评审 HTML、评测 ZIP 复制到运行包。原交付声明是历史验证记录，不是本次重新执行的盲评结论。
+
+接入修改限于入口名称/UI/授权措辞，以及阶段包相对路径统一使用 POSIX 分隔符的 Windows 兼容修复。导入时其余文件保持原字节内容，Git 按仓库规则统一文本换行。本版本已发生改名与兼容修复，因此不再声称与原 v10 冻结包逐字节相同。原作者风格与科学验收要求保留。

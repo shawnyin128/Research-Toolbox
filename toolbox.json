@@ -1,14 +1,16 @@
 {
   "name": "Research-Toolbox",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "skills": [
     "research-design",
     "research-code",
-    "research-tune"
+    "research-tune",
+    "research-slide"
   ],
   "migration": {
     "research-fork-test": "research-design",
     "sai-cc": "research-code",
-    "hyper-tune": "research-tune"
+    "hyper-tune": "research-tune",
+    "build-research-slides": "research-slide"
   }
 }

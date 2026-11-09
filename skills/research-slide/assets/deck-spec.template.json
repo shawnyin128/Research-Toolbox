@@ -1,0 +1,62 @@
+{
+  "schema_version": "0.4-planning-only",
+  "brief": {
+    "audience_outcome": "",
+    "title": "",
+    "mode": "research-progress",
+    "audience": "researchers",
+    "language": "en",
+    "duration_minutes": 10,
+    "destination": "resolve-from-current-host-routing",
+    "aspect_ratio": "16:9",
+    "source_of_truth": "",
+    "assumptions": []
+  },
+  "design": {
+    "reference": null,
+    "font": "verify-availability",
+    "background": "FFFFFF",
+    "text": "202020",
+    "accent": "7057A3",
+    "semantic_series_styles": {}
+  },
+  "sources": [],
+  "slides": [
+    {
+      "id": "s01",
+      "role": "result",
+      "page_goal": "",
+      "specialist_guides": [],
+      "title": "",
+      "message": "",
+      "audience_question": "",
+      "visual_relationship": "comparison",
+      "composition": "observation-with-interpretation",
+      "reading_order": [],
+      "evidence_anchor": "",
+      "claim_scope": "",
+      "evidence_precision": null,
+      "next_slide_connection": "",
+      "experiment": {
+        "varies": null,
+        "held_fixed": [],
+        "units_and_normalization": null,
+        "scope": null,
+        "decision_supported": null
+      },
+      "evidence": [],
+      "visual": {"type": "chart", "path": null, "editable": true},
+      "template_exemplar": null,
+      "media_mapping": [],
+      "notes": "",
+      "estimated_seconds": 60,
+      "backup": false
+    }
+  ],
+  "qa": {
+    "content": "not-run",
+    "structure": "not-run",
+    "visual": "not-run",
+    "limitations": []
+  }
+}

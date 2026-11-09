@@ -1,0 +1,5 @@
+# Layout — runtime ablation
+
+Follow the family's title, plain connected question/setup/Observation hierarchy, measured bullets and evidence area. Small tables may remain low and small; a plot may dominate beside notes. Preserve actual footprint rather than optimizing every page for largest labels. Use simple headers for simple comparisons and real grouped headers for sweeps. Distinguish a selected operating point from metric winners and keep headline exceptions. Blue focus, black grid/green selection and plain black tables are separate variants; do not impose one runtime theme. Preserve the scientific purpose as well as its control knob.
+
+Select by [report purpose and current series](family-selector.md) before choosing an evidence analogue. For brief observations carried by a dominant scientific plot, use [plot-led observation](plot-led-observation.md). For a bounded runtime-cost comparison with a selected configuration, use [runtime focus table](runtime-focus-table.md). Full setup/results curves, small plain tables and wide sweeps remain distinct compatible families.

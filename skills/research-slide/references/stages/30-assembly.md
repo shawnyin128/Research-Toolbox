@@ -1,0 +1,11 @@
+# Stage 3 — execute approved contracts
+
+Input: facts/evidence, layout and slot-bound copy. Read the chosen [PPTX](../local-pptx.md) or [Google](../google-slides.md) backend, host requirements and necessary [components](../author-components.md). Do not load unrelated design/narrative guides or choose a new story/family.
+
+Use original branding, complete fonts, native text/bullets/tables/diagrams and permitted intact figures. Profile coordinates/font sizes are points; convert once. Helper defaults are implementation conveniences, not author evidence: apply selected font, glyph, spacing, palette and emphasis explicitly.
+
+Normalize measured PDF face names to real families: ArialMT/Arial-BoldMT to Arial with the matching weight; TimesNewRomanPSMT and its Italic/Bold variants to Times New Roman with the matching styles; Montserrat-Regular/Bold to Montserrat; and FrankRuhlLibre-Bold to Frank Ruhl Libre bold. Verify/register the complete selected face in the host, including the scientific object's independent serif labels when required. A PDF subset/PostScript name is not a new font family to request blindly. Never substitute tiny diagram labels with the prose typeface merely for convenience.
+
+Keep exact table strings, matching indices, channel positions and real math. Do not add captions, labels, connectors or groups absent from the plan unless repairing a concrete scientific error; return such an issue upstream by fact/object ID. Save, reimport and render the actual artifact. Fit failures return to their owner, rather than silently shrinking copy or redesigning the page. Keep freeze records. A screenshot with hidden text is not native editability.
+
+Inspect powers, indices, bars and fraction scope at normal delivery size. A tiny phonetic superscript or unsupported Unicode subscript can be mistaken for a baseline product or force an unexpected font even when extraction retains the character. Use supported native script styles or approved positioned ASCII components when needed; unambiguous caret notation is suitable in prose when consistent with the scientific record. Check actual glyphs and exported font use, and record any substitution or text-layer mapping limit. A logical equation string is not proof that its separately assembled components retain the same expression.

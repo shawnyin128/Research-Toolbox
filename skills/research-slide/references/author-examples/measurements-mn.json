@@ -1,0 +1,935 @@
+{
+  "schemaVersion": 1,
+  "units": "PDF pt on 720\u00d7405; framePt/bboxPt are [x1,y1,x2,y2] corners.",
+  "scope": "M/N explicitly promoted from old tests to DEVELOPMENT/TRAINING. These measurements and all four old locked reviews are development evidence, not fresh validation. Only source pages373/56 inspected; no future or neighboring sources read.",
+  "trainingReferenceIndex": [
+    {
+      "image": "example-15-evidence-led-short-readout.png",
+      "detail": "example-15-evidence-detail.png",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "page1Based": 373,
+      "formerDevelopmentCase": "M"
+    },
+    {
+      "image": "example-16-prose-led-overview-inset.png",
+      "detail": "example-16-inset-detail.png",
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "page1Based": 56,
+      "formerDevelopmentCase": "N"
+    }
+  ],
+  "reviewProvenance": [
+    "Locked R400/R413/R427/R440 identify combined hierarchy/footprint/object-role shifts in M/N; do not infer universal layouts from table or token presence."
+  ],
+  "measurementMethod": "PyMuPDF native spans, baseline origins, image placement and visible drawing paths. Full-page renders at2\u00d7; detail crops at3\u00d7. Raster table label fonts are unrecovered; do not confuse apparent raster glyph size with native font extraction.",
+  "rawSourceWarning": "Text spans are verbatim evidence, never reusable slide copy or scientific defaults. Source M result is overbroad: use current highest-average-AL scope among ranked methods, with TriForce excluded, and preserve researcher-attributed overhead status. Source N is an intended goal and schematic comparison, not measured performance.",
+  "records": [
+    {
+      "example": "example-15-evidence-led-short-readout.png",
+      "detailImage": "example-15-evidence-detail.png",
+      "detailClipPt": [
+        111,
+        122,
+        570,
+        405
+      ],
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "page1Based": 373,
+      "formerDevelopmentCase": "M",
+      "trainingOnly": true,
+      "canvasPt": [
+        720,
+        405
+      ],
+      "textSpans": [
+        {
+          "text": "373",
+          "font": "Montserrat-Bold",
+          "sizePt": 7.0,
+          "color": "#330662",
+          "bboxPt": [
+            671.8235,
+            362.381,
+            684.3465,
+            370.914
+          ],
+          "baselineOriginPt": [
+            671.8235,
+            369.157
+          ]
+        },
+        {
+          "text": "Evaluating First-order Importance Score",
+          "font": "FrankRuhlLibre-Bold",
+          "sizePt": 24.0,
+          "color": "#57068C",
+          "bboxPt": [
+            23.1673,
+            11.3065,
+            469.3514,
+            42.2905
+          ],
+          "baselineOriginPt": [
+            23.1673,
+            34.2745
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            43.8341,
+            69.3834,
+            52.2901,
+            83.3834
+          ],
+          "baselineOriginPt": [
+            43.8341,
+            80.2491
+          ]
+        },
+        {
+          "text": "Dataset: LongBench Writer(120 prompt), AIME(30 prompt)",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            70.2854,
+            69.3834,
+            431.5973,
+            83.3834
+          ],
+          "baselineOriginPt": [
+            70.2854,
+            80.2491
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            43.8341,
+            86.1834,
+            52.2901,
+            100.1834
+          ],
+          "baselineOriginPt": [
+            43.8341,
+            97.0491
+          ]
+        },
+        {
+          "text": "Achieves best Acceptance Length across all method, but Low Throughput because computation ",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            70.2854,
+            86.1834,
+            666.5732,
+            100.1834
+          ],
+          "baselineOriginPt": [
+            70.2854,
+            97.0491
+          ]
+        },
+        {
+          "text": "overhead",
+          "font": "ArialMT",
+          "sizePt": 14.0,
+          "color": "#000000",
+          "bboxPt": [
+            70.2854,
+            102.9834,
+            128.6514,
+            116.9834
+          ],
+          "baselineOriginPt": [
+            70.2854,
+            113.8491
+          ]
+        }
+      ],
+      "images": [
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "pixels": [
+            330,
+            112
+          ],
+          "isScientificEvidence": false
+        },
+        {
+          "framePt": [
+            0.0,
+            -8.7917,
+            720.0002,
+            20.7403
+          ],
+          "pixels": [
+            2048,
+            84
+          ],
+          "isScientificEvidence": false
+        },
+        {
+          "framePt": [
+            108.4902,
+            113.8858,
+            568.6095,
+            404.9999
+          ],
+          "pixels": [
+            991,
+            627
+          ],
+          "isScientificEvidence": true
+        },
+        {
+          "framePt": [
+            4.2126,
+            355.8013,
+            109.8741,
+            381.631
+          ],
+          "pixels": [
+            634,
+            155
+          ],
+          "isScientificEvidence": false
+        }
+      ],
+      "visibleVectorObjects": [
+        {
+          "framePt": [
+            130.4744,
+            195.0472,
+            552.6004,
+            209.9528
+          ],
+          "type": "fs",
+          "fill": "#000000",
+          "fillOpacity": 0.0,
+          "stroke": "#FF0000",
+          "strokeOpacity": 1.0,
+          "strokePt": 1.5,
+          "dashes": "[] 0",
+          "rectangular": true
+        }
+      ]
+    },
+    {
+      "example": "example-16-prose-led-overview-inset.png",
+      "detailImage": "example-16-inset-detail.png",
+      "detailClipPt": [
+        514,
+        278,
+        677,
+        379
+      ],
+      "source": "Cerebras & NYU Weekly Speculative Decoding 2026 Spring .pdf",
+      "page1Based": 56,
+      "formerDevelopmentCase": "N",
+      "trainingOnly": true,
+      "canvasPt": [
+        720,
+        405
+      ],
+      "textSpans": [
+        {
+          "text": "56",
+          "font": "Montserrat-Bold",
+          "sizePt": 7.0,
+          "color": "#330662",
+          "bboxPt": [
+            678.5461,
+            362.381,
+            687.1702,
+            370.914
+          ],
+          "baselineOriginPt": [
+            678.5461,
+            369.157
+          ]
+        },
+        {
+          "text": "KV Cache Eviction: Overview",
+          "font": "FrankRuhlLibre-Bold",
+          "sizePt": 36.0,
+          "color": "#57068C",
+          "bboxPt": [
+            35.061,
+            20.7128,
+            512.5651,
+            67.1888
+          ],
+          "baselineOriginPt": [
+            35.061,
+            55.1648
+          ]
+        },
+        {
+          "text": "Goal:",
+          "font": "Arial-BoldMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            35.061,
+            75.1453,
+            83.568,
+            94.1453
+          ],
+          "baselineOriginPt": [
+            35.061,
+            89.8916
+          ]
+        },
+        {
+          "text": " an ",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            83.6087,
+            75.1453,
+            115.2627,
+            94.1453
+          ],
+          "baselineOriginPt": [
+            83.6087,
+            89.8916
+          ]
+        },
+        {
+          "text": "acceptance-aware draft model KV cache pruning",
+          "font": "Arial-BoldMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            115.2936,
+            75.1453,
+            554.1555,
+            94.1453
+          ],
+          "baselineOriginPt": [
+            115.2936,
+            89.8916
+          ]
+        },
+        {
+          "text": " method.",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            554.4487,
+            75.1453,
+            628.3206,
+            94.1453
+          ],
+          "baselineOriginPt": [
+            554.4487,
+            89.8916
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            41.5873,
+            101.3653,
+            53.0633,
+            120.3653
+          ],
+          "baselineOriginPt": [
+            41.5873,
+            116.1116
+          ]
+        },
+        {
+          "text": "Optimize storage & latency;",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            101.3653,
+            303.203,
+            120.3653
+          ],
+          "baselineOriginPt": [
+            71.061,
+            116.1116
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            41.5873,
+            127.5853,
+            53.0633,
+            146.5853
+          ],
+          "baselineOriginPt": [
+            41.5873,
+            142.3316
+          ]
+        },
+        {
+          "text": "Keep acceptance rate unchanged;",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            127.5853,
+            360.336,
+            146.5853
+          ],
+          "baselineOriginPt": [
+            71.061,
+            142.3316
+          ]
+        },
+        {
+          "text": "Motivation:",
+          "font": "Arial-BoldMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            35.061,
+            153.8053,
+            136.293,
+            172.8053
+          ],
+          "baselineOriginPt": [
+            35.061,
+            168.5516
+          ]
+        },
+        {
+          "text": "\u25cf",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            41.5873,
+            180.0253,
+            53.0633,
+            199.0253
+          ],
+          "baselineOriginPt": [
+            41.5873,
+            194.7716
+          ]
+        },
+        {
+          "text": "Objective difference:",
+          "font": "Arial-BoldMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            180.0253,
+            258.857,
+            199.0253
+          ],
+          "baselineOriginPt": [
+            71.061,
+            194.7716
+          ]
+        },
+        {
+          "text": " Standard LLM differs Speculative Decoding Draft ",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            258.9722,
+            180.0253,
+            680.7532,
+            199.0253
+          ],
+          "baselineOriginPt": [
+            258.9722,
+            194.7716
+          ]
+        },
+        {
+          "text": "model that draft model only care about whether its generated token can ",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            206.2453,
+            675.8119,
+            225.2453
+          ],
+          "baselineOriginPt": [
+            71.061,
+            220.9916
+          ]
+        },
+        {
+          "text": "be accepted or not.",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            71.061,
+            232.4653,
+            233.606,
+            251.4653
+          ],
+          "baselineOriginPt": [
+            71.061,
+            247.2116
+          ]
+        },
+        {
+          "text": "\u25cb",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            77.5873,
+            258.6853,
+            89.0633,
+            277.6853
+          ],
+          "baselineOriginPt": [
+            77.5873,
+            273.4315
+          ]
+        },
+        {
+          "text": "For example, draft sequence 1 is better than draft sequence 2.",
+          "font": "ArialMT",
+          "sizePt": 19.0,
+          "color": "#333333",
+          "bboxPt": [
+            107.061,
+            258.6853,
+            631.5749,
+            277.6853
+          ],
+          "baselineOriginPt": [
+            107.061,
+            273.4315
+          ]
+        },
+        {
+          "text": "T1",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            528.0743,
+            308.7666,
+            543.2324,
+            321.7666
+          ],
+          "baselineOriginPt": [
+            528.0743,
+            318.8562
+          ]
+        },
+        {
+          "text": "T2",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            559.8105,
+            308.7666,
+            574.9686,
+            321.7666
+          ],
+          "baselineOriginPt": [
+            559.8105,
+            318.8562
+          ]
+        },
+        {
+          "text": "T3",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            591.5468,
+            308.7666,
+            606.7048,
+            321.7666
+          ],
+          "baselineOriginPt": [
+            591.5468,
+            318.8562
+          ]
+        },
+        {
+          "text": "T4",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            623.283,
+            308.7666,
+            638.441,
+            321.7666
+          ],
+          "baselineOriginPt": [
+            623.283,
+            318.8562
+          ]
+        },
+        {
+          "text": "T5",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            655.0192,
+            308.7666,
+            670.1772,
+            321.7666
+          ],
+          "baselineOriginPt": [
+            655.0192,
+            318.8562
+          ]
+        },
+        {
+          "text": "T1",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            528.901,
+            357.1564,
+            544.0591,
+            370.1564
+          ],
+          "baselineOriginPt": [
+            528.901,
+            367.2459
+          ]
+        },
+        {
+          "text": "T2",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            560.6373,
+            357.1564,
+            575.7953,
+            370.1564
+          ],
+          "baselineOriginPt": [
+            560.6373,
+            367.2459
+          ]
+        },
+        {
+          "text": "T3",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            592.3735,
+            357.1564,
+            607.5316,
+            370.1564
+          ],
+          "baselineOriginPt": [
+            592.3735,
+            367.2459
+          ]
+        },
+        {
+          "text": "T4",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            624.1097,
+            357.1564,
+            639.2678,
+            370.1564
+          ],
+          "baselineOriginPt": [
+            624.1097,
+            367.2459
+          ]
+        },
+        {
+          "text": "T5",
+          "font": "ArialMT",
+          "sizePt": 13.0,
+          "color": "#333333",
+          "bboxPt": [
+            655.8459,
+            357.1564,
+            671.004,
+            370.1564
+          ],
+          "baselineOriginPt": [
+            655.8459,
+            367.2459
+          ]
+        },
+        {
+          "text": "Draft Sequence 1",
+          "font": "ArialMT",
+          "sizePt": 15.0,
+          "color": "#333333",
+          "bboxPt": [
+            541.5863,
+            282.6007,
+            658.2413,
+            297.6007
+          ],
+          "baselineOriginPt": [
+            541.5863,
+            294.2425
+          ]
+        },
+        {
+          "text": "Draft Sequence 2",
+          "font": "ArialMT",
+          "sizePt": 15.0,
+          "color": "#333333",
+          "bboxPt": [
+            541.5863,
+            332.1302,
+            658.2413,
+            347.1302
+          ],
+          "baselineOriginPt": [
+            541.5863,
+            343.772
+          ]
+        }
+      ],
+      "images": [
+        {
+          "framePt": [
+            32.061,
+            357.4111,
+            93.1694,
+            378.1513
+          ],
+          "pixels": [
+            330,
+            112
+          ],
+          "isScientificEvidence": false
+        },
+        {
+          "framePt": [
+            0.0,
+            -8.7917,
+            720.0002,
+            20.7403
+          ],
+          "pixels": [
+            2048,
+            84
+          ],
+          "isScientificEvidence": false
+        },
+        {
+          "framePt": [
+            5.1299,
+            353.4332,
+            110.7914,
+            379.2629
+          ],
+          "pixels": [
+            634,
+            155
+          ],
+          "isScientificEvidence": false
+        }
+      ],
+      "visibleVectorObjects": [
+        {
+          "framePt": [
+            523.9409,
+            301.2549,
+            547.374,
+            327.0974
+          ],
+          "type": "fs",
+          "fill": "#EA9999",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        },
+        {
+          "framePt": [
+            555.6772,
+            301.2549,
+            579.1102,
+            327.0974
+          ],
+          "type": "fs",
+          "fill": "#EA9999",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        },
+        {
+          "framePt": [
+            587.4134,
+            301.2549,
+            610.8464,
+            327.0974
+          ],
+          "type": "fs",
+          "fill": "#EA9999",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        },
+        {
+          "framePt": [
+            619.1496,
+            301.2549,
+            642.5827,
+            327.0974
+          ],
+          "type": "fs",
+          "fill": "#A4C2F4",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        },
+        {
+          "framePt": [
+            650.8858,
+            301.2549,
+            674.3189,
+            327.0974
+          ],
+          "type": "fs",
+          "fill": "#A4C2F4",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        },
+        {
+          "framePt": [
+            524.7677,
+            349.6447,
+            548.2008,
+            375.4872
+          ],
+          "type": "fs",
+          "fill": "#EA9999",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        },
+        {
+          "framePt": [
+            556.5039,
+            349.6447,
+            579.937,
+            375.4872
+          ],
+          "type": "fs",
+          "fill": "#EA9999",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        },
+        {
+          "framePt": [
+            588.2402,
+            349.6447,
+            611.6732,
+            375.4872
+          ],
+          "type": "fs",
+          "fill": "#A4C2F4",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        },
+        {
+          "framePt": [
+            619.9764,
+            349.6447,
+            643.4094,
+            375.4872
+          ],
+          "type": "fs",
+          "fill": "#A4C2F4",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        },
+        {
+          "framePt": [
+            651.7126,
+            349.6447,
+            675.1457,
+            375.4872
+          ],
+          "type": "fs",
+          "fill": "#A4C2F4",
+          "fillOpacity": 1.0,
+          "stroke": "#333333",
+          "strokeOpacity": 1.0,
+          "strokePt": 0.75,
+          "dashes": "[] 0",
+          "rectangular": true
+        }
+      ]
+    }
+  ]
+}

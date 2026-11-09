@@ -89,6 +89,24 @@ class ToolboxTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             installer.install(ROOT, ROOT / "skills", ["research-design"], apply=True)
 
+    def test_install_keeps_helper_source_and_assets_without_bytecode(self):
+        checkout = self.base / "checkout"
+        skill = checkout / "skills" / "research-slide"
+        (skill / "scripts" / "__pycache__").mkdir(parents=True)
+        (skill / "assets").mkdir()
+        (checkout / "toolbox.json").write_text('{"skills":["research-slide"]}', encoding="utf-8")
+        (skill / "SKILL.md").write_text("# Fixture skill\n", encoding="utf-8")
+        (skill / "scripts" / "helper.py").write_text("pass\n", encoding="utf-8")
+        (skill / "scripts" / "__pycache__" / "helper.pyc").write_bytes(b"cached")
+        (skill / "scripts" / "helper.pyo").write_bytes(b"cached")
+        (skill / "assets" / "figure.bin").write_bytes(b"source figure")
+        installer.install(checkout, self.dest, ["research-slide"], apply=True)
+        installed = self.dest / "research-slide"
+        self.assertEqual((installed / "scripts" / "helper.py").read_text(), "pass\n")
+        self.assertEqual((installed / "assets" / "figure.bin").read_bytes(), b"source figure")
+        self.assertFalse((installed / "scripts" / "__pycache__").exists())
+        self.assertFalse((installed / "scripts" / "helper.pyo").exists())
+
     def test_linked_destination_is_rejected(self):
         actual = self.base / "actual"
         actual.mkdir()

@@ -1,0 +1,5 @@
+# Layout — implementation workflow
+
+Choose the observed workflow family rather than a default horizontal pipeline. Preserve narrative/inset relationship, orientation, group footprint/tint, operation shape and text scale. Compact vertical operations can accompany larger working notes. Do not promote every diagram to a full-width board. Groups represent real stages; preserve parallel/exception paths and pending status in the family's restrained manner. Do not multiply red/dashed warnings merely because work is unfinished. Reconstruct native operation/group styling when editability is required.
+
+Distinguish staged progress from [ordered procedure and paper-method reports](method-report.md) and [operator/dependency graphs](operator-graph.md). A method explanation can remain an outline or algorithm narrative with supporting inset. Only actual node/edge dependencies justify a graph; preserve its independent scientific typography and topology instead of assigning every method a full-width flowchart.

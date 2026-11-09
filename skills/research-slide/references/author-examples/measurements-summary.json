@@ -1,0 +1,538 @@
+[
+  {
+    "example": "example-01.png",
+    "slideSizePt": [
+      720,
+      405
+    ],
+    "fontsByCharacterCount": [
+      {
+        "font": "ArialMT",
+        "sizePt": 17.0,
+        "color": "#333333",
+        "characters": 449
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 9.55,
+        "color": "#333333",
+        "characters": 39
+      },
+      {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 22.0,
+        "color": "#57068C",
+        "characters": 32
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 10.28,
+        "color": "#000000",
+        "characters": 24
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 17.0,
+        "color": "#333333",
+        "characters": 13
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 5.88,
+        "color": "#333333",
+        "characters": 6
+      },
+      {
+        "font": "Montserrat-Bold",
+        "sizePt": 7.0,
+        "color": "#330662",
+        "characters": 1
+      }
+    ],
+    "titles": [
+      {
+        "text": "Rotation Matrix Heuristic Search",
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 22.0,
+        "color": "#57068C",
+        "bboxPt": [
+          35.06,
+          21.78,
+          364.31,
+          50.18
+        ]
+      }
+    ]
+  },
+  {
+    "example": "example-02.png",
+    "slideSizePt": [
+      720,
+      405
+    ],
+    "fontsByCharacterCount": [
+      {
+        "font": "ArialMT",
+        "sizePt": 10.0,
+        "color": "#000000",
+        "characters": 355
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 10.0,
+        "color": "#333333",
+        "characters": 107
+      },
+      {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 27.0,
+        "color": "#57068C",
+        "characters": 39
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 10.0,
+        "color": "#000000",
+        "characters": 17
+      },
+      {
+        "font": "Montserrat-Bold",
+        "sizePt": 7.0,
+        "color": "#330662",
+        "characters": 2
+      }
+    ],
+    "titles": [
+      {
+        "text": "KMeans Cluster: Adaptive cluster number",
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 27.0,
+        "color": "#57068C",
+        "bboxPt": [
+          29.79,
+          47.12,
+          542.58,
+          81.97
+        ]
+      }
+    ]
+  },
+  {
+    "example": "example-03.png",
+    "slideSizePt": [
+      720,
+      405
+    ],
+    "fontsByCharacterCount": [
+      {
+        "font": "ArialMT",
+        "sizePt": 10.0,
+        "color": "#000000",
+        "characters": 399
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 13.0,
+        "color": "#333333",
+        "characters": 261
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 10.0,
+        "color": "#B7B7B7",
+        "characters": 150
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 10.0,
+        "color": "#000000",
+        "characters": 80
+      },
+      {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 25.0,
+        "color": "#57068C",
+        "characters": 13
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 15.0,
+        "color": "#333333",
+        "characters": 9
+      },
+      {
+        "font": "Montserrat-Bold",
+        "sizePt": 7.0,
+        "color": "#330662",
+        "characters": 3
+      }
+    ],
+    "titles": [
+      {
+        "text": "QJL reproduce",
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 25.0,
+        "color": "#57068C",
+        "bboxPt": [
+          31.84,
+          28.73,
+          198.86,
+          61.0
+        ]
+      }
+    ]
+  },
+  {
+    "example": "example-04.png",
+    "slideSizePt": [
+      720,
+      405
+    ],
+    "fontsByCharacterCount": [
+      {
+        "font": "ArialMT",
+        "sizePt": 16.0,
+        "color": "#FF0000",
+        "characters": 135
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 16.0,
+        "color": "#FF0000",
+        "characters": 68
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 12.0,
+        "color": "#000000",
+        "characters": 30
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 16.0,
+        "color": "#000000",
+        "characters": 27
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 18.0,
+        "color": "#000000",
+        "characters": 19
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 18.0,
+        "color": "#333333",
+        "characters": 15
+      },
+      {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 36.0,
+        "color": "#57068C",
+        "characters": 13
+      },
+      {
+        "font": "MS-PGothic",
+        "sizePt": 16.0,
+        "color": "#000000",
+        "characters": 6
+      }
+    ],
+    "titles": [
+      {
+        "text": "QKV Joint SVD",
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 36.0,
+        "color": "#57068C",
+        "bboxPt": [
+          31.29,
+          46.24,
+          271.99,
+          92.72
+        ]
+      }
+    ]
+  },
+  {
+    "example": "example-05.png",
+    "slideSizePt": [
+      720,
+      405
+    ],
+    "fontsByCharacterCount": [
+      {
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "characters": 60
+      },
+      {
+        "font": "Montserrat-Regular",
+        "sizePt": 10.0,
+        "color": "#333333",
+        "characters": 58
+      },
+      {
+        "font": "Montserrat-Regular",
+        "sizePt": 16.0,
+        "color": "#333333",
+        "characters": 30
+      },
+      {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 30.0,
+        "color": "#57068C",
+        "characters": 28
+      },
+      {
+        "font": "Montserrat-Regular",
+        "sizePt": 18.0,
+        "color": "#333333",
+        "characters": 17
+      },
+      {
+        "font": "Montserrat-Bold",
+        "sizePt": 7.0,
+        "color": "#330662",
+        "characters": 3
+      }
+    ],
+    "titles": [
+      {
+        "text": "Impact of Permutation Method",
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 30.0,
+        "color": "#57068C",
+        "bboxPt": [
+          27.31,
+          36.52,
+          447.7,
+          75.25
+        ]
+      }
+    ]
+  },
+  {
+    "example": "example-06.png",
+    "slideSizePt": [
+      720,
+      405
+    ],
+    "fontsByCharacterCount": [
+      {
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "characters": 650
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 10.0,
+        "color": "#000000",
+        "characters": 142
+      },
+      {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 24.0,
+        "color": "#57068C",
+        "characters": 52
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "characters": 45
+      },
+      {
+        "font": "Montserrat-Bold",
+        "sizePt": 7.0,
+        "color": "#330662",
+        "characters": 3
+      }
+    ],
+    "titles": [
+      {
+        "text": "Memory Trafﬁc of Zero-Order: Two-sided vs. One-sided",
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 24.0,
+        "color": "#57068C",
+        "bboxPt": [
+          31.29,
+          48.51,
+          634.2,
+          79.5
+        ]
+      }
+    ]
+  },
+  {
+    "example": "example-07.png",
+    "slideSizePt": [
+      720,
+      405
+    ],
+    "fontsByCharacterCount": [
+      {
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#000000",
+        "characters": 311
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 10.0,
+        "color": "#000000",
+        "characters": 214
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 10.0,
+        "color": "#000000",
+        "characters": 45
+      },
+      {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 36.0,
+        "color": "#57068C",
+        "characters": 25
+      },
+      {
+        "font": "Montserrat-Regular",
+        "sizePt": 18.0,
+        "color": "#FF0000",
+        "characters": 4
+      },
+      {
+        "font": "Montserrat-Bold",
+        "sizePt": 7.0,
+        "color": "#330662",
+        "characters": 3
+      }
+    ],
+    "titles": [
+      {
+        "text": "Ablation Study for budget",
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 36.0,
+        "color": "#57068C",
+        "bboxPt": [
+          31.29,
+          36.65,
+          454.83,
+          83.12
+        ]
+      }
+    ]
+  },
+  {
+    "example": "example-08.png",
+    "slideSizePt": [
+      720,
+      405
+    ],
+    "fontsByCharacterCount": [
+      {
+        "font": "ArialMT",
+        "sizePt": 11.0,
+        "color": "#333333",
+        "characters": 114
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 9.01,
+        "color": "#000000",
+        "characters": 78
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 8.0,
+        "color": "#333333",
+        "characters": 76
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 11.0,
+        "color": "#FF0000",
+        "characters": 36
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 8.79,
+        "color": "#000000",
+        "characters": 22
+      },
+      {
+        "font": "ArialMT",
+        "sizePt": 5.0,
+        "color": "#333333",
+        "characters": 22
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 5.81,
+        "color": "#000000",
+        "characters": 12
+      },
+      {
+        "font": "Montserrat-Bold",
+        "sizePt": 7.0,
+        "color": "#330662",
+        "characters": 3
+      }
+    ],
+    "titles": []
+  },
+  {
+    "example": "example-09.png",
+    "slideSizePt": [
+      720,
+      405
+    ],
+    "fontsByCharacterCount": [
+      {
+        "font": "ArialMT",
+        "sizePt": 14.0,
+        "color": "#333333",
+        "characters": 319
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 14.0,
+        "color": "#333333",
+        "characters": 67
+      },
+      {
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 29.0,
+        "color": "#57068C",
+        "characters": 40
+      },
+      {
+        "font": "Arial-BoldMT",
+        "sizePt": 14.0,
+        "color": "#FF0000",
+        "characters": 14
+      },
+      {
+        "font": "Montserrat-Bold",
+        "sizePt": 7.0,
+        "color": "#330662",
+        "characters": 3
+      }
+    ],
+    "titles": [
+      {
+        "text": "Agent Loop Mix Precision KV Quantization",
+        "font": "FrankRuhlLibre-Bold",
+        "sizePt": 29.0,
+        "color": "#57068C",
+        "bboxPt": [
+          26.21,
+          27.56,
+          593.37,
+          65.0
+        ]
+      }
+    ]
+  }
+]

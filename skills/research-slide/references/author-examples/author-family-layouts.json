@@ -1,0 +1,256 @@
+{
+  "schemaVersion": 1,
+  "units": "PDF pt on 720x405 canvas; multiply all coordinates and point font sizes by 4/3 for CSS px",
+  "use": "Layout-stage starts. Scientific content and wording belong to separate copy records. Coordinates are observed local family examples, not a universal template.",
+  "evidence": "author-examples/measurements-gh.json",
+  "typographyScope": "Font measurements are actual source names; use separate font execution instructions for implementation, never substitute a generic serif.",
+  "families": [
+    {
+      "family": "wide-ablation-sweep",
+      "trainingExample": "author-examples/example-10.png",
+      "sourceDevelopmentCase": "G",
+      "canvasPt": [
+        720,
+        405
+      ],
+      "chrome": "NYU",
+      "title": {
+        "font": "Frank Ruhl Libre",
+        "weight": "bold",
+        "color": "#57068C",
+        "sizePt": 36,
+        "glyphStartPt": [
+          31.29,
+          17.54
+        ],
+        "sourceTextClipFramePt": [
+          24.5433,
+          17.5925,
+          699.7795,
+          69.3957
+        ],
+        "clipFrameCaveat": "PDF clipping envelope; render to match glyph anchor rather than treating it as recovered author text-box padding."
+      },
+      "narrativeSlot": {
+        "framePt": [
+          32,
+          69.3957,
+          707.2362,
+          202.7185
+        ],
+        "glyphEnvelopePt": [
+          38.75,
+          78.72,
+          679.17,
+          193.52
+        ],
+        "font": "Arial",
+        "sizePt": 14,
+        "color": "#000000"
+      },
+      "areaEvidence": {
+        "method": "Compare axis-aligned narrative glyph envelope to table frame, excluding title/chrome. Not ink coverage.",
+        "narrativeEnvelopeAreaFraction": 0.2521,
+        "evidenceFrameAreaFraction": 0.3259,
+        "narrativeToEvidenceEnvelopeRatio": 0.7736,
+        "gapNarrativeLastGlyphToTablePt": 32.39
+      },
+      "evidenceSlot": {
+        "kind": "native grouped table",
+        "framePt": [
+          2.1614,
+          225.9075,
+          722.1614,
+          357.9075
+        ],
+        "columnEdgesPt": [
+          2.1614,
+          66.6614,
+          134.9114,
+          195.6614,
+          278.9114,
+          355.4114,
+          416.1614,
+          498.6614,
+          578.1614,
+          638.9114,
+          722.1614
+        ],
+        "rowEdgesPt": [
+          225.9075,
+          245.4075,
+          275.4075,
+          291.9075,
+          308.4075,
+          324.9075,
+          341.4075,
+          357.9075
+        ],
+        "headerHeightsPt": [
+          19.5,
+          30
+        ],
+        "dataRowHeightPt": 16.5,
+        "font": "Arial",
+        "sizePt": 10,
+        "weight": "normal",
+        "rulesPt": 0.75,
+        "ruleColor": "#000000",
+        "headerFill": "#FFFFFF",
+        "bodyFill": "#FFFFFF",
+        "operatingPointRowFill": "#B6D7A8",
+        "grouping": "Method spanners across repeated metric columns; stub retained; no extra metric interpretation tier.",
+        "emphasis": "Bold primary comparison winners per condition and reported headline operating-point metric; operating-point row fill is distinct from metric winners.",
+        "edgeRepair": "Observed right border x722.16 exceeds canvas by2.16pt, while data remain visible. For new content bring the border inside canvas with a minimal width correction; retain wide low table composition and 10pt values. Do not force generic large margins."
+      },
+      "invariants": [
+        "Large experiment-type title; plain full-width narrative above evidence.",
+        "Narrative baseline pitch16.8pt at14pt. Blank gap before low table is deliberate.",
+        "Ordinary black headers/numbers; selective black bold and one green operating row; no default navy theme.",
+        "A result table ends the page; no conclusion ribbon, glossary, acronym legend, or cosmetic caption."
+      ]
+    },
+    {
+      "family": "summary-with-vertical-inset",
+      "trainingExample": "author-examples/example-11.png",
+      "sourceDevelopmentCase": "H",
+      "canvasPt": [
+        720,
+        405
+      ],
+      "chrome": "SAI",
+      "title": {
+        "font": "Frank Ruhl Libre",
+        "weight": "bold",
+        "color": "#57068C",
+        "sizePt": 22,
+        "glyphStartPt": [
+          29.79,
+          42.88
+        ],
+        "sourceTextClipFramePt": [
+          24.5433,
+          41.7858,
+          687.9213,
+          86.8803
+        ],
+        "clipFrameCaveat": "PDF clipping envelope; render to match glyph anchor rather than treating it as recovered author text-box padding."
+      },
+      "narrativeSlot": {
+        "framePt": [
+          61.0276,
+          104.5275,
+          392.7283,
+          313.063
+        ],
+        "glyphEnvelopePt": [
+          67.78,
+          113.85,
+          360.24,
+          301.73
+        ],
+        "font": "Arial",
+        "sizePt": 14,
+        "color": "#333333"
+      },
+      "areaEvidence": {
+        "method": "Compare narrative native textbox frame to inset image frame, excluding title/chrome. Not ink coverage.",
+        "narrativeFrameAreaFraction": 0.2372,
+        "evidenceFrameAreaFraction": 0.1476,
+        "narrativeToEvidenceFrameRatio": 1.6073,
+        "horizontalGapFramesPt": 50.02
+      },
+      "evidenceSlot": {
+        "kind": "vertical grouped workflow inset",
+        "framePt": [
+          442.748,
+          80.2661,
+          589.0664,
+          374.3859
+        ],
+        "sourceWasRaster": true,
+        "groupFramesPt": [
+          [
+            453.129,
+            84.715,
+            583.629,
+            177.647
+          ],
+          [
+            453.129,
+            189.511,
+            583.629,
+            315.068
+          ],
+          [
+            452.634,
+            324.46,
+            583.135,
+            368.948
+          ]
+        ],
+        "operationFramesPt": [
+          [
+            458.566,
+            93.613,
+            576.214,
+            125.249
+          ],
+          [
+            458.072,
+            136.618,
+            577.203,
+            168.255
+          ],
+          [
+            458.566,
+            193.465,
+            576.214,
+            225.102
+          ],
+          [
+            457.578,
+            234.988,
+            575.225,
+            267.119
+          ],
+          [
+            458.072,
+            277.005,
+            575.72,
+            308.641
+          ],
+          [
+            457.083,
+            330.886,
+            574.731,
+            362.028
+          ]
+        ],
+        "groupFillsApprox": [
+          "#CFE5D0",
+          "#FFF0C7",
+          "#F3F3F3"
+        ],
+        "operationFill": "#FFFFFF",
+        "operationOutline": "thin dark gray",
+        "operationCornerRadiusPtApprox": 4.94,
+        "connectors": "Black downward arrows between group frames only, not every internal operation.",
+        "labelSizePtEstimatedRange": [
+          7.4,
+          8.4
+        ],
+        "labelColor": "black; pending label bold dark olive",
+        "pendingStyle": "Plain gray group, white rounded operation, explicit pending wording.",
+        "nativeReconstruction": "Retain the independent diagram visual grammar and compact vertical placement; native labels should be sharp at the measured scale. Do not copy the source raster into a new slide or invent missing operation claims."
+      },
+      "invariants": [
+        "Modest22pt single-line title, large14pt left summary, narrow tall inset at right.",
+        "Nested summary has19.32pt baseline pitch with36pt level shift.",
+        "Evidence is about20.3% of canvas width /14.8% of its area; narrative frame23.7% of area.",
+        "Pastel stage groups and rounded white operations form an independent scientific figure, not a standardized presentation card system.",
+        "Small but recoverable diagram labels are part of this local scale; improve sharpness before enlarging the figure or rotating the workflow."
+      ]
+    }
+  ]
+}
