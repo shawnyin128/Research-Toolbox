@@ -6,7 +6,7 @@
 
 </div>
 
-把科研中的**实验设计、代码工程、训练调参、科研幻灯片**放在同一个仓库维护。四个 skill 使用统一的 `research-*` 命名，各自可单独安装、独立调用，按实际任务组合，不要求每次完整走一遍流程。
+把**实验设计、代码工程、训练调参、科研幻灯片和研究任务委派**放在同一个仓库维护。五个 skill 使用统一的 `research-*` 命名，各自可单独安装、独立调用。
 
 | Skill | 原名称 | 负责什么 | 不负责什么 |
 |---|---|---|---|
@@ -14,6 +14,7 @@
 | [research-code](skills/research-code/SKILL.md) | SAI-CC / sai-cc | 默认采用 SAI 规范，初始化或实质性重构科研代码，验证科学行为 | 每个小修复都触发全仓迁移 |
 | [research-tune](skills/research-tune/SKILL.md) | hyper-tune | 在明确预算内诊断训练、筛选超参数、确认最终配置 | 推理采样参数、用测试集选参 |
 | [research-slide](skills/research-slide/SKILL.md) | build-research-slides | 按随包作者风格创建、续写、修改或评审可编辑的 Google Slides / PowerPoint 科研幻灯片 | 默认发布幻灯片、把离线导出当成原生应用验证 |
+| [research-subagent](skills/research-subagent/SKILL.md) | research-subagents | 按八个角色分派科研任务，附 Claude Code 原生代理设置 | 未经授权的实验启动 |
 
 Skill 指令用英文保持技术术语一致，按用户语言回答。README 提供中英双语，维护与迁移记录目前使用中文。
 
@@ -87,6 +88,7 @@ python scripts/install.py --dest ~/.codex/skills --update --apply
 用 $research-code 整理这个科研仓库，默认采用 SAI 规范，先识别当前结构。
 用 $research-tune 分析这个训练曲线，在 4 GPU-hours 内设计下一轮调参。
 用 $research-slide 把这些科研笔记做成可编辑的组会幻灯片，保留来源证据和作者风格。
+用 $research-subagent 委派一次独立结果复核，要求给出证据和未解决的问题。
 ```
 
 在支持斜杠调用的客户端，使用对应 `/research-design`、`/research-code`、`/research-tune`、`/research-slide`。自然语言触发也保留。
@@ -96,7 +98,7 @@ python scripts/install.py --dest ~/.codex/skills --update --apply
 ## 仓库组织与维护
 
 ```text
-skills/             四个独立运行包：SKILL.md、agents、references、必要 assets/scripts
+skills/             五个独立运行包：SKILL.md、agents、references、必要 assets/scripts
 scripts/            安装与校验，不随 skill 安装
 tests/              安装安全性、更新恢复、独立引用等行为测试
 evaluations/        场景与评审标准；不是伪造的模型评测成绩
