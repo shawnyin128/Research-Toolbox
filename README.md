@@ -6,7 +6,7 @@
 
 </div>
 
-A single home for **experimental design, research code, training optimization, and research slides**. The four skills share the `research-*` naming convention, install independently, and combine when a task needs them. There is no mandatory end-to-end pipeline.
+A single home for **experimental design, research code, training optimization, research slides, and research delegation**. The five skills share the `research-*` naming convention and install independently.
 
 | Skill | Previous name | Purpose | Out of scope |
 |---|---|---|---|
@@ -14,6 +14,7 @@ A single home for **experimental design, research code, training optimization, a
 | [research-code](skills/research-code/SKILL.md) | SAI-CC / sai-cc | Initialize or substantively refactor research code with SAI conventions enabled by default; verify scientific behavior | Turning every small fix into a repository migration |
 | [research-tune](skills/research-tune/SKILL.md) | hyper-tune | Diagnose training, screen hyperparameters, and confirm configurations within a compute budget | Inference decoding settings or test-set-driven selection |
 | [research-slide](skills/research-slide/SKILL.md) | build-research-slides | Create, continue, revise, or review editable research slides in Google Slides or PowerPoint using the bundled author style | Automatically publishing decks or claiming native-app verification from an offline export |
+| [research-subagent](skills/research-subagent/SKILL.md) | research-subagents | Delegate research tasks across eight specialist roles, with optional native Claude Code setup | Launching experiments outside user authorization |
 
 Skill instructions are written in English and responses follow the user's language. This README is available in English and Simplified Chinese; maintenance and migration notes are currently in Chinese.
 
@@ -87,6 +88,7 @@ Use $research-design to turn this mechanism hypothesis into a minimal discrimina
 Use $research-code to reorganize this research repository, applying SAI conventions and detecting its structure first.
 Use $research-tune to analyze these training curves and plan the next tuning round within 4 GPU-hours.
 Use $research-slide to turn these research notes into editable group-meeting slides, preserving the source evidence and author style.
+Use $research-subagent to delegate an independent results review and collect evidence and open questions.
 ```
 
 Clients with slash-command invocation can use `/research-design`, `/research-code`, `/research-tune`, or `/research-slide`. Natural-language discovery remains enabled.
@@ -96,7 +98,7 @@ When combining skills, pass a compact experiment brief: question, intervention a
 ## Repository layout and maintenance
 
 ```text
-skills/             Four independent packages: SKILL.md, agents, references, necessary assets/scripts
+skills/             Five independent packages: SKILL.md, agents, references, necessary assets/scripts
 scripts/            Installation and validation; not included in installed skills
 tests/              Installer behavior, update recovery, and standalone-reference tests
 evaluations/        Scenarios and review criteria, not reported model-evaluation scores

@@ -6,6 +6,7 @@
 | `sai-cc`（仓库 SAI-CC） | `research-code` | 名称直接表达用途；SAI 约定默认保留 |
 | `hyper-tune` | `research-tune` | 与 toolbox 命名一致，限定为训练调参 |
 | `build-research-slides` | `research-slide` | 接入 v10 完整 skill，统一科研幻灯片入口命名 |
+| `research-subagents` | `research-subagent` | 将 Claude Code 角色定义、委派规则和启动模板封装为 Toolbox skill |
 
 仓库统一为 `Research-Toolbox`；skill 文件夹、frontmatter 的 name、默认调用提示保持一致，UI 名称分别为 Research Design / Research Code / Research Tune / Research Slide。
 
