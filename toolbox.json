@@ -5,14 +5,12 @@
     "research-design",
     "research-code",
     "research-tune",
-    "research-slide",
     "research-subagent"
   ],
   "migration": {
     "research-fork-test": "research-design",
     "sai-cc": "research-code",
     "hyper-tune": "research-tune",
-    "build-research-slides": "research-slide",
     "research-subagents": "research-subagent"
   }
 }

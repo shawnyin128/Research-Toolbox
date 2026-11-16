@@ -6,14 +6,13 @@
 
 </div>
 
-把**实验设计、代码工程、训练调参、科研幻灯片和研究任务委派**放在同一个仓库维护。五个 skill 使用统一的 `research-*` 命名，各自可单独安装、独立调用。
+把**实验设计、代码工程、训练调参和研究任务委派**放在同一个仓库维护。四个 skill 使用统一的 `research-*` 命名，各自可单独安装、独立调用。
 
 | Skill | 原名称 | 负责什么 | 不负责什么 |
 |---|---|---|---|
 | [research-design](skills/research-design/SKILL.md) | research-fork-test | 把想法变成能区分机制的最小实验，给出预测、对照、停止与扩展条件 | 一般论文摘要、默认执行实验 |
 | [research-code](skills/research-code/SKILL.md) | SAI-CC / sai-cc | 默认采用 SAI 规范，初始化或实质性重构科研代码，验证科学行为 | 每个小修复都触发全仓迁移 |
 | [research-tune](skills/research-tune/SKILL.md) | hyper-tune | 在明确预算内诊断训练、筛选超参数、确认最终配置 | 推理采样参数、用测试集选参 |
-| [research-slide](skills/research-slide/SKILL.md) | build-research-slides | 按随包作者风格创建、续写、修改或评审可编辑的 Google Slides / PowerPoint 科研幻灯片 | 默认发布幻灯片、把离线导出当成原生应用验证 |
 | [research-subagent](skills/research-subagent/SKILL.md) | research-subagents | 按八个角色分派科研任务，附 Claude Code 原生代理设置 | 未经授权的实验启动 |
 
 Skill 指令用英文保持技术术语一致，按用户语言回答。README 提供中英双语，维护与迁移记录目前使用中文。
@@ -77,9 +76,7 @@ python scripts/install.py --dest ~/.codex/skills --update
 python scripts/install.py --dest ~/.codex/skills --update --apply
 ```
 
-安装脚本不会删除旧名字的 skill。为避免 `sai-cc`、`hyper-tune` 或 `build-research-slides` 与新版本重复触发，请按 [迁移说明](docs/migration.md) 移出旧入口。重新开启会话，让客户端刷新 skill 列表。
-
-`research-slide` 自带参考页、字体、素材与辅助脚本；实际制作和保存后检查使用当前宿主的演示文稿工具。可选 PPTX 适配器依赖宿主提供的 `@oai/artifact-tool` 和 `skia-canvas`；PDF 检查使用 PyMuPDF。安装脚本不会安装这些渲染依赖。离线编译 Google 请求不代表通过 Google Slides 原生验证。
+安装脚本不会删除旧名字的 skill。为避免 `sai-cc` 或 `hyper-tune` 与新版本重复触发，请按 [迁移说明](docs/migration.md) 移出旧入口。重新开启会话，让客户端刷新 skill 列表。
 
 ## 使用
 
@@ -87,18 +84,17 @@ python scripts/install.py --dest ~/.codex/skills --update --apply
 用 $research-design 把这个机制假设变成一个最小辨别实验。
 用 $research-code 整理这个科研仓库，默认采用 SAI 规范，先识别当前结构。
 用 $research-tune 分析这个训练曲线，在 4 GPU-hours 内设计下一轮调参。
-用 $research-slide 把这些科研笔记做成可编辑的组会幻灯片，保留来源证据和作者风格。
 用 $research-subagent 委派一次独立结果复核，要求给出证据和未解决的问题。
 ```
 
-在支持斜杠调用的客户端，使用对应 `/research-design`、`/research-code`、`/research-tune`、`/research-slide`。自然语言触发也保留。
+在支持斜杠调用的客户端，使用对应 `/research-design`、`/research-code`、`/research-tune`。自然语言触发也保留。
 
 组合使用时，传递一份简短实验说明：研究问题、干预/固定对照、配置入口、数据角色与 split、指标、预算、停止/扩展规则。不要为了串联 skill 而增加文档仪式或强制执行额外阶段。
 
 ## 仓库组织与维护
 
 ```text
-skills/             五个独立运行包：SKILL.md、agents、references、必要 assets/scripts
+skills/             四个独立运行包：SKILL.md、agents、references、必要 assets/scripts
 scripts/            安装与校验，不随 skill 安装
 tests/              安装安全性、更新恢复、独立引用等行为测试
 evaluations/        场景与评审标准；不是伪造的模型评测成绩
@@ -110,7 +106,6 @@ toolbox.json        版本、安装清单、旧名映射
 python -m pip install -r requirements-dev.txt
 python scripts/validate.py
 python -m unittest discover -s tests -v
-python -m unittest discover -s skills/research-slide/scripts -p "test_*.py" -v
 ```
 
 GitHub Actions 在 Windows 和 Linux 上执行以上检查。静态检查验证打包一致性，不证明模型在真实研究任务中的表现；行为评测流程见 [evaluations](evaluations/README.md)。

@@ -5,7 +5,6 @@
 | `research-fork-test` | `research-design` | 保留机制辨别方法，用更直观的科研阶段命名 |
 | `sai-cc`（仓库 SAI-CC） | `research-code` | 名称直接表达用途；SAI 约定默认保留 |
 | `hyper-tune` | `research-tune` | 与 toolbox 命名一致，限定为训练调参 |
-| `build-research-slides` | `research-slide` | 接入 v10 完整 skill，统一科研幻灯片入口命名 |
 | `research-subagents` | `research-subagent` | 将 Claude Code 角色定义、委派规则和启动模板封装为 Toolbox skill |
 
 仓库统一为 `Research-Toolbox`；skill 文件夹、frontmatter 的 name、默认调用提示保持一致，UI 名称分别为 Research Design / Research Code / Research Tune / Research Slide。
@@ -14,7 +13,7 @@
 
 1. 检查旧目录内是否有本地修改，先与当前仓库版本比较。
 2. 安装新名字并确认独立引用校验通过。
-3. 把旧名字的目录（包括 `build-research-slides`）移到客户端 skill 发现目录以外留存；不要在 skills 目录内保留完整旧包或用旧名复制新包。
+3. 把旧名字的目录移到客户端 skill 发现目录以外留存；不要在 skills 目录内保留完整旧包或用旧名复制新包。
 4. 更新常用提示里的 `$hyper-tune`、`$sai-cc`、`$research-fork-test`；重新开启会话确认新入口。
 
 本次仓库整合不会修改全局安装目录，也不会删除、归档或改写两个旧 GitHub 仓库。安装脚本更新的是相同新名称的包；旧名称迁移由上述步骤处理，避免不知情覆盖个人修改。
@@ -27,7 +26,6 @@
 - `research-design` 保留预测矩阵与决策表，但按请求深度输出，不要求固定篇幅或十二段标题。
 - `research-tune` 取消普适初始 loss 阈值、固定 epoch/100-step 要求、强制 fixed-LR 和最大稳定 LR 选择；保留低成本到高成本的证据流程。
 - 不把原 hyper-tune 合成 benchmark 的结果搬成新 toolbox 的性能宣传，也不把旧模拟回答当成本版本的真实评测。
-- `research-slide` 接入用户提供的 v10 完整运行包，保留素材/分阶段指南；新名字的验证结果与原包冻结评测分开记录。安装时排除 `__pycache__` 和字节码，保留脚本源码和素材。
 
 ## 增加其他 skill 或新结构
 

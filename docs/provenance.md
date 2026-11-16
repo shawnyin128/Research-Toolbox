@@ -25,13 +25,6 @@
 
 两个来源仓库的所读文件树没有独立 LICENSE 文件，压缩包也没有许可证文本。因此此整合不擅自增加 MIT/Apache 等许可声明，也不把公开可见等同于开放许可。
 
-## research-slide：2026-11-08 接入
-
-来源为用户提供的 `build-research-slides-v10-complete.zip`，外层 SHA-256 为 `e4ef51e765b509b3664a47a0ec28f3cd3a8ed5caca42de5a76e59250d72cc1f1`；其中实际 skill ZIP 的 SHA-256 为 `85734b2860baf1d0e474ec79dd64d2a64c43f3302bb135f5caa74c14fd1c77d4`，与原交付清单一致。
-
-导入实际 skill 的 127 个文件，保留参考页、字体及其 OFL 文本、品牌素材、分阶段指南和辅助脚本。没有将外层验证稿、评审 HTML、评测 ZIP 复制到运行包。原交付声明是历史验证记录，不是本次重新执行的盲评结论。
-
-接入修改限于入口名称/UI/授权措辞，以及 Windows 兼容修复：阶段包相对路径统一使用 POSIX 分隔符，JSON/Markdown 文本读写明确使用 UTF-8。导入时其余文件保持原字节内容，Git 按仓库规则统一文本换行。本版本已发生改名与兼容修复，因此不再声称与原 v10 冻结包逐字节相同。原作者风格与科学验收要求保留。
 ## research-subagent
 
 来源为用户提供的补丁 `f0107d6717ac6679dde2c0894d81712ec5aa2fca`。原作者为 Claude，协作者为 Claude Opus 5.5。核对了补丁与随附的 14 个文件。八个角色定义、委派规则和启动模板保留在 skill 的 Claude Code 资源目录。原安装说明改写为 Toolbox 入口和原生代理设置指南。
