@@ -17,7 +17,7 @@ Process:
 
 Hard rules:
 - Never edit tests or assertions to make a check pass. Never add try/except, skips, or xfail to get past a failure.
-- Don't touch files the plan does not mention unless a step can't be done otherwise; if so, note it in the plan.
+- Edit only files assigned to you. If a step needs a file outside your assignment, report it as BLOCKED and wait for the main session to reassign or sequence that edit.
 - Never start long-running jobs. Only the sanity checks the plan specifies.
 - Don't commit.
 - Read only the line ranges you need. Pipe long command output through tail/grep.

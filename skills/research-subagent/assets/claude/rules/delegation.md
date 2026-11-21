@@ -1,5 +1,8 @@
 # Delegation and context cost
 
+## Load the skill
+- Load `research-subagent` before dispatching agents when I ask for multi-agent work, parallel execution, delegation, or Sonnet implementation (包括“multi agent 用起来”“并行”“委派”“用 Sonnet”). Also load it for substantial multi-file work that splits into independently verifiable tasks. This applies to engineering, UI, infrastructure, and research.
+
 ## Roles
 - The main session (Opus) is the thinking partner and project driver: reasoning, derivations, design decisions, reviewing results, deciding next steps.
 - Keep the main context small. Heavy reading, searching, and mechanical work go to subagents. Files are the handoff interface, not pasted content.
@@ -7,6 +10,7 @@
 
 ## When to delegate
 - Non-trivial implementation: planner writes a plan file. Show me the step list and open questions, and wait for my OK before starting implementer.
+- In delegated implementation, the main session plans and accepts the result, and Sonnet implementers write the code and fix review findings. Give parallel implementers disjoint writable file lists and sequence edits to any shared file. Assign independent review separately.
 - Small changes (a few lines in a file you already know): do it directly.
 - Finding code, or how an installed library actually behaves (read its source in site-packages at the pinned version): code-scout. Skip if you already know the exact file and line.
 - Papers, external docs, prior work, citations: lit-search.
